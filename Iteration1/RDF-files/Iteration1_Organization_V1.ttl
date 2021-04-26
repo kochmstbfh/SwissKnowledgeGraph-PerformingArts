@@ -1,0 +1,19 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skgpao: <http://www.artsdata.eu/Organization/> .
+@prefix ric: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix schema: <http://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+skgpao:SKGPID1O1 a foaf:Organization, ric:identifier;
+  schema:legalName "Schauspielhaus Zürich";
+  schema:streetAddress "Rämistrasse 34";
+  schema:postalCode "8006";
+  schema:addressLocality "Zürich";
+  schema:addressCountry "CH";
+  schema:sameAs wd:Q40313234 .

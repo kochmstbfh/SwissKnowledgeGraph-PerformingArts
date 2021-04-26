@@ -1,0 +1,137 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skgpap: <http://www.artsdata.eu/Person/> .
+@prefix schema: <http://schema.org/> .
+@prefix ric: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+skgpap:SKGPID1P1 a schema:Person, ric:identifier;
+  foaf:givenName "Oskar";
+  foaf:familyName "Wälterlin";
+  schema:hasOccupation "Director";
+  schema:sameAs wd:Q2034109 .
+
+skgpap:SKGPID1P2 a schema:Person, ric:identifier;
+  foaf:givenName "Felix";
+  foaf:familyName "Mendelssohn-Bartholdy";
+  schema:hasOccupation "Composer";
+  schema:sameAs wd:Q46096 .
+
+skgpap:SKGPID1P3 a schema:Person, ric:identifier;
+  foaf:givenName "Teo";
+  foaf:familyName "Otto";
+  schema:hasOccupation "Scenographer";
+  schema:sameAs wd:Q124839 .
+
+skgpap:SKGPID1P4 a schema:Person, ric:identifier;
+  foaf:givenName "Mario";
+  foaf:familyName "Volkart";
+  schema:hasOccupation "Choreographer";
+  schema:sameAs wd:Q40005084 .
+
+skgpap:SKGPID1P5 a schema:Person, ric:identifier;
+  foaf:givenName "Robert";
+  foaf:familyName "Freitag";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q85310 .
+
+skgpap:SKGPID1P6 a schema:Person, ric:identifier;
+  foaf:givenName "Eugen";
+  foaf:familyName "Jensen";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q1372641 .
+
+skgpap:SKGPID1P7 a schema:Person, ric:identifier;
+  foaf:givenName "Sonja";
+  foaf:familyName "Gericke";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q40047048 .
+
+skgpap:SKGPID1P8 a schema:Person, ric:identifier;
+  foaf:givenName "Armin";
+  foaf:familyName "Schweizer";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q122463 .
+
+skgpap:SKGPID1P9 a schema:Person, ric:identifier;
+  foaf:givenName "Sylva";
+  foaf:familyName "Denzler";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q40049176 .
+
+skgpap:SKGPID1P10 a schema:Person, ric:identifier;
+  foaf:givenName "Elvira";
+  foaf:familyName "Schalcher";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q19279093 .
+
+skgpap:SKGPID1P11 a schema:Person, ric:identifier;
+  foaf:givenName "Irene";
+  foaf:familyName "Naef";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q1672550 .
+
+skgpap:SKGPID1P12 a schema:Person, ric:identifier;
+  foaf:givenName "Robert";
+  foaf:familyName "Bichler";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q94866036 .
+
+skgpap:SKGPID1P13 a schema:Person, ric:identifier;
+  foaf:givenName "Lukas";
+  foaf:familyName "Ammann";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q124834 .
+
+skgpap:SKGPID1P14 a schema:Person, ric:identifier;
+  foaf:givenName "Erwin";
+  foaf:familyName "Parker";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q45285548 .
+
+skgpap:SKGPID1P15 a schema:Person, ric:identifier;
+  foaf:givenName "Kurt";
+  foaf:familyName "Wolfensberger";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q40036272 .
+
+skgpap:SKGPID1P16 a schema:Person, ric:identifier;
+  foaf:givenName "Gustav";
+  foaf:familyName "Knuth";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q69382 .
+
+skgpap:SKGPID1P17 a schema:Person, ric:identifier;
+  foaf:givenName "Heinrich";
+  foaf:familyName "Gretler";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q118900 .
+
+skgpap:SKGPID1P18 a schema:Person, ric:identifier;
+  foaf:givenName "Friedrich";
+  foaf:familyName "Braun";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q40022998 .
+
+skgpap:SKGPID1P19 a schema:Person, ric:identifier;
+  foaf:givenName "Siegfried";
+  foaf:familyName "Schürenberg";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q99529 .
+
+skgpap:SKGPID1P20 a schema:Person, ric:identifier;
+  foaf:givenName "Anne-Marie";
+  foaf:familyName "Blanc";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q115888 .
+
+skgpap:SKGPID1P21 a schema:Person, ric:identifier;
+  foaf:givenName "Wilfried";
+  foaf:familyName "Seyferth";
+  schema:hasOccupation "Actor";
+  schema:sameAs wd:Q2571363 .

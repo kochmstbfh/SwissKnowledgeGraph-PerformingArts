@@ -1,0 +1,24 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skgpaw: <http://www.artsdata.eu/Work/> .
+@prefix schema: <http://schema.org/> .
+@prefix ric: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix rdau: <http://www.rdaregistry.info/Elements/u/#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix skgpa: <http://www.artsdata.eu/skgpa-ontology/> .
+
+skgpaw:SKGPID1W1 a schema:Play, ric:identifier;
+  rdau:P60369 "Ein Sommernachtstraum";
+  schema:sameAs wd:Q104871;
+  schema:author wd:Q692;
+  skgpa:characters "Demetrius, Liebhaber der Hermia", "Egeus, Vater der Hermia", "Elfe",
+    "Flaut, der Bälgenflicker", "Helena, in Demetrius verliebt", "Hermia, Tochter des Egeus, in Lysander verliebt",
+    "Hippolyta, Königin der Amazonen, mit Theseus verlobt", "Lysander, Liebhaber der Hermia",
+    "Oberon, König der Elfen", "Puck", "Schlucker, der Schneider", "Schnauz, der Kesselflicker",
+    "Schnock, der Schreiner", "Squenz, der Zimmermann", "Theseus, Herzog von Athen", "Titania, Königin der Elfen",
+    "Zettel, der Weber" .
