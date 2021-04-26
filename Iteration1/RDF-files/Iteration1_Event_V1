@@ -1,0 +1,34 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skgpapr: <http://www.artsdata.eu/PerformingArtsProduction/> .
+@prefix skgpa: <http://www.artsdata.eu/skgpa-ontology/> .
+@prefix ric: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix schema: <http://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix skgpaw: <http://www.artsdata.eu/Work/> .
+@prefix rdau: <http://www.rdaregistry.info/Elements/u/#> .
+@prefix skgpao: <http://www.artsdata.eu/Organization/> .
+@prefix skgpap: <http://www.artsdata.eu/Person/> .
+
+skgpapr:SKGPID1 a skgpa:PerformingArtsProduction, ric:identifier;
+  schema:isBasedOn skgpaw:SKGPID1W1;
+  schema:genre wd:Q39894018;
+  schema:description "Theatrical production of Schauspielhaus Zurich during the season 1946-1947 (Im Rahmen der Juni-Festwochen)";
+  rdau:P60441 skgpao:SKGPID1O1;
+  skgpa:dateOfFirstPerformance "19470614T030000+0300"^^xsd:date;
+  rdau:P60399 skgpap:SKGPID1P1;
+  rdau:P60426 skgpap:SKGPID1P2;
+  skgpa:hasScenographer skgpap:SKGPID1P3;
+  rdau:P60384 skgpap:SKGPID1P3;
+  rdau:P60433 skgpap:SKGPID1P4;
+  schema:eventVenue "Park des Rieterguts, Villa Wesendonck";
+  skgpa:premiereType wd:Q40249907;
+  rdau:P60142 skgpap:SKGPID1P5, skgpap:SKGPID1P6, skgpap:SKGPID1P7, skgpap:SKGPID1P8,
+    skgpap:SKGPID1P9, skgpap:SKGPID1P10, skgpap:SKGPID1P11, skgpap:SKGPID1P12, skgpap:SKGPID1P13,
+    skgpap:SKGPID1P14, skgpap:SKGPID1P15, skgpap:SKGPID1P16, skgpap:SKGPID1P17, skgpap:SKGPID1P18,
+    skgpap:SKGPID1P19, skgpap:SKGPID1P20, skgpap:SKGPID1P21 .
