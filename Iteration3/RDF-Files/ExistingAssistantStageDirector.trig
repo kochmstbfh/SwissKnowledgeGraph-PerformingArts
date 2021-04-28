@@ -1,0 +1,55 @@
+@prefix skgpa: <http://www.artsdata.eu/skgpa-ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdau: <http://www.rdaregistry.info/Elements/u/#> .
+@prefix ric: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+{
+  <http://data.performing-arts.ch/w/024225c4-2c5c-498f-b3e9-6dda22dd4ff1> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/09b96b76-d313-411b-9679-db6009a9e5ed> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/30603eea-1a6d-4fcb-9146-08f185a4ed89> .
+  
+  <http://data.performing-arts.ch/w/1b7375ae-6b92-40af-bd13-1b00bc29d12d> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/20317374-5ef7-4345-a48c-c60ecb060a19> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/443db7e5-650c-46ab-9737-a8f0a9a0900e> .
+  
+  <http://data.performing-arts.ch/w/976be5c3-a8a9-4949-bef4-d7de3d908835> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/db1b4198-a9c8-4e7f-ba54-deacc2d2edde> .
+  
+  <http://data.performing-arts.ch/w/a59682c8-204c-4c27-a0fd-4d899c8f63a6> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/aa1d110b-0d62-410e-9388-d01b9aa0fe5f> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/ac3840c1-b67d-4b24-b07c-f0a3897a1849> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/189de54b-18de-475c-b6f8-e8bac9461751> .
+  
+  <http://data.performing-arts.ch/w/b47dbc6c-0acd-4242-9452-c0afa6f9fed7> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/4a5ad9dc-409f-4df2-8828-610841411b6c> .
+  
+  <http://data.performing-arts.ch/w/bcfe449e-8e89-4a54-8422-6653165b07a0> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/bdf9b514-5f23-460b-9389-ec5dda035a77> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/f18ba153-7d87-417f-ab7c-374c1a9f2898> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/f4ec75dd-d5d4-475a-a085-47f90c271069> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/f732d4e3-8d9d-46c5-a437-18aff26950ce> skgpa:hasAssistantStageDirector
+      <http://www.artsdata.eu/Person/7ae064a7-9e24-475e-abbb-cff1d379aaff>, <http://www.artsdata.eu/Person/443db7e5-650c-46ab-9737-a8f0a9a0900e> .
+}

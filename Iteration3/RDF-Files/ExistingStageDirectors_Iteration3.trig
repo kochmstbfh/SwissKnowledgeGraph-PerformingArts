@@ -1,0 +1,979 @@
+@prefix skgpa: <http://www.artsdata.eu/skgpa-ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdau: <http://www.rdaregistry.info/Elements/u/#> .
+@prefix ric: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+{
+  <http://data.performing-arts.ch/w/005719a9-e1d0-47c0-8c02-fc053b17e04b> rdau:P60399
+      <http://www.artsdata.eu/Person/1f058c83-120b-4388-8478-38ab8267b5e2> .
+  
+  <http://data.performing-arts.ch/w/00cde6d4-4ed5-42ab-ad6b-4518590735a3> rdau:P60399
+      <http://www.artsdata.eu/Person/2b62e572-1d08-4151-8b9b-925805a0a951> .
+  
+  <http://data.performing-arts.ch/w/03afe308-91b8-4a7c-b632-f9a8aec039aa> rdau:P60399
+      <http://www.artsdata.eu/Person/09f6852b-0822-4d67-8b18-58ebe1de2e43> .
+  
+  <http://data.performing-arts.ch/w/03d01253-a252-49a5-87b3-06330dad89bc> rdau:P60399
+      <http://www.artsdata.eu/Person/ec4367c7-309a-4a4e-818d-591bfdfa7279> .
+  
+  <http://data.performing-arts.ch/w/044457dc-d251-4f6e-b4ec-da6e151cf652> rdau:P60399
+      <http://www.artsdata.eu/Person/e623d924-4bac-4b71-9d47-c4391b01a341> .
+  
+  <http://data.performing-arts.ch/w/0477a152-c32f-45ce-9ce0-c2ff15d1ffcd> rdau:P60399
+      <http://www.artsdata.eu/Person/4265eec7-d54b-49a4-abc7-f8a396a54030> .
+  
+  <http://data.performing-arts.ch/w/05355a23-9d2f-46c4-a08e-3faa6595f249> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/05429638-9600-4c53-afd5-198b8a76be1e> rdau:P60399
+      <http://www.artsdata.eu/Person/67f85f4c-1bb9-4b41-9634-24123ed1ea92> .
+  
+  <http://data.performing-arts.ch/w/0553778e-eb3e-4384-b99d-1d66ee263d5b> rdau:P60399
+      <http://www.artsdata.eu/Person/0d199c75-c0ad-4fae-8337-232f7a11593b> .
+  
+  <http://data.performing-arts.ch/w/06a95e5b-84b8-445b-947a-4f9d17af9253> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/06bb063a-e21f-484c-b8a1-1fd7e26f5f5b> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/06bbda7f-b554-4fa3-88aa-891f39532562> rdau:P60399
+      <http://www.artsdata.eu/Person/0ce40674-a980-40c4-96e6-83d913644829> .
+  
+  <http://data.performing-arts.ch/w/06cb5d6c-3eed-4612-8fc7-d7dd8a0ffa29> rdau:P60399
+      <http://www.artsdata.eu/Person/096bba26-d759-4177-85ee-426ca4e6d798> .
+  
+  <http://data.performing-arts.ch/w/06e80cc1-7fee-48be-8657-f50d3eda1d66> rdau:P60399
+      <http://www.artsdata.eu/Person/29ab6270-c8d6-4513-9a89-f34916a46df5> .
+  
+  <http://data.performing-arts.ch/w/07990374-147f-43d1-8e51-00123cb8a74a> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/07f0c85a-1079-4bc3-8e31-3d2da19781dd> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/07fe9e16-e49a-4745-b228-a27b2e338f40> rdau:P60399
+      <http://www.artsdata.eu/Person/ec4367c7-309a-4a4e-818d-591bfdfa7279> .
+  
+  <http://data.performing-arts.ch/w/08cfc50a-ac83-4244-9ccb-db031fda87a6> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/0bb553e7-324a-4b5e-b048-63d64a159ad9> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/0bf1764c-c70d-4959-a813-a169311c0117> rdau:P60399
+      <http://www.artsdata.eu/Person/40d705c7-f1aa-4bbc-a1f6-befe8a087f02> .
+  
+  <http://data.performing-arts.ch/w/0ca459a9-f81e-42c8-9f92-c41c1f31e2ad> rdau:P60399
+      <http://www.artsdata.eu/Person/09f6852b-0822-4d67-8b18-58ebe1de2e43> .
+  
+  <http://data.performing-arts.ch/w/0cbe9f41-450f-4e1d-9cb3-6c8717b547f9> rdau:P60399
+      <http://www.artsdata.eu/Person/0d199c75-c0ad-4fae-8337-232f7a11593b> .
+  
+  <http://data.performing-arts.ch/w/0f895f53-1a71-4311-88d6-89c7701bbf92> rdau:P60399
+      <http://www.artsdata.eu/Person/aa26aaff-7759-490f-a41e-8276fa8b26ed> .
+  
+  <http://data.performing-arts.ch/w/0f89df85-f84d-49c2-84b3-a6602c7d1f7d> rdau:P60399
+      <http://www.artsdata.eu/Person/4e1b8834-c25d-490e-9fd8-1b78748bab91> .
+  
+  <http://data.performing-arts.ch/w/1094eb59-e63d-4203-a6e1-5a15bd2a6b95> rdau:P60399
+      <http://www.artsdata.eu/Person/bbc0c82e-4d77-42c9-b7eb-4d18f25d29ec> .
+  
+  <http://data.performing-arts.ch/w/10cf097d-b45c-4357-86ab-7204cd84703d> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/11329ff0-2f76-4a9c-9545-1c3aeda01373> rdau:P60399
+      <http://www.artsdata.eu/Person/6b164ec4-b0cf-4afd-9a97-62a1b138392a>, <http://www.artsdata.eu/Person/bb85f637-77e1-48b9-a79a-007b109d2548>,
+      <http://www.artsdata.eu/Person/f1f5f6d0-6658-4b2f-bc4c-b25fab215f2a> .
+  
+  <http://data.performing-arts.ch/w/126d3b07-5eb8-46a5-85c4-f86d5fa9ef37> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/12ca4add-6dfb-467b-905d-92c12c143bb1> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/132d9b97-effd-471e-9e5d-13c5d53b2676> rdau:P60399
+      <http://www.artsdata.eu/Person/3c913af2-98a8-483e-96bf-667abcd48d0f> .
+  
+  <http://data.performing-arts.ch/w/14131f33-454f-4cf4-856f-a646a351bd7f> rdau:P60399
+      <http://www.artsdata.eu/Person/7bb1fb98-2bb3-4ebd-9c91-c3e1e0767572> .
+  
+  <http://data.performing-arts.ch/w/14720e26-e9d6-4da1-8916-706489408fa1> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/1488a47a-2154-4b28-aa25-60c88ac3f6f1> rdau:P60399
+      <http://www.artsdata.eu/Person/a31be5fa-ddee-4612-a073-353a68974349> .
+  
+  <http://data.performing-arts.ch/w/15e98484-4f73-4c14-8fe6-db6eed8ecc8b> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/15e99158-e983-40ce-a717-b5b077cf16a3> rdau:P60399
+      <http://www.artsdata.eu/Person/e81dd424-d02c-4c48-a1c1-e344e398944d> .
+  
+  <http://data.performing-arts.ch/w/1683f3ee-ceb7-4ea3-a5d9-7c7d5684d4d0> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/1863cdb3-73be-4449-9eee-704dd611ed09> rdau:P60399
+      <http://www.artsdata.eu/Person/67b6d1b7-98c2-4082-8190-089a3bda1d69> .
+  
+  <http://data.performing-arts.ch/w/1917d7a5-c78c-4a8a-94b0-582f7fb724d9> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/1952b803-9217-4e43-bf83-0b15db1f9707> rdau:P60399
+      <http://www.artsdata.eu/Person/096bba26-d759-4177-85ee-426ca4e6d798> .
+  
+  <http://data.performing-arts.ch/w/1a829886-a306-4cad-85ef-1aaacb7ebaae> rdau:P60399
+      <http://www.artsdata.eu/Person/1f058c83-120b-4388-8478-38ab8267b5e2> .
+  
+  <http://data.performing-arts.ch/w/1af7141f-f1a7-4691-acdd-619773a83f01> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/1d1dbe9a-d8e8-4c3d-8dcc-3fe0f9c22ee4> rdau:P60399
+      <http://www.artsdata.eu/Person/a8df0999-9e17-4711-87d5-306c69d994e0> .
+  
+  <http://data.performing-arts.ch/w/1d8b6ae2-1d0c-4b7c-bd41-8d4a89ded133> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/1da59ee7-27b2-492e-a4c5-c281a81215c1> rdau:P60399
+      <http://www.artsdata.eu/Person/cd4e1bab-4fd3-4c75-b61b-1cb97fd1b26c> .
+  
+  <http://data.performing-arts.ch/w/1e05791d-9404-4185-8905-775e806d30ad> rdau:P60399
+      <http://www.artsdata.eu/Person/ec4367c7-309a-4a4e-818d-591bfdfa7279> .
+  
+  <http://data.performing-arts.ch/w/1ea37e73-210b-4a56-aec0-2dec7b316347> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/1ea818af-4435-4eb1-b149-fd5aaf72fb2b> rdau:P60399
+      <http://www.artsdata.eu/Person/1cfda6c3-fff7-412a-925a-075ceaa3e60b> .
+  
+  <http://data.performing-arts.ch/w/1f50feef-f0b5-4a02-95fd-7eca9b423832> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/1f7905e6-3ab2-4c03-96d1-61bae05e266d> rdau:P60399
+      <http://www.artsdata.eu/Person/762df784-a734-4b78-a5b2-29f611b23ad7> .
+  
+  <http://data.performing-arts.ch/w/208b9c0a-2ae5-4563-b7ce-f8656ab173a0> rdau:P60399
+      <http://www.artsdata.eu/Person/0edbda3f-fd79-4456-97c2-9623153e2fce> .
+  
+  <http://data.performing-arts.ch/w/21ae91da-3f11-4742-8a52-886e3fb4096e> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/21d6ea26-9b9b-4878-a242-8eab0b29e586> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/21e8a79a-1c47-40ef-95c9-4ed88890fdfe> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/225bc0db-9bc3-42ac-8050-adfd5e853636> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/22deacef-0bf7-451e-af06-7e0936c51d6f> rdau:P60399
+      <http://www.artsdata.eu/Person/3b362845-38d2-41a8-ba1e-49f02201c56d> .
+  
+  <http://data.performing-arts.ch/w/24ac5f2e-435a-4b3b-b4f3-80cf829735e1> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/24b84a60-36c4-4492-bc22-86d6266929ae> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/25a91b7a-8d11-47c1-95ef-8eb28633c018> rdau:P60399
+      <http://www.artsdata.eu/Person/1f058c83-120b-4388-8478-38ab8267b5e2> .
+  
+  <http://data.performing-arts.ch/w/25d56b70-feaa-4495-aea4-9153108d5a22> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/263d5c47-b8cc-4c1a-83a4-6ddfef6eaa35> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/27ca8f13-3409-4b1f-ab21-4332b2b1c4dc> rdau:P60399
+      <http://www.artsdata.eu/Person/9a9df0c8-f0a7-4956-a535-440ca16cb923> .
+  
+  <http://data.performing-arts.ch/w/27d59dc3-57f1-477d-9ede-94d99fa25d31> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/28356028-75f6-414d-90fd-fad4ca01df1e> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/2a30d23f-39e8-4352-8973-cb37fe4807ea> rdau:P60399
+      <http://www.artsdata.eu/Person/dbdf429f-dda9-4859-8bbb-85bde243dc11> .
+  
+  <http://data.performing-arts.ch/w/2a799ba1-ec85-4ec2-a9b5-f89ee9a5616b> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/2aa1902c-663e-43a8-ae09-b4c01d1e7911> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/2b1a1931-b1c5-4704-93f1-c72484601e3c> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/2d1113ee-cee4-4b01-94dd-2e5f1e2a013a> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/2df38b47-cca4-446a-b97b-43560b42352f> rdau:P60399
+      <http://www.artsdata.eu/Person/bbc0c82e-4d77-42c9-b7eb-4d18f25d29ec> .
+  
+  <http://data.performing-arts.ch/w/30eed837-380b-444c-b3c4-75c8307618af> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/3133eed4-a044-44ce-81bb-39e1464eaa7c> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/3306cdb8-e1fe-4e99-b789-f7a964938d24> rdau:P60399
+      <http://www.artsdata.eu/Person/f9163ba3-f9bf-4704-91c7-9c5f450c266b> .
+  
+  <http://data.performing-arts.ch/w/35d66f38-3110-468b-a9ea-ee0126de02e8> rdau:P60399
+      <http://www.artsdata.eu/Person/ef9d6108-bbe1-4571-bb8f-72b017abcc7d> .
+  
+  <http://data.performing-arts.ch/w/36152369-d04f-40ce-8021-0d8143982af6> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/38b6b26a-e1ae-4389-9d1e-795c06644b09> rdau:P60399
+      <http://www.artsdata.eu/Person/ec4367c7-309a-4a4e-818d-591bfdfa7279> .
+  
+  <http://data.performing-arts.ch/w/39c301a3-4bc5-4104-8527-4582cc5463fc> rdau:P60399
+      <http://www.artsdata.eu/Person/7bb1fb98-2bb3-4ebd-9c91-c3e1e0767572> .
+  
+  <http://data.performing-arts.ch/w/3a8de065-b594-43ee-bfaa-c3b46d9253ba> rdau:P60399
+      <http://www.artsdata.eu/Person/67f85f4c-1bb9-4b41-9634-24123ed1ea92> .
+  
+  <http://data.performing-arts.ch/w/3b22d74f-3228-4ab2-88f9-51ffb4e6fb7c> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/3e99f1f0-2b31-4ab9-b64d-9a4d18eddb44> rdau:P60399
+      <http://www.artsdata.eu/Person/7bb1fb98-2bb3-4ebd-9c91-c3e1e0767572> .
+  
+  <http://data.performing-arts.ch/w/418d20f0-dc95-4686-92e1-9bc73b01bf65> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/41962b8d-efd8-4863-94ff-29db7ef349fb> rdau:P60399
+      <http://www.artsdata.eu/Person/67f85f4c-1bb9-4b41-9634-24123ed1ea92> .
+  
+  <http://data.performing-arts.ch/w/427f3d86-330e-4eb6-8a17-8a7fa48ed321> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/447fade3-382f-460c-940d-8e66876da208> rdau:P60399
+      <http://www.artsdata.eu/Person/9897631e-2d24-4b01-9d96-f4129bebd003> .
+  
+  <http://data.performing-arts.ch/w/45959f58-a72f-4dad-bf3d-0217f817791b> rdau:P60399
+      <http://www.artsdata.eu/Person/9897631e-2d24-4b01-9d96-f4129bebd003> .
+  
+  <http://data.performing-arts.ch/w/459f2d39-b112-450a-b902-44a06f9fd79d> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/46539ce7-a163-4cbb-a5db-d43914e6dce4> rdau:P60399
+      <http://www.artsdata.eu/Person/e81dd424-d02c-4c48-a1c1-e344e398944d> .
+  
+  <http://data.performing-arts.ch/w/46b8ae36-a59c-4cee-ad84-b5bae7e291be> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/480897cb-6f99-42e9-8d91-5f2311ef4445> rdau:P60399
+      <http://www.artsdata.eu/Person/0ce40674-a980-40c4-96e6-83d913644829> .
+  
+  <http://data.performing-arts.ch/w/499a97ac-2935-4b40-9ed9-45efcfeb732b> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/4a9e5f09-c08a-4a72-97d3-c37f1761559c> rdau:P60399
+      <http://www.artsdata.eu/Person/0ce40674-a980-40c4-96e6-83d913644829> .
+  
+  <http://data.performing-arts.ch/w/4ad826f7-e7c2-45d2-baf5-962f11ea3d76> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/4d449a6c-aea5-4aaf-a8cb-4f38091b23ea> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/4ee9994b-c48a-4910-857e-826bcbb9ecae> rdau:P60399
+      <http://www.artsdata.eu/Person/b40251a6-eca0-412c-86a5-22f29b0ba724> .
+  
+  <http://data.performing-arts.ch/w/4ef9f590-fff6-4bd4-9996-18e23faa35c3> rdau:P60399
+      <http://www.artsdata.eu/Person/7792569f-4e48-458b-8838-319ba6921180> .
+  
+  <http://data.performing-arts.ch/w/4f51e413-c88f-4b28-a20b-d5ae725e4286> rdau:P60399
+      <http://www.artsdata.eu/Person/67f85f4c-1bb9-4b41-9634-24123ed1ea92> .
+  
+  <http://data.performing-arts.ch/w/4f5b45e6-67e1-4989-8c53-9f777065f702> rdau:P60399
+      <http://www.artsdata.eu/Person/3c913af2-98a8-483e-96bf-667abcd48d0f> .
+  
+  <http://data.performing-arts.ch/w/505c8c40-7277-4cf1-9f66-5424d333e7ca> rdau:P60399
+      <http://www.artsdata.eu/Person/aeb89336-2113-4758-b0a8-7caa1bc0ce0f> .
+  
+  <http://data.performing-arts.ch/w/517abef1-ba65-4624-8267-2018049daf1d> rdau:P60399
+      <http://www.artsdata.eu/Person/eb63ed6e-db0d-4544-96ca-7d87e43ccdb7> .
+  
+  <http://data.performing-arts.ch/w/52cb51a6-61dd-44fc-8a5f-365ac7f00b7a> rdau:P60399
+      <http://www.artsdata.eu/Person/803ed1cf-5324-458e-bf0b-be60d3307050> .
+  
+  <http://data.performing-arts.ch/w/5329a153-73b4-4b39-97e9-4002443c295a> rdau:P60399
+      <http://www.artsdata.eu/Person/eb63ed6e-db0d-4544-96ca-7d87e43ccdb7> .
+  
+  <http://data.performing-arts.ch/w/5380f9a6-be5d-4a13-baf6-2dde3cbb89b3> rdau:P60399
+      <http://www.artsdata.eu/Person/cd4e1bab-4fd3-4c75-b61b-1cb97fd1b26c> .
+  
+  <http://data.performing-arts.ch/w/54798a66-c072-4eea-80b8-9a40c1037691> rdau:P60399
+      <http://www.artsdata.eu/Person/9e74eb47-487e-430d-877f-43555d36906b> .
+  
+  <http://data.performing-arts.ch/w/55006630-5333-47d8-9a44-77f4419c9d87> rdau:P60399
+      <http://www.artsdata.eu/Person/ec4367c7-309a-4a4e-818d-591bfdfa7279> .
+  
+  <http://data.performing-arts.ch/w/553ba562-3f2d-4e96-8412-23167262851e> rdau:P60399
+      <http://www.artsdata.eu/Person/1f058c83-120b-4388-8478-38ab8267b5e2> .
+  
+  <http://data.performing-arts.ch/w/55a440fa-eb00-43c0-813b-5248ab40e377> rdau:P60399
+      <http://www.artsdata.eu/Person/9897631e-2d24-4b01-9d96-f4129bebd003> .
+  
+  <http://data.performing-arts.ch/w/56b9c8f7-b40b-4793-a8bb-0b4a5e94e39d> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/5717e67f-f739-477e-b339-ef1985f44849> rdau:P60399
+      <http://www.artsdata.eu/Person/9897631e-2d24-4b01-9d96-f4129bebd003> .
+  
+  <http://data.performing-arts.ch/w/573104b5-c89c-49d9-9fc4-1b04c85eeaad> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/5755f827-6d72-4ecf-ae16-da4c40184f93> rdau:P60399
+      <http://www.artsdata.eu/Person/b40251a6-eca0-412c-86a5-22f29b0ba724> .
+  
+  <http://data.performing-arts.ch/w/58a63841-3e66-41ac-880a-88369c22595b> rdau:P60399
+      <http://www.artsdata.eu/Person/7bcf902f-c96d-4586-922e-5abc29dd465b> .
+  
+  <http://data.performing-arts.ch/w/58d5382d-330e-4c07-a369-3a917d603c92> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/5a2a421f-036b-40e8-a5d9-05f2122ce095> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/5b7389d8-810b-4141-9b29-637659d8247e> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/5bb3012e-1df5-4b5e-b44b-e2ef214ae35b> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/5ca12039-5552-4fca-b94b-11709970d485> rdau:P60399
+      <http://www.artsdata.eu/Person/b40251a6-eca0-412c-86a5-22f29b0ba724> .
+  
+  <http://data.performing-arts.ch/w/5fa07f79-8796-4111-a770-507f037f8d15> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/60ba7f1a-b517-4e27-9a98-72c3ea1751be> rdau:P60399
+      <http://www.artsdata.eu/Person/5ec9762c-85e2-44c4-a1ba-0a68a6db9d6b> .
+  
+  <http://data.performing-arts.ch/w/6315c5ad-8bde-4929-9ee4-7b661050a64a> rdau:P60399
+      <http://www.artsdata.eu/Person/249c9fd7-7cdf-4369-aa43-c7b09b7b41c9> .
+  
+  <http://data.performing-arts.ch/w/634dab8d-b74d-420a-8d1a-e8bef1d8bf2d> rdau:P60399
+      <http://www.artsdata.eu/Person/249c9fd7-7cdf-4369-aa43-c7b09b7b41c9> .
+  
+  <http://data.performing-arts.ch/w/635f9df9-f29a-4e14-b5ef-24ad904514e2> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/63f68270-14d1-4262-8b9b-b0a151141f37> rdau:P60399
+      <http://www.artsdata.eu/Person/9ab4ca52-109d-4e60-b4c0-d07d35447302> .
+  
+  <http://data.performing-arts.ch/w/64555f25-34b0-40a7-a0db-2a759089859b> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/662bc540-df26-4e95-a182-7b449bfb691b> rdau:P60399
+      <http://www.artsdata.eu/Person/1f058c83-120b-4388-8478-38ab8267b5e2> .
+  
+  <http://data.performing-arts.ch/w/663c52c3-0898-4c5b-b404-45dab6c7f1c8> rdau:P60399
+      <http://www.artsdata.eu/Person/eaed99ed-e536-4a51-9aeb-6bbc4ba1c2c5> .
+  
+  <http://data.performing-arts.ch/w/677e4123-40ac-4340-99af-02ae822fef3b> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/679535d3-dd4a-4923-89b9-48d2a3622202> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/67995ff2-e8c1-461e-a62b-b5ab7e326ccc> rdau:P60399
+      <http://www.artsdata.eu/Person/3c913af2-98a8-483e-96bf-667abcd48d0f>, <http://www.artsdata.eu/Person/139e1dac-9bf4-4b55-b730-04a5060e5845>,
+      <http://www.artsdata.eu/Person/324ac7e0-2d81-4e95-85be-21ea0af680e6> .
+  
+  <http://data.performing-arts.ch/w/68df6793-0d57-446d-983e-12281a2d8344> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/69417a94-41f1-4063-989b-1b6cf11e7cf2> rdau:P60399
+      <http://www.artsdata.eu/Person/e10f8263-7f14-4293-8fef-5afb2fa6cba4> .
+  
+  <http://data.performing-arts.ch/w/69abaa43-1c05-40dc-9776-929ac941ca51> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/69dcdf15-d2af-4d63-b4b0-d2514bcfc161> rdau:P60399
+      <http://www.artsdata.eu/Person/bbc0c82e-4d77-42c9-b7eb-4d18f25d29ec> .
+  
+  <http://data.performing-arts.ch/w/6a1b205a-72e7-4f91-8e1f-59350267f303> rdau:P60399
+      <http://www.artsdata.eu/Person/7bb1fb98-2bb3-4ebd-9c91-c3e1e0767572>, <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725>,
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/6a2b9960-d145-40ee-b60d-16ef558f05c6> rdau:P60399
+      <http://www.artsdata.eu/Person/5b95a68a-e412-4455-871e-60feee091bf4> .
+  
+  <http://data.performing-arts.ch/w/6a38cc22-7582-437e-99fc-1c0fc3510873> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/6a47fcca-4409-49e6-bab6-878155ddb699> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/6ba71c5b-3ed1-4a5d-9cec-52684c84ffee> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/6d06090b-3f3f-460d-a1f2-8c7c9b7991f5> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/6e6713e1-0d39-48e1-be2c-64bbf78cbb44> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/706a06b3-b542-4975-9f39-3fc951212d37> rdau:P60399
+      <http://www.artsdata.eu/Person/1f058c83-120b-4388-8478-38ab8267b5e2> .
+  
+  <http://data.performing-arts.ch/w/71af02eb-2294-4ee5-9608-c26ebf46c7ed> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/72d02d97-6f54-408e-8871-69c8e8204c11> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/7300df9d-dfc4-49f6-96fe-99974b50a5c7> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/73438ad9-f2d2-4d92-bffc-92d11c2da84d> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/73c8cc69-93f3-4c46-928b-af0c72e1d5f5> rdau:P60399
+      <http://www.artsdata.eu/Person/cd4e1bab-4fd3-4c75-b61b-1cb97fd1b26c> .
+  
+  <http://data.performing-arts.ch/w/74cff3a2-4de8-4c49-9812-001c52b8fecf> rdau:P60399
+      <http://www.artsdata.eu/Person/762df784-a734-4b78-a5b2-29f611b23ad7> .
+  
+  <http://data.performing-arts.ch/w/74d1495f-5a24-47bf-aa46-5503d187e91d> rdau:P60399
+      <http://www.artsdata.eu/Person/9886ab0f-efe9-4940-b2d5-8f73b8613f87> .
+  
+  <http://data.performing-arts.ch/w/74e98eb8-e92e-4907-8371-0535d395bdf5> rdau:P60399
+      <http://www.artsdata.eu/Person/1f058c83-120b-4388-8478-38ab8267b5e2> .
+  
+  <http://data.performing-arts.ch/w/75a24edf-f57c-498e-973d-af809108d367> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/75c82e7e-9f25-4474-9250-71ae4ed6732a> rdau:P60399
+      <http://www.artsdata.eu/Person/0c8beab3-a135-4963-b184-6ff22674e1e6> .
+  
+  <http://data.performing-arts.ch/w/75d51ca5-2499-47fb-91ed-2e2bbb7f9435> rdau:P60399
+      <http://www.artsdata.eu/Person/1f058c83-120b-4388-8478-38ab8267b5e2> .
+  
+  <http://data.performing-arts.ch/w/76d555e7-fd1f-4f47-b383-c39d06ba5aa0> rdau:P60399
+      <http://www.artsdata.eu/Person/c738f4f1-5654-4c80-bcb7-244c6c2ec060> .
+  
+  <http://data.performing-arts.ch/w/76e2fb1c-8dc5-4cb5-b75e-0801fd9cb194> rdau:P60399
+      <http://www.artsdata.eu/Person/6b2bac70-1030-4d90-bfc3-4bfeb34d4e37> .
+  
+  <http://data.performing-arts.ch/w/77283745-8029-4e59-aa98-aec39b24d359> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/775ae793-ac4b-4d6a-b012-62dccb2628c6> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/7774c97f-d40f-4f69-ac63-6603ee381993> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/787b1414-04a7-408f-aeb6-e817ef9c6681> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/78ebefa6-22d6-419f-ad46-1e8e1762e697> rdau:P60399
+      <http://www.artsdata.eu/Person/356259d3-cf15-484b-96b7-9011106d78ad> .
+  
+  <http://data.performing-arts.ch/w/7a67216b-a682-46ca-99ed-75e85f7f08fb> rdau:P60399
+      <http://www.artsdata.eu/Person/249c9fd7-7cdf-4369-aa43-c7b09b7b41c9> .
+  
+  <http://data.performing-arts.ch/w/7b9317a9-e5e8-4304-a1c8-ae44755e8385> rdau:P60399
+      <http://www.artsdata.eu/Person/5b95a68a-e412-4455-871e-60feee091bf4> .
+  
+  <http://data.performing-arts.ch/w/7bfc96a0-4032-4bd3-b45b-b920d21dd3e9> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/7ca5e4dc-29dc-4859-9e5b-ccf84b37b85a> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/7da6c041-b627-4372-a41f-e4485d5042ff> rdau:P60399
+      <http://www.artsdata.eu/Person/29ab6270-c8d6-4513-9a89-f34916a46df5> .
+  
+  <http://data.performing-arts.ch/w/7e4d4e35-5110-4635-a024-dd7fd0435eaa> rdau:P60399
+      <http://www.artsdata.eu/Person/29ab6270-c8d6-4513-9a89-f34916a46df5> .
+  
+  <http://data.performing-arts.ch/w/7e9b6134-e727-4c3f-a13e-2fc8acb3388b> rdau:P60399
+      <http://www.artsdata.eu/Person/c22639f5-15c0-47d5-8e8a-7bb39a03c6f9>, <http://www.artsdata.eu/Person/c393daa7-3dc6-4e3e-b34d-61a8a40933d5> .
+  
+  <http://data.performing-arts.ch/w/80444365-5523-493b-9781-977459a04bfb> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/813a3819-f84a-4204-8e14-53d2f3f3e9dc> rdau:P60399
+      <http://www.artsdata.eu/Person/1f058c83-120b-4388-8478-38ab8267b5e2> .
+  
+  <http://data.performing-arts.ch/w/8196f262-e8a0-4c9f-abd8-e6c1d85ace63> rdau:P60399
+      <http://www.artsdata.eu/Person/cd4e1bab-4fd3-4c75-b61b-1cb97fd1b26c> .
+  
+  <http://data.performing-arts.ch/w/81f96f41-8e55-44ce-b5fe-433bee7f7424> rdau:P60399
+      <http://www.artsdata.eu/Person/c738f4f1-5654-4c80-bcb7-244c6c2ec060> .
+  
+  <http://data.performing-arts.ch/w/82902c4f-0e53-44cc-a48c-e60274d727a9> rdau:P60399
+      <http://www.artsdata.eu/Person/9a9df0c8-f0a7-4956-a535-440ca16cb923> .
+  
+  <http://data.performing-arts.ch/w/82a0475a-917a-4120-ba40-3d1175d7f399> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/82c36698-e2af-45d9-a8b5-62f8366233c4> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/8634c6c8-6dc7-43b6-b679-66715bab8cdf> rdau:P60399
+      <http://www.artsdata.eu/Person/67f85f4c-1bb9-4b41-9634-24123ed1ea92> .
+  
+  <http://data.performing-arts.ch/w/865a8388-31d7-404b-8b2b-3ace337ceebb> rdau:P60399
+      <http://www.artsdata.eu/Person/bf80ad84-0227-4b2d-877a-39844247543e> .
+  
+  <http://data.performing-arts.ch/w/87a1076e-b0f4-4289-a63f-88b1a9bff1bb> rdau:P60399
+      <http://www.artsdata.eu/Person/263462c3-f0c1-4540-b8d0-eb9b7d8c35d9> .
+  
+  <http://data.performing-arts.ch/w/89100eef-6b2e-448c-b522-e6228a334afe> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/8a1ef021-a349-493d-b448-384be1be38c1> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/8ae22fa7-07d6-40b7-a458-660cbc281e16> rdau:P60399
+      <http://www.artsdata.eu/Person/42923b5b-f299-4d88-8b20-f69fa834feaa> .
+  
+  <http://data.performing-arts.ch/w/8bb78ede-9799-4dc5-8451-bebe396f7cae> rdau:P60399
+      <http://www.artsdata.eu/Person/0edbda3f-fd79-4456-97c2-9623153e2fce> .
+  
+  <http://data.performing-arts.ch/w/8c31034a-f0a7-481f-aeca-ddb1b4b62e56> rdau:P60399
+      <http://www.artsdata.eu/Person/a31be5fa-ddee-4612-a073-353a68974349> .
+  
+  <http://data.performing-arts.ch/w/8ce01339-99b2-4a97-a1fd-81fba09e7bfd> rdau:P60399
+      <http://www.artsdata.eu/Person/bbc0c82e-4d77-42c9-b7eb-4d18f25d29ec> .
+  
+  <http://data.performing-arts.ch/w/8d0e1f89-275a-4562-8d00-a6c5851f418d> rdau:P60399
+      <http://www.artsdata.eu/Person/1e25ad3b-dac6-450b-9858-72c0e1e03b4e> .
+  
+  <http://data.performing-arts.ch/w/8d6d5004-3bae-4855-b74f-e28dd0c5515f> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/90390368-1f4e-4df7-83cd-433e25342ca6> rdau:P60399
+      <http://www.artsdata.eu/Person/762df784-a734-4b78-a5b2-29f611b23ad7> .
+  
+  <http://data.performing-arts.ch/w/90b5da50-570a-4da1-8563-79a8739413d9> rdau:P60399
+      <http://www.artsdata.eu/Person/7bb1fb98-2bb3-4ebd-9c91-c3e1e0767572> .
+  
+  <http://data.performing-arts.ch/w/90fdbdef-103a-4a8d-aa7b-9d3614d2898f> rdau:P60399
+      <http://www.artsdata.eu/Person/1f058c83-120b-4388-8478-38ab8267b5e2> .
+  
+  <http://data.performing-arts.ch/w/93b15e4f-d00b-4f44-a1db-2994d839e2e3> rdau:P60399
+      <http://www.artsdata.eu/Person/28ffc377-d82e-44a7-9c36-bf3e67e22dc2> .
+  
+  <http://data.performing-arts.ch/w/9437b786-0396-4c75-af0b-954443aac2fd> rdau:P60399
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/95db917d-1236-4878-9a47-3e2f98a3eac5> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/975502c6-f50b-4e1d-b59f-fc9daa04488b> rdau:P60399
+      <http://www.artsdata.eu/Person/29ab6270-c8d6-4513-9a89-f34916a46df5> .
+  
+  <http://data.performing-arts.ch/w/97752efa-d82c-4b22-b368-976b4ec8f5fd> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/97d64336-bf11-4a1f-8bd1-f61371665bb1> rdau:P60399
+      <http://www.artsdata.eu/Person/2dcb12f3-919a-4466-8713-a7d85e0ceac1> .
+  
+  <http://data.performing-arts.ch/w/98481df2-d19d-4f61-9bb2-f39174073404> rdau:P60399
+      <http://www.artsdata.eu/Person/cb828c6d-6e2c-4e54-bd3d-2d10d98069f4> .
+  
+  <http://data.performing-arts.ch/w/995e8f06-1b5f-446e-b992-fae3d41be04e> rdau:P60399
+      <http://www.artsdata.eu/Person/29ab6270-c8d6-4513-9a89-f34916a46df5> .
+  
+  <http://data.performing-arts.ch/w/9a9e7c91-2bcd-42d4-8145-97629faf29e7> rdau:P60399
+      <http://www.artsdata.eu/Person/bbc0c82e-4d77-42c9-b7eb-4d18f25d29ec> .
+  
+  <http://data.performing-arts.ch/w/9b3fbdf9-7e65-40d2-83aa-9256f90b9dd4> rdau:P60399
+      <http://www.artsdata.eu/Person/0edbda3f-fd79-4456-97c2-9623153e2fce> .
+  
+  <http://data.performing-arts.ch/w/9c82a321-7ed2-41d1-8a08-c878425fe308> rdau:P60399
+      <http://www.artsdata.eu/Person/9a9df0c8-f0a7-4956-a535-440ca16cb923> .
+  
+  <http://data.performing-arts.ch/w/9cd6687a-be20-4d1d-8a25-bd3e6d07ed78> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/9d0a6dfa-48b5-425a-bb40-7669c62a87d9> rdau:P60399
+      <http://www.artsdata.eu/Person/29ab6270-c8d6-4513-9a89-f34916a46df5> .
+  
+  <http://data.performing-arts.ch/w/9d8dbecd-f538-42fb-acd3-619ce2ffc401> rdau:P60399
+      <http://www.artsdata.eu/Person/762df784-a734-4b78-a5b2-29f611b23ad7> .
+  
+  <http://data.performing-arts.ch/w/9de44c60-0887-4534-a7fe-38c2ecd0d61a> rdau:P60399
+      <http://www.artsdata.eu/Person/0edbda3f-fd79-4456-97c2-9623153e2fce> .
+  
+  <http://data.performing-arts.ch/w/9e40c8de-7280-4de3-b8f5-751d723cea8c> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/9e413987-6368-47fe-8464-70139ab9a34c> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/9e605203-52c1-4ceb-861d-65e4b9785a00> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/9ed0f865-2ec2-4ee4-bdca-5950930cc34b> rdau:P60399
+      <http://www.artsdata.eu/Person/3c913af2-98a8-483e-96bf-667abcd48d0f> .
+  
+  <http://data.performing-arts.ch/w/9f326fab-a079-46ce-aefb-f5b9ddd78b4c> rdau:P60399
+      <http://www.artsdata.eu/Person/eb63ed6e-db0d-4544-96ca-7d87e43ccdb7> .
+  
+  <http://data.performing-arts.ch/w/9fa17039-ecd4-4611-9b72-9552201df280> rdau:P60399
+      <http://www.artsdata.eu/Person/b40251a6-eca0-412c-86a5-22f29b0ba724> .
+  
+  <http://data.performing-arts.ch/w/a3cd2183-04fe-4a05-853e-d287ae0028d6> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/a421c660-cfaa-4040-bbf3-224800c9f006> rdau:P60399
+      <http://www.artsdata.eu/Person/47f784f4-2349-4931-8402-d4a80444e69f> .
+  
+  <http://data.performing-arts.ch/w/a4c04c53-eb60-4b9a-97eb-b9bb35fed36e> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/a544182b-5f9b-4df3-84be-e0bc377e12aa> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/a661a5ad-8dd0-4486-9d68-9eb9a9f0fdae> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/a66b6bba-1454-41f3-b759-bd52048d726b> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/a7737bb5-4cd9-4261-936b-3ddf11cb07a0> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/a809d30d-b94c-49c7-aefa-7dd6cb4302f8> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/a87ca4f1-4b50-4bd9-b23c-bad16adcd2fd> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/a8dbc7d3-470b-4968-92d9-d8b9daf9b187> rdau:P60399
+      <http://www.artsdata.eu/Person/97195daf-f64a-4c4d-8d52-8bebb19045bc> .
+  
+  <http://data.performing-arts.ch/w/a9652adc-20c1-4225-9f30-f44cefe50e89> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/a9dfc7f9-9d1f-4e15-aae4-275cb26cfa18> rdau:P60399
+      <http://www.artsdata.eu/Person/0ce40674-a980-40c4-96e6-83d913644829> .
+  
+  <http://data.performing-arts.ch/w/aa1d110b-0d62-410e-9388-d01b9aa0fe5f> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/aa591b69-fa3e-437a-b658-7888672e570e> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/ac3840c1-b67d-4b24-b07c-f0a3897a1849> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/ac5fd313-9e16-431f-afe6-c8fd0e9c5895> rdau:P60399
+      <http://www.artsdata.eu/Person/6b164ec4-b0cf-4afd-9a97-62a1b138392a> .
+  
+  <http://data.performing-arts.ch/w/ad201a0a-2ceb-41ec-95e2-af4eb35e6603> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/ad2c047f-c6f7-4530-bd73-906bf3957837> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/ae972ce5-fa9b-4b50-820d-3078bf4f0d9b> rdau:P60399
+      <http://www.artsdata.eu/Person/94dcb348-e021-42e8-8cdd-dd199a4b0039> .
+  
+  <http://data.performing-arts.ch/w/b1815fd6-3ebc-47c2-9a67-8b61dee3fbc4> rdau:P60399
+      <http://www.artsdata.eu/Person/1e25ad3b-dac6-450b-9858-72c0e1e03b4e> .
+  
+  <http://data.performing-arts.ch/w/b40d4c8d-535a-4024-9417-03ce78a7a25f> rdau:P60399
+      <http://www.artsdata.eu/Person/5b95a68a-e412-4455-871e-60feee091bf4> .
+  
+  <http://data.performing-arts.ch/w/b5108785-d014-40e8-b07f-d181d362de24> rdau:P60399
+      <http://www.artsdata.eu/Person/1cfda6c3-fff7-412a-925a-075ceaa3e60b> .
+  
+  <http://data.performing-arts.ch/w/b689d640-7017-4d58-8b98-8ac5e828fc8d> rdau:P60399
+      <http://www.artsdata.eu/Person/da44f42e-7e07-4c95-a227-dae0fbe02d34> .
+  
+  <http://data.performing-arts.ch/w/b89cd60c-aaf6-419b-8378-3e4c74545a76> rdau:P60399
+      <http://www.artsdata.eu/Person/eb63ed6e-db0d-4544-96ca-7d87e43ccdb7> .
+  
+  <http://data.performing-arts.ch/w/bb1d1ef5-e66a-4f37-8c41-8fd01e140448> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/bb4e8446-f7b2-407c-8e07-df43115f740e> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/bcfe449e-8e89-4a54-8422-6653165b07a0> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/bd4a1853-412d-41e6-be00-59145b32bc76> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/be13da42-d247-4704-b92f-c44ce833fc1b> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/be667f50-7303-4ab6-98b1-a65b1d27131e> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/beafe839-c798-4bf0-b4d3-fd400ae515cf> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/c14032c1-4c90-4522-a363-0a71e354944d> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/c1658b8b-1020-4a53-863e-51acc5d70080> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/c3369998-7863-40a1-84f9-69bce50a0430> rdau:P60399
+      <http://www.artsdata.eu/Person/bbc0c82e-4d77-42c9-b7eb-4d18f25d29ec> .
+  
+  <http://data.performing-arts.ch/w/c3e066c0-bb4f-49d2-8bf8-aabe07413535> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/c5295957-82a0-4d19-bdbc-19be710f3b23> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/c634b8f2-1a96-4bc6-aee9-3a1f072b3411> rdau:P60399
+      <http://www.artsdata.eu/Person/4ef30f62-8b6c-4509-8942-9ae5cca38705> .
+  
+  <http://data.performing-arts.ch/w/c74b850c-e0f6-41f3-b01b-d91c96097b2f> rdau:P60399
+      <http://www.artsdata.eu/Person/2b62e572-1d08-4151-8b9b-925805a0a951> .
+  
+  <http://data.performing-arts.ch/w/c9bd0f68-d1aa-459b-8be5-6f719c3a13f3> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/ca32bf84-ceb1-4788-9d5f-c6804b7ef5b6> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/cb6b16d0-e092-4e17-9daa-c2b0be16efda> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/cba6e673-d03a-4249-9c5d-5b72600faa3c> rdau:P60399
+      <http://www.artsdata.eu/Person/28ffc377-d82e-44a7-9c36-bf3e67e22dc2> .
+  
+  <http://data.performing-arts.ch/w/cc06f6e2-adde-409b-9c95-861c74dc02a4> rdau:P60399
+      <http://www.artsdata.eu/Person/762df784-a734-4b78-a5b2-29f611b23ad7> .
+  
+  <http://data.performing-arts.ch/w/cc35f859-f2e3-4dae-a49e-ca2b9d49253e> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/cf6a401a-9720-4357-a22a-1808fd0a9301> rdau:P60399
+      <http://www.artsdata.eu/Person/eaed99ed-e536-4a51-9aeb-6bbc4ba1c2c5> .
+  
+  <http://data.performing-arts.ch/w/d19fb645-1d23-4e5a-b8db-5f0274e6fc50> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/d2296644-1d03-44a6-82a7-12e0ed7286a7> rdau:P60399
+      <http://www.artsdata.eu/Person/a81e8a5f-b735-4e58-8ab5-9e31278e83bc> .
+  
+  <http://data.performing-arts.ch/w/d2435d5f-1d49-4f7d-95c3-27cd00801826> rdau:P60399
+      <http://www.artsdata.eu/Person/7bb1fb98-2bb3-4ebd-9c91-c3e1e0767572> .
+  
+  <http://data.performing-arts.ch/w/d2c90b40-1141-416a-8b0c-68ed7246f7b3> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/d35d919c-4c6a-4156-be64-f3035d044956> rdau:P60399
+      <http://www.artsdata.eu/Person/a38c9513-014f-4e2d-8794-3ccbe445f640> .
+  
+  <http://data.performing-arts.ch/w/d379d478-312c-4e3d-b574-1ec2798569b6> rdau:P60399
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/d3a82c02-bb12-4b99-a148-0cfa100226af> rdau:P60399
+      <http://www.artsdata.eu/Person/b40251a6-eca0-412c-86a5-22f29b0ba724> .
+  
+  <http://data.performing-arts.ch/w/d44c660d-0047-4a32-9b18-1a85da14723d> rdau:P60399
+      <http://www.artsdata.eu/Person/9897631e-2d24-4b01-9d96-f4129bebd003> .
+  
+  <http://data.performing-arts.ch/w/d54c4d7a-31a4-400f-8015-ce6c8eaf0230> rdau:P60399
+      <http://www.artsdata.eu/Person/9a9df0c8-f0a7-4956-a535-440ca16cb923> .
+  
+  <http://data.performing-arts.ch/w/d5900ae6-13d8-4f98-93d1-d7a30f2f4d24> rdau:P60399
+      <http://www.artsdata.eu/Person/762df784-a734-4b78-a5b2-29f611b23ad7> .
+  
+  <http://data.performing-arts.ch/w/d59d0136-3be2-4f37-8ce0-e78ba8dee954> rdau:P60399
+      <http://www.artsdata.eu/Person/189de54b-18de-475c-b6f8-e8bac9461751> .
+  
+  <http://data.performing-arts.ch/w/d5c52096-d31a-44a2-8d4e-e7fbdc41fa33> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/d634f926-cccd-4020-8b49-8fa0ce138d6b> rdau:P60399
+      <http://www.artsdata.eu/Person/bbc0c82e-4d77-42c9-b7eb-4d18f25d29ec> .
+  
+  <http://data.performing-arts.ch/w/d6c1802e-bcfd-4e81-b965-117a04bd9cea> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/d73c9224-725b-4ec8-a91d-8229f1785d59> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/d75de736-193c-4157-b3c3-9c190c134581> rdau:P60399
+      <http://www.artsdata.eu/Person/0ce40674-a980-40c4-96e6-83d913644829> .
+  
+  <http://data.performing-arts.ch/w/d76adc44-9c27-4fd1-8f79-1a1d45e3cd05> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/d7de2896-0986-4cd5-a01e-0bad1e94aec0> rdau:P60399
+      <http://www.artsdata.eu/Person/7fca4865-d1ee-4bc1-abe4-0bc1fcf91fa5> .
+  
+  <http://data.performing-arts.ch/w/d97f9456-8ddf-4678-8fc2-6167be75edc8> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/da088c72-e7f7-4f2f-a715-98e19f6a0842> rdau:P60399
+      <http://www.artsdata.eu/Person/aa26aaff-7759-490f-a41e-8276fa8b26ed> .
+  
+  <http://data.performing-arts.ch/w/dc25f5de-693c-412f-a7a3-bfe7b9be72bc> rdau:P60399
+      <http://www.artsdata.eu/Person/a0ebc9a8-2378-43a0-aaea-5128bd18970b> .
+  
+  <http://data.performing-arts.ch/w/dcdae4ad-9156-4ca8-8603-a3e96ebdf2f0> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/e0813d09-b218-4634-92e2-af8cbf7a6ef6> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/e1adab13-e310-4988-9088-b7704766f303> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/e4897fd3-e61a-4669-b32c-4f3c7aee4eab> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/e545a04c-327e-4fd2-bc99-8e91ad9e46f8> rdau:P60399
+      <http://www.artsdata.eu/Person/7bb1fb98-2bb3-4ebd-9c91-c3e1e0767572> .
+  
+  <http://data.performing-arts.ch/w/e55c5080-6cde-4e7c-9461-3fed4c21727e> rdau:P60399
+      <http://www.artsdata.eu/Person/95ed7c28-cebc-4eee-b241-79773a3b173e> .
+  
+  <http://data.performing-arts.ch/w/e567ac5c-2007-446e-a0d3-e2e53096a116> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/e5d8d759-8dae-4c45-b33a-56129edd0887> rdau:P60399
+      <http://www.artsdata.eu/Person/a38c9513-014f-4e2d-8794-3ccbe445f640> .
+  
+  <http://data.performing-arts.ch/w/e668797f-430e-4374-b5de-e4573b08bdd8> rdau:P60399
+      <http://www.artsdata.eu/Person/9e8f8fae-31ef-43b6-aff9-61cb81972b9d> .
+  
+  <http://data.performing-arts.ch/w/e6c67b39-6758-41dd-aecf-8d3be4498de3> rdau:P60399
+      <http://www.artsdata.eu/Person/ec4367c7-309a-4a4e-818d-591bfdfa7279> .
+  
+  <http://data.performing-arts.ch/w/e6dd12af-0241-400d-9de1-a772175cb236> rdau:P60399
+      <http://www.artsdata.eu/Person/9897631e-2d24-4b01-9d96-f4129bebd003> .
+  
+  <http://data.performing-arts.ch/w/e77d000f-be30-4010-a18b-cfd1800b9377> rdau:P60399
+      <http://www.artsdata.eu/Person/67f85f4c-1bb9-4b41-9634-24123ed1ea92> .
+  
+  <http://data.performing-arts.ch/w/e85f3ff4-e95c-41a2-a7a2-9be734a77e52> rdau:P60399
+      <http://www.artsdata.eu/Person/33d5719a-9101-420a-b7d6-dece7d9d8332> .
+  
+  <http://data.performing-arts.ch/w/e8af5470-1c79-4194-bdaf-aa2c64c8583d> rdau:P60399
+      <http://www.artsdata.eu/Person/cd4e1bab-4fd3-4c75-b61b-1cb97fd1b26c> .
+  
+  <http://data.performing-arts.ch/w/e8c05fb6-97fb-43b7-a458-0300ed5a351b> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/e8f1c37b-77da-4bcd-8052-cb12bf85adb8> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/e9a1994b-eb2d-4a1b-ae1c-0db99f00c1af> rdau:P60399
+      <http://www.artsdata.eu/Person/2b62e572-1d08-4151-8b9b-925805a0a951> .
+  
+  <http://data.performing-arts.ch/w/ea1cb7ba-6a0e-4577-8ca3-336afa2250a7> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/ea344e69-51fe-4ad5-abfc-a0d505183123> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/ed265cee-62e1-43ab-9dcd-e117a78cfe71> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/ed547721-5cc6-45ed-bf3d-4ffe7d378fa8> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/ee77273f-89c3-4b98-8331-3e135bb0e630> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/ef60a02c-6114-46fc-a4e6-6fb720de510e> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/f288b69e-e20b-4031-bbc8-853674dae2b3> rdau:P60399
+      <http://www.artsdata.eu/Person/096bba26-d759-4177-85ee-426ca4e6d798> .
+  
+  <http://data.performing-arts.ch/w/f2fcb13c-9d7a-4242-9f32-7fde7223913b> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/f3583c2c-4c18-4295-9c40-fcfc8aeca71a> rdau:P60399
+      <http://www.artsdata.eu/Person/e10f8263-7f14-4293-8fef-5afb2fa6cba4> .
+  
+  <http://data.performing-arts.ch/w/f364076a-6294-46f8-8c63-4d39013013b3> rdau:P60399
+      <http://www.artsdata.eu/Person/ffd733d4-26a6-4684-9417-b3d33ef9b014> .
+  
+  <http://data.performing-arts.ch/w/f3c97d15-632a-41fb-b6d9-c4e4f3298cb5> rdau:P60399
+      <http://www.artsdata.eu/Person/98738e45-2f11-40fa-b232-f19a421986de> .
+  
+  <http://data.performing-arts.ch/w/f42a8e17-ff1c-4aa9-b0d0-a74ac56434e8> rdau:P60399
+      <http://www.artsdata.eu/Person/2625bead-538b-4dca-9ce9-ff13fdd09c70> .
+  
+  <http://data.performing-arts.ch/w/f4e4f834-3c94-43da-83f8-421dae7ae06a> rdau:P60399
+      <http://www.artsdata.eu/Person/356259d3-cf15-484b-96b7-9011106d78ad> .
+  
+  <http://data.performing-arts.ch/w/f533c75c-82f5-481c-873a-07f187ee71f8> rdau:P60399
+      <http://www.artsdata.eu/Person/7bb1fb98-2bb3-4ebd-9c91-c3e1e0767572> .
+  
+  <http://data.performing-arts.ch/w/f6b2dc3b-c9b3-4c06-aa73-377431cee529> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+  
+  <http://data.performing-arts.ch/w/f7262c33-8936-4daa-a818-d4858b107a90> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/f732d4e3-8d9d-46c5-a437-18aff26950ce> rdau:P60399
+      <http://www.artsdata.eu/Person/47f784f4-2349-4931-8402-d4a80444e69f> .
+  
+  <http://data.performing-arts.ch/w/f8272d30-676d-4199-90c3-01b55b552ea0> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/f8ae9685-fb77-44e5-88f9-49713d2ef834> rdau:P60399
+      <http://www.artsdata.eu/Person/29ab6270-c8d6-4513-9a89-f34916a46df5> .
+  
+  <http://data.performing-arts.ch/w/fabb3f9b-2b37-4c92-bfe6-b1d32fd51d8d> rdau:P60399
+      <http://www.artsdata.eu/Person/23a6cbb5-35ee-4647-bdd5-50b36c9b3725> .
+  
+  <http://data.performing-arts.ch/w/fc81d2f3-f3a1-4ab0-b4bf-8479029c6749> rdau:P60399
+      <http://www.artsdata.eu/Person/762df784-a734-4b78-a5b2-29f611b23ad7> .
+  
+  <http://data.performing-arts.ch/w/fca25196-d53d-453d-afd9-09e335d2205b> rdau:P60399
+      <http://www.artsdata.eu/Person/94dcb348-e021-42e8-8cdd-dd199a4b0039> .
+  
+  <http://data.performing-arts.ch/w/fcae3679-3ad8-4989-99f7-75a0f6df4d3d> rdau:P60399
+      <http://www.artsdata.eu/Person/ddc546f5-e530-453f-b9c2-aef5463a0adb> .
+  
+  <http://data.performing-arts.ch/w/fcb8ba18-4512-4ef7-b37e-4348f2a9d4d2> rdau:P60399
+      <http://www.artsdata.eu/Person/bbc0c82e-4d77-42c9-b7eb-4d18f25d29ec> .
+  
+  <http://data.performing-arts.ch/w/fcbb70d6-6fae-4ae8-a180-fcb043a63f06> rdau:P60399
+      <http://www.artsdata.eu/Person/33d5719a-9101-420a-b7d6-dece7d9d8332> .
+  
+  <http://data.performing-arts.ch/w/fce19b4d-89e2-41b6-8db1-18a2dcaecafc> rdau:P60399
+      <http://www.artsdata.eu/Person/0a0415e9-4415-46c2-a616-bd6afbefc4b9> .
+  
+  <http://data.performing-arts.ch/w/fd59f969-e8e4-4bf1-baa7-0cbe84e96c51> rdau:P60399
+      <http://www.artsdata.eu/Person/2f63deca-f0ce-41e7-894f-39694bd58d46> .
+  
+  <http://data.performing-arts.ch/w/fdd14df1-3944-4da7-a44a-05260d2dfb33> rdau:P60399
+      <http://www.artsdata.eu/Person/29ab6270-c8d6-4513-9a89-f34916a46df5> .
+  
+  <http://data.performing-arts.ch/w/feba7c89-aa4f-48c8-bc63-06178883ad85> rdau:P60399
+      <http://www.artsdata.eu/Person/40cf116c-194a-4503-b4e9-76ae92df6a90> .
+  
+  <http://data.performing-arts.ch/w/ff6d9232-e15c-4c11-a393-d6ad635dd3f8> rdau:P60399
+      <http://www.artsdata.eu/Person/0a122147-1097-4741-88fa-e17423cafeff>, <http://www.artsdata.eu/Person/ab2f4c51-a2e7-4ba3-9740-6e0110d4bccb> .
+  
+  <http://data.performing-arts.ch/w/ffb71af6-a3d7-45fd-94cb-ddc0eaa90269> rdau:P60399
+      <http://www.artsdata.eu/Person/3e9c18ed-618b-4013-81d9-52ec03cc332b> .
+  
+  <http://data.performing-arts.ch/w/ffe6d33e-b838-4bde-a12f-36716914bd0d> rdau:P60399
+      <http://www.artsdata.eu/Person/9bcc6aac-3f37-4b41-87d2-5a7c82bd3bd9> .
+}

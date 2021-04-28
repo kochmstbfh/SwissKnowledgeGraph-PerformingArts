@@ -1,0 +1,3734 @@
+@base <http://example.com/base/> .
+@prefix rdau: <http://www.rdaregistry.info/Elements/u/#> .
+@prefix skgpap: <http://www.artsdata.eu/Person/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<http://data.performing-arts.ch/w/003c711a-9a85-472c-9324-a8a775e970ff> rdau:P60399
+    skgpap:9463411a-c8bd-4c99-9645-83f677636cb4 .
+
+skgpap:9463411a-c8bd-4c99-9645-83f677636cb4 a schema:Person;
+  rdfs:label "Lily Sykes";
+  schema:sameAs wd:Q17323043 .
+
+<http://data.performing-arts.ch/w/15717d79-6643-4f45-97ad-843392e57985> rdau:P60399
+    skgpap:9463411a-c8bd-4c99-9645-83f677636cb4 .
+
+<http://data.performing-arts.ch/w/38c91606-188c-48da-8f84-c36d241092cb> rdau:P60399
+    skgpap:9463411a-c8bd-4c99-9645-83f677636cb4 .
+
+<http://data.performing-arts.ch/w/5a423c90-5b4e-4cdc-93d8-17e176b249e0> rdau:P60399
+    skgpap:9463411a-c8bd-4c99-9645-83f677636cb4 .
+
+<http://data.performing-arts.ch/w/005b27e2-f5d6-4c53-a376-97af645b1140> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 a schema:Person;
+  rdfs:label "Karin Henkel";
+  schema:sameAs wd:Q1729450 .
+
+<http://data.performing-arts.ch/w/1420b5c6-70e1-477e-aa39-2dde9e07471e> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/1e773ee3-ee15-4e9c-acd7-7b44fcb4e92e> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/409cdd6a-48f3-48c9-9612-e3e2e9136949> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/40bb60ab-ee11-4de6-b8a2-5b661bce1a43> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/43af61a0-58eb-41c1-8df2-cbbf74fff7e3> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/0071e82d-a664-4dde-a001-56bc9fec3557> rdau:P60399
+    skgpap:6dc60e7b-b697-496e-830e-c5d71a542042 .
+
+skgpap:6dc60e7b-b697-496e-830e-c5d71a542042 a schema:Person;
+  rdfs:label "Luc Bondy";
+  schema:sameAs wd:Q116359 .
+
+<http://data.performing-arts.ch/w/008aab81-f954-4b2d-bd01-2a113929f4fb> rdau:P60399
+    skgpap:ece6ce91-02d4-402b-90d1-47235e7e6193 .
+
+skgpap:ece6ce91-02d4-402b-90d1-47235e7e6193 a schema:Person;
+  rdfs:label "Kamila Polivková";
+  schema:sameAs wd:Q86594372 .
+
+<http://data.performing-arts.ch/w/008b1dd5-875e-47f3-b641-bb387ba8a2ec> rdau:P60399
+    skgpap:fe1a069f-c4fc-48ee-9a72-cec035aa5625 .
+
+skgpap:fe1a069f-c4fc-48ee-9a72-cec035aa5625 a schema:Person;
+  rdfs:label "Franz Xaver Kroetz";
+  schema:sameAs wd:Q45239 .
+
+<http://data.performing-arts.ch/w/00f4f4ff-ba30-4706-9156-ef832fcbe41e> rdau:P60399
+    skgpap:4dd35ebb-a3ac-4f47-8fe8-f48da648f57d .
+
+skgpap:4dd35ebb-a3ac-4f47-8fe8-f48da648f57d a schema:Person;
+  rdfs:label "Thomas Koerfer";
+  schema:sameAs wd:Q122833 .
+
+<http://data.performing-arts.ch/w/4a13e8b7-a23f-4571-949b-6c9cac8ba774> rdau:P60399
+    skgpap:4dd35ebb-a3ac-4f47-8fe8-f48da648f57d .
+
+<http://data.performing-arts.ch/w/00fc6848-07c2-4209-a660-18c91b1fe524> rdau:P60399
+    skgpap:660346fc-b3c7-4064-b7a7-b86f971d5c0d .
+
+skgpap:660346fc-b3c7-4064-b7a7-b86f971d5c0d a schema:Person;
+  rdfs:label "Peter Borchardt";
+  schema:sameAs wd:Q23638856 .
+
+<http://data.performing-arts.ch/w/0105c788-1328-4b74-9436-ee2034fdc9fc> rdau:P60399
+    skgpap:16da13d9-60ef-4c98-ace0-135255257fd6 .
+
+skgpap:16da13d9-60ef-4c98-ace0-135255257fd6 a schema:Person;
+  rdfs:label "Alois-Michael Heigl" .
+
+<http://data.performing-arts.ch/w/018c6d73-e476-4d07-81a3-e8f24b61646b> rdau:P60399
+    skgpap:16da13d9-60ef-4c98-ace0-135255257fd6 .
+
+<http://data.performing-arts.ch/w/012e312b-c6ba-491d-bf0b-ffa128a9029d> rdau:P60399
+    skgpap:2671f1c6-b359-430c-bfd7-aecbf373534f .
+
+skgpap:2671f1c6-b359-430c-bfd7-aecbf373534f a schema:Person;
+  rdfs:label "Roland Schimmelpfennig";
+  schema:sameAs wd:Q77603 .
+
+<http://data.performing-arts.ch/w/01edb323-578b-4290-aa55-4018eb86249a> rdau:P60399
+    skgpap:386a7ecf-ac78-4ed1-9359-f020ff0be33d .
+
+skgpap:386a7ecf-ac78-4ed1-9359-f020ff0be33d a schema:Person;
+  rdfs:label "Jiri Menzel";
+  schema:sameAs wd:Q352030 .
+
+<http://data.performing-arts.ch/w/608e9cd7-c46c-4262-88ba-f7fc47343b89> rdau:P60399
+    skgpap:386a7ecf-ac78-4ed1-9359-f020ff0be33d .
+
+<http://data.performing-arts.ch/w/024225c4-2c5c-498f-b3e9-6dda22dd4ff1> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 a schema:Person;
+  rdfs:label "Stefan Pucher";
+  schema:sameAs wd:Q2337342 .
+
+<http://data.performing-arts.ch/w/056c49aa-4705-4095-bdaa-b7402b27c149> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/0b4a8963-e3a3-4c33-8ab7-f6a8c9163b3b> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/0e79f9c5-7f61-4915-a38c-2f48e3feae68> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/1b7375ae-6b92-40af-bd13-1b00bc29d12d> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/21d6ea26-9b9b-4878-a242-8eab0b29e586> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6, skgpap:8fef0d17-138a-45e5-b5e6-f2ffe6c6d255 .
+
+<http://data.performing-arts.ch/w/325c3bbe-eb30-4379-b3a2-8dcca84c33f1> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/4f24500e-50bf-4b9f-9f33-65db1ea94126> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/56734aea-2d09-4c5c-a1a3-12e28e5b347f> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/0311aa94-34c8-4d9d-a2a3-08fe2e16f844> rdau:P60399
+    skgpap:05aaae19-5a01-47ff-8ea0-337017536391 .
+
+skgpap:05aaae19-5a01-47ff-8ea0-337017536391 a schema:Person;
+  rdfs:label "Isabel Osthues" .
+
+<http://data.performing-arts.ch/w/05552dae-ea19-4156-9173-e0defe4d686d> rdau:P60399
+    skgpap:05aaae19-5a01-47ff-8ea0-337017536391 .
+
+<http://data.performing-arts.ch/w/033024e0-1c24-4387-a2ec-f291401637f3> rdau:P60399
+    skgpap:4ac3790d-b75c-4d43-977e-741720c0c8b0 .
+
+skgpap:4ac3790d-b75c-4d43-977e-741720c0c8b0 a schema:Person;
+  rdfs:label "Peter Brook";
+  schema:sameAs wd:Q49760 .
+
+<http://data.performing-arts.ch/w/03ce3765-cb8b-43a6-b7a2-84674f881bf8> rdau:P60399
+    skgpap:6d94bcdb-32c7-4400-8c5d-dc524be1f1d2 .
+
+skgpap:6d94bcdb-32c7-4400-8c5d-dc524be1f1d2 a schema:Person;
+  rdfs:label "Hansjörg Betschart";
+  schema:sameAs wd:Q1583847 .
+
+<http://data.performing-arts.ch/w/1498250f-d7c7-4f74-a1b7-374cad282ff0> rdau:P60399
+    skgpap:6d94bcdb-32c7-4400-8c5d-dc524be1f1d2 .
+
+<http://data.performing-arts.ch/w/2bab9fc5-0f49-44ef-8959-2245882bced8> rdau:P60399
+    skgpap:6d94bcdb-32c7-4400-8c5d-dc524be1f1d2 .
+
+<http://data.performing-arts.ch/w/044457dc-d251-4f6e-b4ec-da6e151cf652> rdau:P60399
+    skgpap:2add5a4f-6719-41ff-b32b-fc9f0392bc59 .
+
+skgpap:2add5a4f-6719-41ff-b32b-fc9f0392bc59 a schema:Person;
+  rdfs:label "Gerhard Fiedler" .
+
+<http://data.performing-arts.ch/w/0465a9f5-db10-4615-8cc0-39f7ab2bf621> rdau:P60399
+    skgpap:329edc0f-6c14-4e81-a51b-0e88b3a58048 .
+
+skgpap:329edc0f-6c14-4e81-a51b-0e88b3a58048 a schema:Person;
+  rdfs:label "Jasmine Hoch";
+  schema:sameAs wd:Q63884984 .
+
+<http://data.performing-arts.ch/w/204ac339-72cb-4e77-9c1c-41a3d98d93cf> rdau:P60399
+    skgpap:329edc0f-6c14-4e81-a51b-0e88b3a58048 .
+
+<http://data.performing-arts.ch/w/04bc5821-4621-4df2-8ff3-b6b8ecca64b3> rdau:P60399
+    skgpap:5f578231-a21c-4561-87e2-af18f6d12215 .
+
+skgpap:5f578231-a21c-4561-87e2-af18f6d12215 a schema:Person;
+  rdfs:label "Roberto Guicciardini";
+  schema:sameAs wd:Q3938866 .
+
+<http://data.performing-arts.ch/w/202ad10d-e3f6-48bf-8155-c69856eee04e> rdau:P60399
+    skgpap:5f578231-a21c-4561-87e2-af18f6d12215 .
+
+<http://data.performing-arts.ch/w/3188416b-2fe2-4fec-a3f1-71723d866595> rdau:P60399
+    skgpap:5f578231-a21c-4561-87e2-af18f6d12215 .
+
+<http://data.performing-arts.ch/w/052b9f7f-0990-4bf9-b67f-18dcfcfa8ab8> rdau:P60399
+    skgpap:bd699766-9373-4425-ac85-0b704c5f3e36 .
+
+skgpap:bd699766-9373-4425-ac85-0b704c5f3e36 a schema:Person;
+  rdfs:label "Paris Kosmidis";
+  schema:sameAs wd:Q95898781 .
+
+<http://data.performing-arts.ch/w/3205a891-8321-45b1-a289-7cf5599d339d> rdau:P60399
+    skgpap:bd699766-9373-4425-ac85-0b704c5f3e36 .
+
+<http://data.performing-arts.ch/w/05cbc60e-b7a4-4f95-9cde-66e56f47d59f> rdau:P60399
+    skgpap:df8e4b07-28fc-40c8-a362-76f01e6d401a .
+
+skgpap:df8e4b07-28fc-40c8-a362-76f01e6d401a a schema:Person;
+  rdfs:label "Karl Fruchtmann";
+  schema:sameAs wd:Q1731167 .
+
+<http://data.performing-arts.ch/w/05d7f9f6-94b1-4e55-9463-dc33d7c4076d> rdau:P60399
+    skgpap:86498380-71b2-4dcd-b13e-b2d3ff71d9c0 .
+
+skgpap:86498380-71b2-4dcd-b13e-b2d3ff71d9c0 a schema:Person;
+  rdfs:label "Mario Missiroli";
+  schema:sameAs wd:Q93580 .
+
+<http://data.performing-arts.ch/w/05d94e4c-20e7-402c-929e-19ffedb11c75> rdau:P60399
+    skgpap:ad86e2db-1020-4da9-bc96-49693c2eb2fd .
+
+skgpap:ad86e2db-1020-4da9-bc96-49693c2eb2fd a schema:Person;
+  rdfs:label "Peter Palitzsch";
+  schema:sameAs wd:Q2077417 .
+
+<http://data.performing-arts.ch/w/114a64e6-d6b4-4079-8bc1-a219de22e5a1> rdau:P60399
+    skgpap:ad86e2db-1020-4da9-bc96-49693c2eb2fd .
+
+<http://data.performing-arts.ch/w/2125343f-035d-4b88-81b3-80a8fd0cd241> rdau:P60399
+    skgpap:ad86e2db-1020-4da9-bc96-49693c2eb2fd .
+
+<http://data.performing-arts.ch/w/30c86a3a-7c66-46e6-a337-5d22b398ff93> rdau:P60399
+    skgpap:ad86e2db-1020-4da9-bc96-49693c2eb2fd .
+
+<http://data.performing-arts.ch/w/5d27e150-3ae4-483c-a240-24ab54816013> rdau:P60399
+    skgpap:ad86e2db-1020-4da9-bc96-49693c2eb2fd .
+
+<http://data.performing-arts.ch/w/064cb8b2-9644-48c7-92df-4e2bcadb8d4b> rdau:P60399
+    skgpap:c427f063-92a1-49f6-b1ee-aff0f125ca6e .
+
+skgpap:c427f063-92a1-49f6-b1ee-aff0f125ca6e a schema:Person;
+  rdfs:label "Matthias Fontheim";
+  schema:sameAs wd:Q18221919 .
+
+<http://data.performing-arts.ch/w/0f003ccb-9bb3-4e70-bed2-37a9d9f81c3a> rdau:P60399
+    skgpap:c427f063-92a1-49f6-b1ee-aff0f125ca6e .
+
+<http://data.performing-arts.ch/w/06957749-85f0-45f3-9e3b-f04d091fb1b2> rdau:P60399
+    skgpap:7f844660-b8f4-4da7-9026-14482df0ce3e .
+
+skgpap:7f844660-b8f4-4da7-9026-14482df0ce3e a schema:Person;
+  rdfs:label "Stefan Jäger";
+  schema:sameAs wd:Q115106 .
+
+<http://data.performing-arts.ch/w/2f9ae8ae-4f95-472a-8a34-eb34e845fb9e> rdau:P60399
+    skgpap:7f844660-b8f4-4da7-9026-14482df0ce3e .
+
+<http://data.performing-arts.ch/w/0700e961-e04a-4168-af72-0c06fef57ce3> rdau:P60399
+    skgpap:4a1e6507-ccaa-4b3f-97b0-dca6a660c1e3 .
+
+skgpap:4a1e6507-ccaa-4b3f-97b0-dca6a660c1e3 a schema:Person;
+  rdfs:label "Meret Matter";
+  schema:sameAs wd:Q1577060 .
+
+<http://data.performing-arts.ch/w/0b2e7bc0-1f9b-48b7-9219-350322ca7df7> rdau:P60399
+    skgpap:4a1e6507-ccaa-4b3f-97b0-dca6a660c1e3 .
+
+<http://data.performing-arts.ch/w/13d7f499-ea26-41e2-9236-d4013472f8ba> rdau:P60399
+    skgpap:4a1e6507-ccaa-4b3f-97b0-dca6a660c1e3 .
+
+<http://data.performing-arts.ch/w/0773b2f9-ffc1-45fd-8f07-09692310db21> rdau:P60399
+    skgpap:ef43ce92-028f-429a-bcf0-64cfc7815171 .
+
+skgpap:ef43ce92-028f-429a-bcf0-64cfc7815171 a schema:Person;
+  rdfs:label "Alexander Giesche";
+  schema:sameAs wd:Q87060079 .
+
+<http://data.performing-arts.ch/w/3bc9f721-d8ee-488b-b66d-858448f99e51> rdau:P60399
+    skgpap:ef43ce92-028f-429a-bcf0-64cfc7815171 .
+
+<http://data.performing-arts.ch/w/430e0788-e75a-4558-bc64-b2445473c74f> rdau:P60399
+    skgpap:ef43ce92-028f-429a-bcf0-64cfc7815171 .
+
+<http://data.performing-arts.ch/w/07e016ac-0e62-4de5-bda7-61a392baca81> rdau:P60399
+    skgpap:d99d68b6-7eed-43fd-8cb3-ebd32f090faa .
+
+skgpap:d99d68b6-7eed-43fd-8cb3-ebd32f090faa a schema:Person;
+  rdfs:label "Christopher Rüping";
+  schema:sameAs wd:Q28489118 .
+
+<http://data.performing-arts.ch/w/07e83575-e0e1-472d-8b64-29225c0a2234> rdau:P60399
+    skgpap:8608b214-b747-4b2f-942e-73813a4667d7 .
+
+skgpap:8608b214-b747-4b2f-942e-73813a4667d7 a schema:Person;
+  rdfs:label "Mani Wintsch" .
+
+<http://data.performing-arts.ch/w/07f01e12-396a-4dca-a5bb-df0fbf5b81d4> rdau:P60399
+    skgpap:e248c1f1-569b-4848-b0d7-5f98685665d0 .
+
+skgpap:e248c1f1-569b-4848-b0d7-5f98685665d0 a schema:Person;
+  rdfs:label "Andres Veiel";
+  schema:sameAs wd:Q53412 .
+
+<http://data.performing-arts.ch/w/08a06c04-b4a8-45ab-b810-ed2e23430c0a> rdau:P60399
+    skgpap:405c427b-c205-4be0-bbd9-991f0afd8395 .
+
+skgpap:405c427b-c205-4be0-bbd9-991f0afd8395 a schema:Person;
+  rdfs:label "Sandra Strunz";
+  schema:sameAs wd:Q65617275 .
+
+<http://data.performing-arts.ch/w/08b2fdf4-0889-454c-8b32-fb125732c9da> rdau:P60399
+    skgpap:e16ff25c-7dc6-4441-bf18-0f805d0b64c5 .
+
+skgpap:e16ff25c-7dc6-4441-bf18-0f805d0b64c5 a schema:Person;
+  rdfs:label "Andreas Kriegenburg";
+  schema:sameAs wd:Q499010 .
+
+<http://data.performing-arts.ch/w/58db2081-5464-44c6-8eb3-3282a76de862> rdau:P60399
+    skgpap:e16ff25c-7dc6-4441-bf18-0f805d0b64c5 .
+
+<http://data.performing-arts.ch/w/605ec032-62c0-4786-9927-5ec446525872> rdau:P60399
+    skgpap:e16ff25c-7dc6-4441-bf18-0f805d0b64c5 .
+
+<http://data.performing-arts.ch/w/0957a62e-45a0-4c83-aca2-b682b8dc5a22> rdau:P60399
+    skgpap:9249749d-20dc-4f71-b612-767dae3d1683 .
+
+skgpap:9249749d-20dc-4f71-b612-767dae3d1683 a schema:Person;
+  rdfs:label "Holger Berg";
+  schema:sameAs wd:Q1624472 .
+
+<http://data.performing-arts.ch/w/09b96b76-d313-411b-9679-db6009a9e5ed> rdau:P60399
+    skgpap:467abe64-2825-4cc9-912d-102d088c6235 .
+
+skgpap:467abe64-2825-4cc9-912d-102d088c6235 a schema:Person;
+  rdfs:label "Max P. Ammann" .
+
+<http://data.performing-arts.ch/w/20317374-5ef7-4345-a48c-c60ecb060a19> rdau:P60399
+    skgpap:467abe64-2825-4cc9-912d-102d088c6235 .
+
+<http://data.performing-arts.ch/w/4a7024ae-dbbf-49f8-9586-96488be01571> rdau:P60399
+    skgpap:467abe64-2825-4cc9-912d-102d088c6235 .
+
+<http://data.performing-arts.ch/w/09cbc672-16cc-4892-83d8-aa6bf4067c81> rdau:P60399
+    skgpap:64ed53ff-d82c-451c-b7fa-f610798e1dee .
+
+skgpap:64ed53ff-d82c-451c-b7fa-f610798e1dee a schema:Person;
+  rdfs:label "Dusan David Parízek";
+  schema:sameAs wd:Q14923709 .
+
+<http://data.performing-arts.ch/w/1db4c50e-a3b2-4a3c-8756-45a9e3d39011> rdau:P60399
+    skgpap:64ed53ff-d82c-451c-b7fa-f610798e1dee .
+
+<http://data.performing-arts.ch/w/23a4aeff-709b-411d-be00-73d04eb160a2> rdau:P60399
+    skgpap:64ed53ff-d82c-451c-b7fa-f610798e1dee .
+
+<http://data.performing-arts.ch/w/0a26aace-6e33-425a-9d5d-174681f33226> rdau:P60399
+    skgpap:f2e3c5c4-6ac7-408a-ad41-9c385fa728f2 .
+
+skgpap:f2e3c5c4-6ac7-408a-ad41-9c385fa728f2 a schema:Person;
+  rdfs:label "Antú Romero Nunes";
+  schema:sameAs wd:Q612115 .
+
+<http://data.performing-arts.ch/w/0ad6f7bb-87d6-4e0a-8c58-7021aacaaa61> rdau:P60399
+    skgpap:f0a0fd18-3792-42df-9303-ea6b42f1ef8d .
+
+skgpap:f0a0fd18-3792-42df-9303-ea6b42f1ef8d a schema:Person;
+  rdfs:label "Urs Widmer" .
+
+<http://data.performing-arts.ch/w/2440222a-3f7d-4623-b4a3-4001c51d4013> rdau:P60399
+    skgpap:f0a0fd18-3792-42df-9303-ea6b42f1ef8d .
+
+<http://data.performing-arts.ch/w/49945124-3da1-4d0a-aea5-271fe20b5ac8> rdau:P60399
+    skgpap:f0a0fd18-3792-42df-9303-ea6b42f1ef8d .
+
+<http://data.performing-arts.ch/w/0b07d26c-5e83-4d94-a67a-a534c5162a30> rdau:P60399
+    skgpap:c1cd6963-bbc9-4173-8a0f-aa721ed4bea0 .
+
+skgpap:c1cd6963-bbc9-4173-8a0f-aa721ed4bea0 a schema:Person;
+  rdfs:label "Frank Castorf";
+  schema:sameAs wd:Q91075 .
+
+<http://data.performing-arts.ch/w/44f1970a-dc61-4c02-980d-9e248533d46f> rdau:P60399
+    skgpap:c1cd6963-bbc9-4173-8a0f-aa721ed4bea0 .
+
+<http://data.performing-arts.ch/w/0bd576d1-fc61-4361-a846-064d2623ec72> rdau:P60399
+    skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df .
+
+skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df a schema:Person;
+  rdfs:label "Dieter Giesing";
+  schema:sameAs wd:Q1221984 .
+
+<http://data.performing-arts.ch/w/17dd8e4c-0ff3-4f8f-9a21-c5a9431173fb> rdau:P60399
+    skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df .
+
+<http://data.performing-arts.ch/w/0c0014b1-4c77-4c96-99d7-5f6c9356818d> rdau:P60399
+    skgpap:8f76caf9-1b37-472d-8084-e1f985cbe32d .
+
+skgpap:8f76caf9-1b37-472d-8084-e1f985cbe32d a schema:Person;
+  rdfs:label "Ralph Bridle";
+  schema:sameAs wd:Q95849498 .
+
+<http://data.performing-arts.ch/w/0d52104d-3300-4a29-b526-e1e0f4b1c27e> rdau:P60399
+    skgpap:8f76caf9-1b37-472d-8084-e1f985cbe32d .
+
+<http://data.performing-arts.ch/w/0c2fab27-734b-4ac0-9a86-b6250f133645> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b a schema:Person;
+  rdfs:label "Matthias Hartmann";
+  schema:sameAs wd:Q1909949 .
+
+<http://data.performing-arts.ch/w/18a78f03-83f5-4e31-95ca-272c6424b263> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/2d5dec71-6b5c-4163-a60c-69bd5d7c9b89> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/4d5a842a-7636-40e4-8039-dcb87a1832b2> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/5838ac8b-5251-4919-b189-db036e9fe5d4> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/0caec461-11c5-4d8d-b387-3723babdf610> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 a schema:Person;
+  rdfs:label "Achim Benning";
+  schema:sameAs wd:Q104573 .
+
+<http://data.performing-arts.ch/w/141031f1-d3a2-4a7d-92b4-d0a0d45f7892> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/35704c35-d956-490d-ab2e-82b61f57198d> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/0d03e1c2-1876-43ba-816c-98624d5a3015> rdau:P60399
+    skgpap:5b3f72b0-8136-4f71-b819-b5a44a48475c .
+
+skgpap:5b3f72b0-8136-4f71-b819-b5a44a48475c a schema:Person;
+  rdfs:label "Annette Raffalt";
+  schema:sameAs wd:Q27918531 .
+
+<http://data.performing-arts.ch/w/10ac5385-4515-4b87-a472-1321bb87fd1a> rdau:P60399
+    skgpap:5b3f72b0-8136-4f71-b819-b5a44a48475c .
+
+<http://data.performing-arts.ch/w/10fd31af-09af-40bf-93ee-35c8909f30d6> rdau:P60399
+    skgpap:5b3f72b0-8136-4f71-b819-b5a44a48475c .
+
+<http://data.performing-arts.ch/w/15e40bbb-1bee-4d82-a38c-3a05ea9c8537> rdau:P60399
+    skgpap:5b3f72b0-8136-4f71-b819-b5a44a48475c .
+
+<http://data.performing-arts.ch/w/5e2cde27-2b7b-41bb-8685-45201081bb28> rdau:P60399
+    skgpap:5b3f72b0-8136-4f71-b819-b5a44a48475c .
+
+<http://data.performing-arts.ch/w/0dcbc80d-7825-45f0-b7e3-8225e4d6be54> rdau:P60399
+    skgpap:ba97a37b-15a5-485f-bf0f-6871fa6d3eed .
+
+skgpap:ba97a37b-15a5-485f-bf0f-6871fa6d3eed a schema:Person;
+  rdfs:label "Jürgen Gosch";
+  schema:sameAs wd:Q71872 .
+
+<http://data.performing-arts.ch/w/31bc03d0-aa2d-408b-a4b1-459682ebbc3f> rdau:P60399
+    skgpap:ba97a37b-15a5-485f-bf0f-6871fa6d3eed .
+
+<http://data.performing-arts.ch/w/0e571ce2-5779-4da1-ade2-f5a75d13fe16> rdau:P60399
+    skgpap:50e47de6-f261-4121-a5ba-98f2e91e3694 .
+
+skgpap:50e47de6-f261-4121-a5ba-98f2e91e3694 a schema:Person;
+  rdfs:label "Carsten Ludwig";
+  schema:sameAs wd:Q95347926 .
+
+<http://data.performing-arts.ch/w/0e75cb11-69bb-4cf0-89e7-8d63cb96c4bb> rdau:P60399
+    skgpap:1870453a-c5dd-474c-8653-26dd47d801e9 .
+
+skgpap:1870453a-c5dd-474c-8653-26dd47d801e9 a schema:Person;
+  rdfs:label "Barbara Basel" .
+
+<http://data.performing-arts.ch/w/0f05b07a-6d53-4f5d-8d02-b5b8b1c681e7> rdau:P60399
+    skgpap:233b8a47-7bb5-4627-8a7f-271eccf56c90 .
+
+skgpap:233b8a47-7bb5-4627-8a7f-271eccf56c90 a schema:Person;
+  rdfs:label "Helmut Polixa" .
+
+<http://data.performing-arts.ch/w/0f274508-b4c2-4634-a107-cf8567547cef> rdau:P60399
+    skgpap:0481ff8a-db4e-462e-941a-f07b92c742aa .
+
+skgpap:0481ff8a-db4e-462e-941a-f07b92c742aa a schema:Person;
+  rdfs:label "Mélanie Huber" .
+
+<http://data.performing-arts.ch/w/18f3a975-0999-4aed-bb2f-1a2e0b424343> rdau:P60399
+    skgpap:0481ff8a-db4e-462e-941a-f07b92c742aa .
+
+<http://data.performing-arts.ch/w/277102e7-c0b2-4863-bda5-aa5e3c6b829f> rdau:P60399
+    skgpap:0481ff8a-db4e-462e-941a-f07b92c742aa .
+
+<http://data.performing-arts.ch/w/0f5d800e-e6cc-42ca-a1f4-b2283e33ae7e> rdau:P60399
+    skgpap:5b6e4371-33d2-4060-a989-4c1ce35357a0 .
+
+skgpap:5b6e4371-33d2-4060-a989-4c1ce35357a0 a schema:Person;
+  rdfs:label "Timofej Kuljabin";
+  schema:sameAs wd:Q15070768 .
+
+<http://data.performing-arts.ch/w/111c827c-1469-45d6-985f-ccb66c83fca8> rdau:P60399
+    skgpap:80c1c18a-169e-414f-aca6-581e7af0e107 .
+
+skgpap:80c1c18a-169e-414f-aca6-581e7af0e107 a schema:Person;
+  rdfs:label "Bruno Besson";
+  schema:sameAs wd:Q993037 .
+
+<http://data.performing-arts.ch/w/11fccabc-9299-4625-8c91-934c59e2bad3> rdau:P60399
+    skgpap:b96d0960-c8b7-4d3e-bb2e-4a4ed508f429 .
+
+skgpap:b96d0960-c8b7-4d3e-bb2e-4a4ed508f429 a schema:Person;
+  rdfs:label "Zino Wey" .
+
+<http://data.performing-arts.ch/w/124ee01f-e919-4c87-b089-f39b63c547dc> rdau:P60399
+    skgpap:42e298d6-689a-4483-874b-4cf2fe69368f .
+
+skgpap:42e298d6-689a-4483-874b-4cf2fe69368f a schema:Person;
+  rdfs:label "Tom Toelle";
+  schema:sameAs wd:Q104762 .
+
+<http://data.performing-arts.ch/w/1297f2ea-cbbd-41b0-8ee1-5bf1afed162f> rdau:P60399
+    skgpap:ae6323ed-d733-4393-a9cf-68e49d885ce1 .
+
+skgpap:ae6323ed-d733-4393-a9cf-68e49d885ce1 a schema:Person;
+  rdfs:label "Nicolai Sykosch" .
+
+<http://data.performing-arts.ch/w/12f55aea-0a5d-48a6-a05c-f927e72af45d> rdau:P60399
+    skgpap:c20f93ad-d11b-46c5-a7ab-34cdf876199b .
+
+skgpap:c20f93ad-d11b-46c5-a7ab-34cdf876199b a schema:Person;
+  rdfs:label "Georges Werler";
+  schema:sameAs wd:Q3103645 .
+
+<http://data.performing-arts.ch/w/13a98a9e-1e6d-4dc4-8be9-b3b3a5431798> rdau:P60399
+    skgpap:d6e2eb35-4ba3-47cc-9feb-bc9670f3efe8 .
+
+skgpap:d6e2eb35-4ba3-47cc-9feb-bc9670f3efe8 a schema:Person;
+  rdfs:label "Daniela Löffner";
+  schema:sameAs wd:Q1553062 .
+
+<http://data.performing-arts.ch/w/2b8a73b2-e4c6-40bc-a1a5-2335f6e98407> rdau:P60399
+    skgpap:d6e2eb35-4ba3-47cc-9feb-bc9670f3efe8 .
+
+<http://data.performing-arts.ch/w/2c57e5bb-36fc-4875-a544-95101982c2f9> rdau:P60399
+    skgpap:d6e2eb35-4ba3-47cc-9feb-bc9670f3efe8 .
+
+<http://data.performing-arts.ch/w/13d2c02d-f5e4-4be3-bf20-0bbb00410280> rdau:P60399
+    skgpap:38e1339b-e622-481d-97a8-548994368218 .
+
+skgpap:38e1339b-e622-481d-97a8-548994368218 a schema:Person;
+  rdfs:label "Jerzy Jarocki";
+  schema:sameAs wd:Q4538954 .
+
+<http://data.performing-arts.ch/w/144c112c-41d7-4324-8ec1-2d0b099aac35> rdau:P60399
+    skgpap:aa3ba85a-4e57-4559-b1e5-a3704ea6c616, skgpap:a16ecaa0-6f51-4942-aeb4-cca87383072f .
+
+skgpap:aa3ba85a-4e57-4559-b1e5-a3704ea6c616 a schema:Person;
+  rdfs:label "Jiri Kotlar" .
+
+skgpap:a16ecaa0-6f51-4942-aeb4-cca87383072f a schema:Person;
+  rdfs:label "Max Peter Ammann";
+  schema:sameAs wd:Q1317894 .
+
+<http://data.performing-arts.ch/w/1b8c90eb-7e48-416b-a2a3-ef02f8c5b8b6> rdau:P60399
+    skgpap:a16ecaa0-6f51-4942-aeb4-cca87383072f .
+
+<http://data.performing-arts.ch/w/144cdf9e-aa8e-4639-95bd-13cee111194a> rdau:P60399
+    skgpap:f6a1cff1-584e-4fd2-98e2-50731d627039 .
+
+skgpap:f6a1cff1-584e-4fd2-98e2-50731d627039 a schema:Person;
+  rdfs:label "Edward Rothe";
+  schema:sameAs wd:Q21403283 .
+
+<http://data.performing-arts.ch/w/14595c79-24a9-428f-a81d-033bcea38a22> rdau:P60399
+    skgpap:84f93bbf-ffc6-4740-bc13-f0d3366192e4 .
+
+skgpap:84f93bbf-ffc6-4740-bc13-f0d3366192e4 a schema:Person;
+  rdfs:label "Beatrix Bühler";
+  schema:sameAs wd:Q17292479 .
+
+<http://data.performing-arts.ch/w/1471b692-fea2-4576-8083-48b6d5e930e2> rdau:P60399
+    skgpap:4fba2673-0a9b-4471-96f1-72b764a55b24 .
+
+skgpap:4fba2673-0a9b-4471-96f1-72b764a55b24 a schema:Person;
+  rdfs:label "Urs Schaub";
+  schema:sameAs wd:Q2501355 .
+
+<http://data.performing-arts.ch/w/28368507-3d2c-4a1b-8f3f-cd07cd401176> rdau:P60399
+    skgpap:4fba2673-0a9b-4471-96f1-72b764a55b24 .
+
+<http://data.performing-arts.ch/w/2a13a788-d8a7-4787-a679-b1fb6c6c0f6a> rdau:P60399
+    skgpap:4fba2673-0a9b-4471-96f1-72b764a55b24 .
+
+<http://data.performing-arts.ch/w/472130aa-e941-4e2b-8300-a8db7f11c278> rdau:P60399
+    skgpap:4fba2673-0a9b-4471-96f1-72b764a55b24 .
+
+<http://data.performing-arts.ch/w/154c7a5d-6b93-49c3-b066-f1487ee6a117> rdau:P60399
+    skgpap:1bf6c715-00c8-41df-a845-fc9d19fefc21 .
+
+skgpap:1bf6c715-00c8-41df-a845-fc9d19fefc21 a schema:Person;
+  rdfs:label "Stephan Müller";
+  schema:sameAs wd:Q1563630 .
+
+<http://data.performing-arts.ch/w/15aeb86b-f5de-4501-b47f-c00ae030c932> rdau:P60399
+    skgpap:071646f3-08b4-4fbe-9bab-9ab9d3934b85 .
+
+skgpap:071646f3-08b4-4fbe-9bab-9ab9d3934b85 a schema:Person;
+  rdfs:label "Boris Pfeiffer";
+  schema:sameAs wd:Q893754 .
+
+<http://data.performing-arts.ch/w/16bd873e-ee3e-47f3-a779-5046dee91a20> rdau:P60399
+    skgpap:cb618328-858a-42e3-be4e-9cb54e4162e3 .
+
+skgpap:cb618328-858a-42e3-be4e-9cb54e4162e3 a schema:Person;
+  rdfs:label "Nikolaus Habjan";
+  schema:sameAs wd:Q1481518 .
+
+<http://data.performing-arts.ch/w/17069481-7804-42ae-a0eb-4fac11bff20c> rdau:P60399
+    skgpap:8fef0d17-138a-45e5-b5e6-f2ffe6c6d255 .
+
+skgpap:8fef0d17-138a-45e5-b5e6-f2ffe6c6d255 a schema:Person;
+  rdfs:label "Meg Stuart" .
+
+<http://data.performing-arts.ch/w/17260947-0b4f-4829-9818-e50a8d8772e7> rdau:P60399
+    skgpap:f4775675-f342-4ab3-9bf1-ee82820c2bcb .
+
+skgpap:f4775675-f342-4ab3-9bf1-ee82820c2bcb a schema:Person;
+  rdfs:label "Tina Lanik";
+  schema:sameAs wd:Q1417898 .
+
+<http://data.performing-arts.ch/w/186f27b9-8088-4c69-95ca-c8924137d772> rdau:P60399
+    skgpap:bbb67c42-88c6-4c9b-a5a2-a8d1e559d279 .
+
+skgpap:bbb67c42-88c6-4c9b-a5a2-a8d1e559d279 a schema:Person;
+  rdfs:label "David Bösch" .
+
+<http://data.performing-arts.ch/w/222a5c3b-bcac-4932-9a17-9fd8b8270b52> rdau:P60399
+    skgpap:bbb67c42-88c6-4c9b-a5a2-a8d1e559d279 .
+
+<http://data.performing-arts.ch/w/3977c54e-5649-447e-b753-31f25c336821> rdau:P60399
+    skgpap:bbb67c42-88c6-4c9b-a5a2-a8d1e559d279 .
+
+<http://data.performing-arts.ch/w/18aaab52-ee06-4f5b-bf4c-eca9c0678abc> rdau:P60399
+    skgpap:bc3b67c8-fb1e-4f88-9cc6-fd73ba11e4d2 .
+
+skgpap:bc3b67c8-fb1e-4f88-9cc6-fd73ba11e4d2 a schema:Person;
+  rdfs:label "Ephraim Kishon";
+  schema:sameAs wd:Q167429 .
+
+<http://data.performing-arts.ch/w/192067e5-d1cf-47fa-908e-15d36dcdbd41> rdau:P60399
+    skgpap:5d90d517-e7c0-43c7-9165-ef0b7576494c .
+
+skgpap:5d90d517-e7c0-43c7-9165-ef0b7576494c a schema:Person;
+  rdfs:label "Ingo Berk" .
+
+<http://data.performing-arts.ch/w/19c1f842-6d42-4056-81e0-8614335d67ae> rdau:P60399
+    skgpap:d65f2c8a-0574-4482-b81f-48fc8228dc80 .
+
+skgpap:d65f2c8a-0574-4482-b81f-48fc8228dc80 a schema:Person;
+  rdfs:label "David Mouchtar-Samorai";
+  schema:sameAs wd:Q15392075 .
+
+<http://data.performing-arts.ch/w/2b9dd1c7-05b8-446f-91e3-6b2d7c15e0b3> rdau:P60399
+    skgpap:d65f2c8a-0574-4482-b81f-48fc8228dc80 .
+
+<http://data.performing-arts.ch/w/346366ff-6f7f-494b-afc0-a829953d0799> rdau:P60399
+    skgpap:d65f2c8a-0574-4482-b81f-48fc8228dc80 .
+
+<http://data.performing-arts.ch/w/1a5022c1-887b-45df-b6a7-03a1be4c5ac4> rdau:P60399
+    skgpap:177b3759-8cb9-4f10-8cf7-370c243a13a6 .
+
+skgpap:177b3759-8cb9-4f10-8cf7-370c243a13a6 a schema:Person;
+  rdfs:label "Corinna von Rad";
+  schema:sameAs wd:Q88385311 .
+
+<http://data.performing-arts.ch/w/1a8822c7-b6b7-4c89-9391-a5c4846d14b8> rdau:P60399
+    skgpap:7bf7b412-b7b6-4c2e-9148-4721770e67e4 .
+
+skgpap:7bf7b412-b7b6-4c2e-9148-4721770e67e4 a schema:Person;
+  rdfs:label "Harald Clemen";
+  schema:sameAs wd:Q1584441 .
+
+<http://data.performing-arts.ch/w/1a8d937a-1340-4ca5-b8c7-32c29a94498f> rdau:P60399
+    skgpap:9d2a6e00-67a3-467c-8234-e50455a38a30 .
+
+skgpap:9d2a6e00-67a3-467c-8234-e50455a38a30 a schema:Person;
+  rdfs:label "Sonja Streifinger" .
+
+<http://data.performing-arts.ch/w/4a057e1d-de33-427b-ab5c-75d8b4e6e2f3> rdau:P60399
+    skgpap:9d2a6e00-67a3-467c-8234-e50455a38a30 .
+
+<http://data.performing-arts.ch/w/1ad1f1df-df41-4917-bf32-24a80cfb341c> rdau:P60399
+    skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 .
+
+skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 a schema:Person;
+  rdfs:label "René Pollesch";
+  schema:sameAs wd:Q85625 .
+
+<http://data.performing-arts.ch/w/314373ab-4c8a-40d0-8aa3-e219211499c9> rdau:P60399
+    skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 .
+
+<http://data.performing-arts.ch/w/34b9401e-97e1-420e-b1c2-565c865dde99> rdau:P60399
+    skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 .
+
+<http://data.performing-arts.ch/w/5ec5c979-165c-4f30-b9c8-fc79f90b6bf6> rdau:P60399
+    skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 .
+
+<http://data.performing-arts.ch/w/1b01eff8-fbbc-44e3-9352-21bc1ebed60f> rdau:P60399
+    skgpap:2a7f53f3-9c0f-4d12-8f03-8935ebe290a5 .
+
+skgpap:2a7f53f3-9c0f-4d12-8f03-8935ebe290a5 a schema:Person;
+  rdfs:label "Markus Luchsinger";
+  schema:sameAs wd:Q94923300 .
+
+<http://data.performing-arts.ch/w/1cb75041-84cc-4c3e-ba1d-d38de5e134d3> rdau:P60399
+    skgpap:5bc03919-8306-4325-a682-48cebf604724 .
+
+skgpap:5bc03919-8306-4325-a682-48cebf604724 a schema:Person;
+  rdfs:label "Jörg Schwahlen" .
+
+<http://data.performing-arts.ch/w/1d0763e8-a1e7-4a5a-ac94-6ad3fd0697a3> rdau:P60399
+    skgpap:2fd0e4e8-52ea-491a-a2f5-e4fd108f30b2 .
+
+skgpap:2fd0e4e8-52ea-491a-a2f5-e4fd108f30b2 a schema:Person;
+  rdfs:label "Sophia Bodamer" .
+
+<http://data.performing-arts.ch/w/4713814c-3191-418d-a090-3009580063e8> rdau:P60399
+    skgpap:2fd0e4e8-52ea-491a-a2f5-e4fd108f30b2 .
+
+<http://data.performing-arts.ch/w/1d5be78c-d44b-41de-a511-b40ca44560d8> rdau:P60399
+    skgpap:dd021e1d-cd47-41be-9a6a-2b210f18158c .
+
+skgpap:dd021e1d-cd47-41be-9a6a-2b210f18158c a schema:Person;
+  rdfs:label "David Marton";
+  schema:sameAs wd:Q53108016 .
+
+<http://data.performing-arts.ch/w/1ddbab8a-2d0e-41b3-b161-7d9049dc74ac> rdau:P60399
+    skgpap:2ec27f02-4297-44f0-8812-336bdd051cc5 .
+
+skgpap:2ec27f02-4297-44f0-8812-336bdd051cc5 a schema:Person;
+  rdfs:label "Anna-Sophie Mahler" .
+
+<http://data.performing-arts.ch/w/1e39bae9-93ff-4f7a-befd-0df854084943> rdau:P60399
+    skgpap:671e1dd3-3290-40af-bb84-9515b3eb6661 .
+
+skgpap:671e1dd3-3290-40af-bb84-9515b3eb6661 a schema:Person;
+  rdfs:label "Peter Sattmann";
+  schema:sameAs wd:Q97510 .
+
+<http://data.performing-arts.ch/w/1e947633-be8b-44a0-a903-e9e3544fa911> rdau:P60399
+    skgpap:e093633a-858a-4bbe-9205-7a94be5d56b5 .
+
+skgpap:e093633a-858a-4bbe-9205-7a94be5d56b5 a schema:Person;
+  rdfs:label "Annette Kuss";
+  schema:sameAs wd:Q566631 .
+
+<http://data.performing-arts.ch/w/1ea37e73-210b-4a56-aec0-2dec7b316347> rdau:P60399
+    skgpap:e093633a-858a-4bbe-9205-7a94be5d56b5 .
+
+<http://data.performing-arts.ch/w/416e2db7-4417-41a7-831b-a12605ab155b> rdau:P60399
+    skgpap:e093633a-858a-4bbe-9205-7a94be5d56b5 .
+
+<http://data.performing-arts.ch/w/580b8daa-6ffd-4e2a-9f7c-9101f565aba1> rdau:P60399
+    skgpap:e093633a-858a-4bbe-9205-7a94be5d56b5 .
+
+<http://data.performing-arts.ch/w/1ea818af-4435-4eb1-b149-fd5aaf72fb2b> rdau:P60399
+    skgpap:c2f05506-46a5-4e4f-b6c0-d07d46dbfa1e .
+
+skgpap:c2f05506-46a5-4e4f-b6c0-d07d46dbfa1e a schema:Person;
+  rdfs:label "Sibylle Burkhart" .
+
+<http://data.performing-arts.ch/w/1eddc89e-4bd0-45e3-8592-ca2ddfee7a1f> rdau:P60399
+    skgpap:8b6cd47b-d880-439c-a315-5e04fd74e76f .
+
+skgpap:8b6cd47b-d880-439c-a315-5e04fd74e76f a schema:Person;
+  rdfs:label "Urs Bircher" .
+
+<http://data.performing-arts.ch/w/1f30a735-4b9c-460b-a8bf-a1e4e96f9d53> rdau:P60399
+    skgpap:2210e9f8-180a-4884-b0f9-b670656ebbb8 .
+
+skgpap:2210e9f8-180a-4884-b0f9-b670656ebbb8 a schema:Person;
+  rdfs:label "Arie Zinger" .
+
+<http://data.performing-arts.ch/w/2048a95c-6645-48f8-8386-1e63f3284498> rdau:P60399
+    skgpap:3c3ba6ec-2691-4d6c-bb08-e55aa6fe9116 .
+
+skgpap:3c3ba6ec-2691-4d6c-bb08-e55aa6fe9116 a schema:Person;
+  rdfs:label "Franz-Xaver Nager" .
+
+<http://data.performing-arts.ch/w/20bba4cf-1c46-424a-a425-f9d2c23bdc09> rdau:P60399
+    skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 .
+
+skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 a schema:Person;
+  rdfs:label "Hans Hollmann" .
+
+<http://data.performing-arts.ch/w/3c4a150e-c553-4293-838e-596a8748080c> rdau:P60399
+    skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 .
+
+<http://data.performing-arts.ch/w/4d7ed2af-6b7f-40b0-8e97-567824c36b26> rdau:P60399
+    skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 .
+
+<http://data.performing-arts.ch/w/21025a99-640a-46f1-9be6-9e5b77d8e94a> rdau:P60399
+    skgpap:8fe30921-78f0-4f07-b6a1-0af116582068 .
+
+skgpap:8fe30921-78f0-4f07-b6a1-0af116582068 a schema:Person;
+  rdfs:label "Terry Hands";
+  schema:sameAs wd:Q975377 .
+
+<http://data.performing-arts.ch/w/2139797b-2e55-4f0a-93c5-123669cb8b12> rdau:P60399
+    skgpap:f0c526a8-4a8e-429f-bb00-325ece5bffdb .
+
+skgpap:f0c526a8-4a8e-429f-bb00-325ece5bffdb a schema:Person;
+  rdfs:label "Armand Delcampe";
+  schema:sameAs wd:Q2861821 .
+
+<http://data.performing-arts.ch/w/214891d1-2b23-4b10-86a6-6fa068d0e433> rdau:P60399
+    skgpap:f87c0db1-4526-4a3e-9a57-d30917ef7ddc .
+
+skgpap:f87c0db1-4526-4a3e-9a57-d30917ef7ddc a schema:Person;
+  rdfs:label "Viktor Bodó";
+  schema:sameAs wd:Q833188 .
+
+<http://data.performing-arts.ch/w/21a812c8-87d4-4f89-a39e-685a13decf00> rdau:P60399
+    skgpap:37a95312-3385-4dd0-9003-bb2135f00b1a .
+
+skgpap:37a95312-3385-4dd0-9003-bb2135f00b1a a schema:Person;
+  rdfs:label "Jan Bosse";
+  schema:sameAs wd:Q1681644 .
+
+<http://data.performing-arts.ch/w/27811b49-394e-4ef6-ab6e-f61c74c4aa89> rdau:P60399
+    skgpap:37a95312-3385-4dd0-9003-bb2135f00b1a .
+
+<http://data.performing-arts.ch/w/2afbbe2b-453f-441e-8ea8-c26498ef6b10> rdau:P60399
+    skgpap:37a95312-3385-4dd0-9003-bb2135f00b1a .
+
+<http://data.performing-arts.ch/w/4ab5314d-b081-4266-b5a4-b4aac777becf> rdau:P60399
+    skgpap:37a95312-3385-4dd0-9003-bb2135f00b1a .
+
+<http://data.performing-arts.ch/w/5535b35e-3fc3-4ab0-af5b-2e8dabc9fe12> rdau:P60399
+    skgpap:37a95312-3385-4dd0-9003-bb2135f00b1a .
+
+<http://data.performing-arts.ch/w/5d39ae45-20d0-418c-9bf6-dd2c649278af> rdau:P60399
+    skgpap:37a95312-3385-4dd0-9003-bb2135f00b1a .
+
+<http://data.performing-arts.ch/w/21dd3f8e-27d2-4d54-b3ef-470619bf7022> rdau:P60399
+    skgpap:4a8d0803-5344-4d45-b068-4e3c9f759916 .
+
+skgpap:4a8d0803-5344-4d45-b068-4e3c9f759916 a schema:Person;
+  rdfs:label "Clemens Maria Schönborn" .
+
+<http://data.performing-arts.ch/w/22d8aea9-9300-4e4c-9d44-d35734988d85> rdau:P60399
+    skgpap:3eb12631-f2a5-4316-b3ec-e31ae733e6a6 .
+
+skgpap:3eb12631-f2a5-4316-b3ec-e31ae733e6a6 a schema:Person;
+  rdfs:label "Ernst Wendt";
+  schema:sameAs wd:Q1360557 .
+
+<http://data.performing-arts.ch/w/243ac799-4851-43d1-b330-37a6e92709b4> rdau:P60399
+    skgpap:b10ac8d5-8749-4613-beb2-364d18302cc1 .
+
+skgpap:b10ac8d5-8749-4613-beb2-364d18302cc1 a schema:Person;
+  rdfs:label "Oswald Lipfert" .
+
+<http://data.performing-arts.ch/w/25fe07af-1df0-4bf2-9339-92048723ecd1> rdau:P60399
+    skgpap:cb0f14cb-81d7-4bac-b80f-2cceb7323632 .
+
+skgpap:cb0f14cb-81d7-4bac-b80f-2cceb7323632 a schema:Person;
+  rdfs:label "Nina Hartwig" .
+
+<http://data.performing-arts.ch/w/32c5b58f-f929-4847-baab-fe361f9cd3d0> rdau:P60399
+    skgpap:cb0f14cb-81d7-4bac-b80f-2cceb7323632 .
+
+<http://data.performing-arts.ch/w/262ae3ae-3cb6-4235-89ef-b8b90cd094e3> rdau:P60399
+    skgpap:1db70bd0-6699-4fe0-90e6-c7949df64397 .
+
+skgpap:1db70bd0-6699-4fe0-90e6-c7949df64397 a schema:Person;
+  rdfs:label "Klemens Renoldner" .
+
+<http://data.performing-arts.ch/w/269401ea-aa58-404e-a20d-7da6ce2219a1> rdau:P60399
+    skgpap:ba1e3aa7-dc61-4ab4-9ea8-e786362c3432 .
+
+skgpap:ba1e3aa7-dc61-4ab4-9ea8-e786362c3432 a schema:Person;
+  rdfs:label "Till Feigenbaum" .
+
+<http://data.performing-arts.ch/w/26efe0da-0f58-451f-9454-a3d45cb16829> rdau:P60399
+    skgpap:fca2681e-a29e-4602-8c65-301835fc7879 .
+
+skgpap:fca2681e-a29e-4602-8c65-301835fc7879 a schema:Person;
+  rdfs:label "Gísli Örn Gardarsson";
+  schema:sameAs wd:Q15929501 .
+
+<http://data.performing-arts.ch/w/488728ab-55ca-4559-a576-9a7d82f6c799> rdau:P60399
+    skgpap:fca2681e-a29e-4602-8c65-301835fc7879 .
+
+<http://data.performing-arts.ch/w/2771f38b-970d-47c9-ad66-bff8536dfb2a> rdau:P60399
+    skgpap:ea662076-c9d5-40a7-98f4-680fdc5cde46 .
+
+skgpap:ea662076-c9d5-40a7-98f4-680fdc5cde46 a schema:Person;
+  rdfs:label "Alvis Hermanis";
+  schema:sameAs wd:Q449386 .
+
+<http://data.performing-arts.ch/w/4bbdc7ed-f882-4082-bd1c-139ed1e0fecc> rdau:P60399
+    skgpap:ea662076-c9d5-40a7-98f4-680fdc5cde46 .
+
+<http://data.performing-arts.ch/w/5d0a9eff-6a73-49b3-9e56-f572ff6f5ebb> rdau:P60399
+    skgpap:ea662076-c9d5-40a7-98f4-680fdc5cde46 .
+
+<http://data.performing-arts.ch/w/27b39957-848a-487a-84e2-1c6ea39abb63> rdau:P60399
+    skgpap:5fa72c10-777d-4c21-9a65-f1edcba601da .
+
+skgpap:5fa72c10-777d-4c21-9a65-f1edcba601da a schema:Person;
+  rdfs:label "Jan Sobrie";
+  schema:sameAs wd:Q2929049 .
+
+<http://data.performing-arts.ch/w/27d65ef9-581f-462e-994d-7105cf77441a> rdau:P60399
+    skgpap:b283d105-64ad-456d-8855-4e7b91f839ec .
+
+skgpap:b283d105-64ad-456d-8855-4e7b91f839ec a schema:Person;
+  rdfs:label "Gerd Leo Kuck" .
+
+<http://data.performing-arts.ch/w/4a915997-55d1-45b8-bfb1-a84afe380e66> rdau:P60399
+    skgpap:b283d105-64ad-456d-8855-4e7b91f839ec .
+
+<http://data.performing-arts.ch/w/4b7d7d7c-51c2-45c6-bda4-ef65fb97a53a> rdau:P60399
+    skgpap:b283d105-64ad-456d-8855-4e7b91f839ec .
+
+<http://data.performing-arts.ch/w/2a8fe6d3-a1c5-4ff1-8347-16296a6b8ffb> rdau:P60399
+    skgpap:3dca643d-23a6-48a7-a0f1-4539393991d7 .
+
+skgpap:3dca643d-23a6-48a7-a0f1-4539393991d7 a schema:Person;
+  rdfs:label "Robert Borgmann";
+  schema:sameAs wd:Q16739388 .
+
+<http://data.performing-arts.ch/w/2badf676-9dda-4497-bb35-f01cccd0d6cd> rdau:P60399
+    skgpap:2560a19d-cf48-4229-9034-4296802b6021 .
+
+skgpap:2560a19d-cf48-4229-9034-4296802b6021 a schema:Person;
+  rdfs:label "Anca Munteanu Rimnic";
+  schema:sameAs wd:Q95713869 .
+
+<http://data.performing-arts.ch/w/2cbd6065-46f8-4524-98b6-8bf6219fd438> rdau:P60399
+    skgpap:75ccdffb-d9d6-4513-989a-2d8ca4fffdfd .
+
+skgpap:75ccdffb-d9d6-4513-989a-2d8ca4fffdfd a schema:Person;
+  rdfs:label "Jens-Daniel Herzog";
+  schema:sameAs wd:Q108551 .
+
+<http://data.performing-arts.ch/w/2ddae686-e043-4e45-8c54-5212fcdfb078> rdau:P60399
+    skgpap:1573924d-462e-49e3-b07b-a1b4056ce285 .
+
+skgpap:1573924d-462e-49e3-b07b-a1b4056ce285 a schema:Person;
+  rdfs:label "Sebastian Baumgarten";
+  schema:sameAs wd:Q1263850 .
+
+<http://data.performing-arts.ch/w/44531f75-d782-42fc-9f97-46b63623fde2> rdau:P60399
+    skgpap:1573924d-462e-49e3-b07b-a1b4056ce285 .
+
+<http://data.performing-arts.ch/w/5505a1cd-161f-40f9-8359-df05ab8236b0> rdau:P60399
+    skgpap:1573924d-462e-49e3-b07b-a1b4056ce285 .
+
+<http://data.performing-arts.ch/w/2f762e64-db1c-4210-96e1-51011fe8a743> rdau:P60399
+    skgpap:eb7e441a-1305-46be-afd9-2a4076ed8055 .
+
+skgpap:eb7e441a-1305-46be-afd9-2a4076ed8055 a schema:Person;
+  rdfs:label "Alexander Varesco" .
+
+<http://data.performing-arts.ch/w/308e79db-9c62-4358-a906-2dfd8e5a3483> rdau:P60399
+    skgpap:fa87c925-d8c6-4646-8c04-798793852f99 .
+
+skgpap:fa87c925-d8c6-4646-8c04-798793852f99 a schema:Person;
+  rdfs:label "Jossi Wieler";
+  schema:sameAs wd:Q1480343 .
+
+<http://data.performing-arts.ch/w/4709a81f-2f3b-4db5-ad89-ef5b1af81fff> rdau:P60399
+    skgpap:fa87c925-d8c6-4646-8c04-798793852f99 .
+
+<http://data.performing-arts.ch/w/30a71b71-7474-4e86-ad35-cf1ebcfde3eb> rdau:P60399
+    skgpap:e1fcacd2-4686-4e22-ac62-9fcba3bf61d4 .
+
+skgpap:e1fcacd2-4686-4e22-ac62-9fcba3bf61d4 a schema:Person;
+  rdfs:label "Stefan Kaegi";
+  schema:sameAs wd:Q52892396 .
+
+<http://data.performing-arts.ch/w/5614dd35-7c9a-4d1b-9194-86909bb2d05e> rdau:P60399
+    skgpap:e1fcacd2-4686-4e22-ac62-9fcba3bf61d4, skgpap:49055ee5-d52e-437f-b0f8-667370bff554 .
+
+<http://data.performing-arts.ch/w/5a769223-fed1-4c67-bce5-a30cd04ee2d1> rdau:P60399
+    skgpap:e1fcacd2-4686-4e22-ac62-9fcba3bf61d4, skgpap:49055ee5-d52e-437f-b0f8-667370bff554,
+    skgpap:2f7fadea-3375-4d3c-bb6c-a6b9bee27bfe .
+
+<http://data.performing-arts.ch/w/30bf7b74-7440-4566-8fe1-a11ece2ad2f9> rdau:P60399
+    skgpap:4e15b645-89a4-4bd3-a035-1ecfe4b4f409 .
+
+skgpap:4e15b645-89a4-4bd3-a035-1ecfe4b4f409 a schema:Person;
+  rdfs:label "Res Bosshart" .
+
+<http://data.performing-arts.ch/w/315a88fa-a253-447e-a145-4d9afd55e839> rdau:P60399
+    skgpap:a2cb3e30-6d06-4d81-bcf9-27686e4981eb .
+
+skgpap:a2cb3e30-6d06-4d81-bcf9-27686e4981eb a schema:Person;
+  rdfs:label "Johan Simons";
+  schema:sameAs wd:Q327891 .
+
+<http://data.performing-arts.ch/w/3162a725-7807-461b-ad6d-6925e4d5ea7c> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 a schema:Person;
+  rdfs:label "Sebastian Nübling";
+  schema:sameAs wd:Q2262993 .
+
+<http://data.performing-arts.ch/w/3e13ccaa-5ee1-495c-964d-8c996ef7fffd> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/59b43e4b-bfca-4dfe-bd01-b3e9de217ee6> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/3190afd1-e2d3-44d9-ae51-087b016d9161> rdau:P60399
+    skgpap:b4bc6008-7b79-4a6a-94f7-79e16ac656f3 .
+
+skgpap:b4bc6008-7b79-4a6a-94f7-79e16ac656f3 a schema:Person;
+  rdfs:label "Axel von Ambesser";
+  schema:sameAs wd:Q90069 .
+
+<http://data.performing-arts.ch/w/31c1c062-3d2d-48c0-8b15-7390bb1e47c0> rdau:P60399
+    skgpap:d209137e-283a-4c0d-a556-252f20e2bfa8 .
+
+skgpap:d209137e-283a-4c0d-a556-252f20e2bfa8 a schema:Person;
+  rdfs:label "Rolf von Sydow";
+  schema:sameAs wd:Q105759 .
+
+<http://data.performing-arts.ch/w/3214879d-9133-4ca0-aa2e-b9367d510ac0> rdau:P60399
+    skgpap:ca17c329-e201-458f-94fa-d9cb6b2c269f .
+
+skgpap:ca17c329-e201-458f-94fa-d9cb6b2c269f a schema:Person;
+  rdfs:label "Daniel Karasek";
+  schema:sameAs wd:Q970992 .
+
+<http://data.performing-arts.ch/w/355a622c-09b5-4c04-a42a-aeff50ee2e1a> rdau:P60399
+    skgpap:ca17c329-e201-458f-94fa-d9cb6b2c269f .
+
+<http://data.performing-arts.ch/w/56208eb6-9e56-477e-b635-a28452700f63> rdau:P60399
+    skgpap:ca17c329-e201-458f-94fa-d9cb6b2c269f .
+
+<http://data.performing-arts.ch/w/32cba14b-e710-44cc-bb8e-b5118fc81f8e> rdau:P60399
+    skgpap:0c94cf35-9ad5-4328-93ab-d4f5d6957b15 .
+
+skgpap:0c94cf35-9ad5-4328-93ab-d4f5d6957b15 a schema:Person;
+  rdfs:label "Peter Wood";
+  schema:sameAs wd:Q7177772 .
+
+<http://data.performing-arts.ch/w/3309248e-1a50-4806-935a-73ce31f6e988> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 a schema:Person;
+  rdfs:label "Harry Buckwitz";
+  schema:sameAs wd:Q1586409 .
+
+<http://data.performing-arts.ch/w/3b343f51-c14b-40fa-8196-7c8a80d9dd4d> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/41c2eb9a-0c22-4df8-afdb-3852c27c7516> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/5077ccdb-c83a-463f-a383-cc916e2c320c> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/56c060cc-1120-449a-80f1-fee73aebe991> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/34c71685-efa7-4e19-9a77-f62942861579> rdau:P60399
+    skgpap:82bd6622-f3ff-49e5-8c98-6a5b2826e2d1 .
+
+skgpap:82bd6622-f3ff-49e5-8c98-6a5b2826e2d1 a schema:Person;
+  rdfs:label "Igor Bauersima";
+  schema:sameAs wd:Q693535 .
+
+<http://data.performing-arts.ch/w/35dd4a2d-d186-4a6f-ae0c-7fcc960eaeca> rdau:P60399
+    skgpap:8296ad5b-2d0c-48bb-88a7-041fdfd16f16 .
+
+skgpap:8296ad5b-2d0c-48bb-88a7-041fdfd16f16 a schema:Person;
+  rdfs:label "Jürgen Flimm";
+  schema:sameAs wd:Q91997 .
+
+<http://data.performing-arts.ch/w/36b1cfda-3fee-4a4e-b168-72ec6bcccdff> rdau:P60399
+    skgpap:9da78bc7-87ac-4d9a-b81f-ca8ac340657e .
+
+skgpap:9da78bc7-87ac-4d9a-b81f-ca8ac340657e a schema:Person;
+  rdfs:label "Konrad Swinarski";
+  schema:sameAs wd:Q1782343 .
+
+<http://data.performing-arts.ch/w/39bfe430-eaa5-48a4-a713-5a9f083d14c5> rdau:P60399
+    skgpap:9da78bc7-87ac-4d9a-b81f-ca8ac340657e .
+
+<http://data.performing-arts.ch/w/36fc2cd1-de4d-4150-81aa-b87481bebbf0> rdau:P60399
+    skgpap:80cd995f-8333-4119-80fb-fa19856b5fbf .
+
+skgpap:80cd995f-8333-4119-80fb-fa19856b5fbf a schema:Person;
+  rdfs:label "Jean-Pierre Ponnelle";
+  schema:sameAs wd:Q1322353 .
+
+<http://data.performing-arts.ch/w/37033958-94c6-40fc-ac7b-4dfe469aef55> rdau:P60399
+    skgpap:177b6f0f-b5b1-47f8-9826-e5202ed121d6 .
+
+skgpap:177b6f0f-b5b1-47f8-9826-e5202ed121d6 a schema:Person;
+  rdfs:label "alle Beteiligten" .
+
+<http://data.performing-arts.ch/w/379136e9-294b-4146-8d18-ae9e110be473> rdau:P60399
+    skgpap:cf009af8-6a59-49aa-b08b-db0eebcb5b5e .
+
+skgpap:cf009af8-6a59-49aa-b08b-db0eebcb5b5e a schema:Person;
+  rdfs:label "Alexander Wiegold";
+  schema:sameAs wd:Q2643273 .
+
+<http://data.performing-arts.ch/w/37aa9cf7-ca20-4fc1-bf3b-c1f30daab64d> rdau:P60399
+    skgpap:160b3ab3-9dbd-4672-bedd-4353cbb2a002 .
+
+skgpap:160b3ab3-9dbd-4672-bedd-4353cbb2a002 a schema:Person;
+  rdfs:label "Hansjörg Utzerath";
+  schema:sameAs wd:Q1121564 .
+
+<http://data.performing-arts.ch/w/385264f5-5405-441d-8ed3-ee27aa86e901> rdau:P60399
+    skgpap:a83c5a65-6621-4638-bbdf-2070fc15601b .
+
+skgpap:a83c5a65-6621-4638-bbdf-2070fc15601b a schema:Person;
+  rdfs:label "Nina Mattenklotz" .
+
+<http://data.performing-arts.ch/w/4a4cf734-feca-43fb-bc4d-de3f9c9f392e> rdau:P60399
+    skgpap:a83c5a65-6621-4638-bbdf-2070fc15601b .
+
+<http://data.performing-arts.ch/w/39b2e2a7-a7d4-4ed3-af4b-0a9f5bb601c8> rdau:P60399
+    skgpap:de2b316f-7627-42b9-9286-4b0feca4ff33 .
+
+skgpap:de2b316f-7627-42b9-9286-4b0feca4ff33 a schema:Person;
+  rdfs:label "Christiane Pohle";
+  schema:sameAs wd:Q1082792 .
+
+<http://data.performing-arts.ch/w/4aa7ae5b-e69d-469e-9ba0-b2f160e05cf7> rdau:P60399
+    skgpap:de2b316f-7627-42b9-9286-4b0feca4ff33 .
+
+<http://data.performing-arts.ch/w/5550dedf-6cce-4296-8567-147a65052feb> rdau:P60399
+    skgpap:de2b316f-7627-42b9-9286-4b0feca4ff33 .
+
+<http://data.performing-arts.ch/w/3aa0a814-c595-47d0-909f-119f6c522c4a> rdau:P60399
+    skgpap:db7d0880-db9e-495a-9066-ac0b85e95b24 .
+
+skgpap:db7d0880-db9e-495a-9066-ac0b85e95b24 a schema:Person;
+  rdfs:label "Manfred Wekwerth*";
+  schema:sameAs wd:Q1709881 .
+
+<http://data.performing-arts.ch/w/3b18ff74-485d-46e1-9174-daac87c72e31> rdau:P60399
+    skgpap:4179f135-9135-43a3-bc55-2e10546e1a3a .
+
+skgpap:4179f135-9135-43a3-bc55-2e10546e1a3a a schema:Person;
+  rdfs:label "Enrico Beeler" .
+
+<http://data.performing-arts.ch/w/5ee46d87-5808-45e5-a655-44cf8b83d5ce> rdau:P60399
+    skgpap:4179f135-9135-43a3-bc55-2e10546e1a3a .
+
+<http://data.performing-arts.ch/w/3ba72330-8279-40c0-9970-cbdca73ad852> rdau:P60399
+    skgpap:4c3eb974-4bd9-4936-a883-608780b6b6a0 .
+
+skgpap:4c3eb974-4bd9-4936-a883-608780b6b6a0 a schema:Person;
+  rdfs:label "Felix Benesch";
+  schema:sameAs wd:Q1403332 .
+
+<http://data.performing-arts.ch/w/3c9c574f-a3c1-4781-86b2-ccef66e55c33> rdau:P60399
+    skgpap:4c3eb974-4bd9-4936-a883-608780b6b6a0 .
+
+<http://data.performing-arts.ch/w/3c2dd098-899e-4a67-a417-ae81d167a552> rdau:P60399
+    skgpap:82511291-cfb4-4277-9cdd-ceab175820f3 .
+
+skgpap:82511291-cfb4-4277-9cdd-ceab175820f3 a schema:Person;
+  rdfs:label "Peter Gruber" .
+
+<http://data.performing-arts.ch/w/44edd7f9-09f7-4ca3-9205-97111d744b2e> rdau:P60399
+    skgpap:82511291-cfb4-4277-9cdd-ceab175820f3 .
+
+<http://data.performing-arts.ch/w/554138d6-4f5e-4a95-9027-660ce12b820b> rdau:P60399
+    skgpap:82511291-cfb4-4277-9cdd-ceab175820f3 .
+
+<http://data.performing-arts.ch/w/3e3129f3-d1e2-4ee9-b52f-4472060e1ba0> rdau:P60399
+    skgpap:8d40f240-7cb1-403c-b393-91361ff718cd .
+
+skgpap:8d40f240-7cb1-403c-b393-91361ff718cd a schema:Person;
+  rdfs:label "Christof Nel";
+  schema:sameAs wd:Q1084315 .
+
+<http://data.performing-arts.ch/w/3ef472a3-6879-4d4d-84fd-6af7f88a777a> rdau:P60399
+    skgpap:7bde7427-bce4-4a19-8118-3f5a8a563454 .
+
+skgpap:7bde7427-bce4-4a19-8118-3f5a8a563454 a schema:Person;
+  rdfs:label "Hermann Molzer" .
+
+<http://data.performing-arts.ch/w/3f3d1193-c0dc-4583-a6d7-b331fa1d84b1> rdau:P60399
+    skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 .
+
+skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 a schema:Person;
+  rdfs:label "Bastian Kraft";
+  schema:sameAs wd:Q810618 .
+
+<http://data.performing-arts.ch/w/430d1c89-272f-417e-866c-b904b24d49f3> rdau:P60399
+    skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 .
+
+<http://data.performing-arts.ch/w/43865f8b-0a39-4a92-9368-baf3c5c0a8ec> rdau:P60399
+    skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 .
+
+<http://data.performing-arts.ch/w/40fbcd34-7478-4712-8543-4ebb9b9b9297> rdau:P60399
+    skgpap:58ed7b08-b231-4caa-a195-f5e4d2d65a8c .
+
+skgpap:58ed7b08-b231-4caa-a195-f5e4d2d65a8c a schema:Person;
+  rdfs:label "Julia Heinrichs" .
+
+<http://data.performing-arts.ch/w/40fcd2c9-1ca1-4ab1-9573-8e0a392a12e4> rdau:P60399
+    skgpap:620a43c8-51f8-4145-991b-1b97f03d1b3c .
+
+skgpap:620a43c8-51f8-4145-991b-1b97f03d1b3c a schema:Person;
+  rdfs:label "Christina Paulhofer";
+  schema:sameAs wd:Q1083238 .
+
+<http://data.performing-arts.ch/w/4eb9bea3-fc15-45b9-8161-86692bfd7262> rdau:P60399
+    skgpap:620a43c8-51f8-4145-991b-1b97f03d1b3c .
+
+<http://data.performing-arts.ch/w/417e68ab-cc42-4471-b927-2ec10f6bc341> rdau:P60399
+    skgpap:2b538542-d820-4c50-b481-c66f7891f6c4 .
+
+skgpap:2b538542-d820-4c50-b481-c66f7891f6c4 a schema:Person;
+  rdfs:label "Wilfried Minks";
+  schema:sameAs wd:Q99786 .
+
+<http://data.performing-arts.ch/w/41d40768-831b-4a34-acf7-be33810f7e4a> rdau:P60399
+    skgpap:1be213eb-fe30-433f-b4f3-664e4eb4d2e9 .
+
+skgpap:1be213eb-fe30-433f-b4f3-664e4eb4d2e9 a schema:Person;
+  rdfs:label "Jürgen Bosse";
+  schema:sameAs wd:Q1682271 .
+
+<http://data.performing-arts.ch/w/41f4e5d2-06b0-429f-8580-a0a865f74d1e> rdau:P60399
+    skgpap:b49c36e3-aff6-4140-9e1f-2028c446291d .
+
+skgpap:b49c36e3-aff6-4140-9e1f-2028c446291d a schema:Person;
+  rdfs:label "Volker Schmalöer";
+  schema:sameAs wd:Q1310776 .
+
+<http://data.performing-arts.ch/w/41f5ae3f-9542-451c-9309-a9d084897949> rdau:P60399
+    skgpap:191c4d32-d6c0-4d30-81a5-54349da96866 .
+
+skgpap:191c4d32-d6c0-4d30-81a5-54349da96866 a schema:Person;
+  rdfs:label "Barbara Ellenberger" .
+
+<http://data.performing-arts.ch/w/423dabcd-0dcd-432e-837a-5b00d3da106c> rdau:P60399
+    skgpap:49d2d50c-597e-4be7-a2cb-49ea77b6be10 .
+
+skgpap:49d2d50c-597e-4be7-a2cb-49ea77b6be10 a schema:Person;
+  rdfs:label "Julia Burger";
+  schema:sameAs wd:Q95650635 .
+
+<http://data.performing-arts.ch/w/4279cb19-69fc-4932-b54a-b62824749122> rdau:P60399
+    skgpap:e0feee4e-73ac-43c6-acd0-33eee170ee70 .
+
+skgpap:e0feee4e-73ac-43c6-acd0-33eee170ee70 a schema:Person;
+  rdfs:label "Horst Siede";
+  schema:sameAs wd:Q95287141 .
+
+<http://data.performing-arts.ch/w/439381d3-f5ec-4e75-87ad-6b5a90c11c37> rdau:P60399
+    skgpap:77cbd498-86ab-46bb-844b-2930d4cc0478 .
+
+skgpap:77cbd498-86ab-46bb-844b-2930d4cc0478 a schema:Person;
+  rdfs:label "Jean Grädel" .
+
+<http://data.performing-arts.ch/w/4398914b-9e1f-493e-af1d-f17852b4f754> rdau:P60399
+    skgpap:3c75004d-d9ae-4d83-94be-c6ba66a11353 .
+
+skgpap:3c75004d-d9ae-4d83-94be-c6ba66a11353 a schema:Person;
+  rdfs:label "Niklaus Helbling";
+  schema:sameAs wd:Q18222234 .
+
+<http://data.performing-arts.ch/w/4d4213a6-8e60-483a-84be-73a46ba22bc8> rdau:P60399
+    skgpap:3c75004d-d9ae-4d83-94be-c6ba66a11353 .
+
+<http://data.performing-arts.ch/w/4398f488-198e-4f12-beb9-ac8d2ccfc816> rdau:P60399
+    skgpap:e439c3ed-6cca-492b-9523-0681d18231bb .
+
+skgpap:e439c3ed-6cca-492b-9523-0681d18231bb a schema:Person;
+  rdfs:label "Herbert Fritsch";
+  schema:sameAs wd:Q1608294 .
+
+<http://data.performing-arts.ch/w/54f87158-6143-4140-ba7f-4c4657a33d2b> rdau:P60399
+    skgpap:e439c3ed-6cca-492b-9523-0681d18231bb .
+
+<http://data.performing-arts.ch/w/56140618-c4c5-46c8-845d-856578307af6> rdau:P60399
+    skgpap:e439c3ed-6cca-492b-9523-0681d18231bb .
+
+<http://data.performing-arts.ch/w/58dfba80-894b-4c21-9479-838cfef1d75d> rdau:P60399
+    skgpap:e439c3ed-6cca-492b-9523-0681d18231bb .
+
+<http://data.performing-arts.ch/w/458d17d3-9b75-4dbb-8d15-075852e5968c> rdau:P60399
+    skgpap:3b876d36-f954-4b64-a6d0-1d96ca210ba6 .
+
+skgpap:3b876d36-f954-4b64-a6d0-1d96ca210ba6 a schema:Person;
+  rdfs:label "Fred Berndt";
+  schema:sameAs wd:Q1452224 .
+
+<http://data.performing-arts.ch/w/461a3f97-cf05-43b3-b534-2f8d6f0357f9> rdau:P60399
+    skgpap:871359f4-ef67-4e0c-b5f5-1e758abdb243 .
+
+skgpap:871359f4-ef67-4e0c-b5f5-1e758abdb243 a schema:Person;
+  rdfs:label "Sarah Verny" .
+
+<http://data.performing-arts.ch/w/468ad2c7-4a52-4e68-a192-4e6b4980152c> rdau:P60399
+    skgpap:220f3c9b-f53e-45e6-b716-e2c6bb5576a6 .
+
+skgpap:220f3c9b-f53e-45e6-b716-e2c6bb5576a6 a schema:Person;
+  rdfs:label "Michel Schröder";
+  schema:sameAs wd:Q52835743 .
+
+<http://data.performing-arts.ch/w/479a6ed8-e38d-4857-9e62-8b7d9d6bcd59> rdau:P60399
+    skgpap:ea349603-987d-4851-ad8a-40f16debbff4 .
+
+skgpap:ea349603-987d-4851-ad8a-40f16debbff4 a schema:Person;
+  rdfs:label "Paul Vasil";
+  schema:sameAs wd:Q95813200 .
+
+<http://data.performing-arts.ch/w/47ca6609-1dc3-4df7-9f65-9cc8f1e0b043> rdau:P60399
+    skgpap:8988f876-bed4-430b-85bb-c3798ef4b118 .
+
+skgpap:8988f876-bed4-430b-85bb-c3798ef4b118 a schema:Person;
+  rdfs:label "Wolfram Frank";
+  schema:sameAs wd:Q18029854 .
+
+<http://data.performing-arts.ch/w/47e386e8-7f9d-4893-b2c8-5686edfa0a25> rdau:P60399
+    skgpap:7e97ee75-ba4f-4c73-8e67-f401ea90ef44 .
+
+skgpap:7e97ee75-ba4f-4c73-8e67-f401ea90ef44 a schema:Person;
+  rdfs:label "Jürg Cossardt" .
+
+<http://data.performing-arts.ch/w/484128e6-1b68-4082-b24c-9856b7491a2d> rdau:P60399
+    skgpap:24451b96-17ff-458c-b19f-05ad1e950f54 .
+
+skgpap:24451b96-17ff-458c-b19f-05ad1e950f54 a schema:Person;
+  rdfs:label "Bernard Sobel";
+  schema:sameAs wd:Q4893659 .
+
+<http://data.performing-arts.ch/w/4846af32-6a2a-43f9-8f90-ee1fa60ae620> rdau:P60399
+    skgpap:8a7679af-05f9-429a-a5bc-c992a072b66d .
+
+skgpap:8a7679af-05f9-429a-a5bc-c992a072b66d a schema:Person;
+  rdfs:label "Hannes Weiler" .
+
+<http://data.performing-arts.ch/w/48d9719a-c0ec-4494-9b7b-36b2a8dc18fb> rdau:P60399
+    skgpap:ab02a744-9bf3-4634-83ae-c8a225f132a1 .
+
+skgpap:ab02a744-9bf3-4634-83ae-c8a225f132a1 a schema:Person;
+  rdfs:label "Peter Gill" .
+
+<http://data.performing-arts.ch/w/48f53cfb-2cc3-4e8f-b027-f414b519b24d> rdau:P60399
+    skgpap:540cdedb-1813-4dea-bdd3-649a4630a24e .
+
+skgpap:540cdedb-1813-4dea-bdd3-649a4630a24e a schema:Person;
+  rdfs:label "Peter Hahn" .
+
+<http://data.performing-arts.ch/w/4984f4c9-1c15-49f3-9651-3c11ed4ef242> rdau:P60399
+    skgpap:ec84adfe-f1eb-4c84-a888-14f6e973dabb .
+
+skgpap:ec84adfe-f1eb-4c84-a888-14f6e973dabb a schema:Person;
+  rdfs:label "Leonhard Koppelmann";
+  schema:sameAs wd:Q1819234 .
+
+<http://data.performing-arts.ch/w/4a667708-df5e-4659-a957-78191d9176eb> rdau:P60399
+    skgpap:a0ef5e01-a3a2-4338-8213-b21c4cebe88c .
+
+skgpap:a0ef5e01-a3a2-4338-8213-b21c4cebe88c a schema:Person;
+  rdfs:label "Sophie Bodamer" .
+
+<http://data.performing-arts.ch/w/4b09d6b5-ac4c-4c8e-abea-30b5c45db2ca> rdau:P60399
+    skgpap:7da75d4f-4ba4-46e7-9338-073b1188c50f .
+
+skgpap:7da75d4f-4ba4-46e7-9338-073b1188c50f a schema:Person;
+  rdfs:label "Manon Pfrunder";
+  schema:sameAs wd:Q79406292 .
+
+<http://data.performing-arts.ch/w/4b526262-d4d1-4c9a-9f91-c2a1c779c269> rdau:P60399
+    skgpap:2dad8d9e-508f-47b0-82e3-aeffaa6e924d .
+
+skgpap:2dad8d9e-508f-47b0-82e3-aeffaa6e924d a schema:Person;
+  rdfs:label "Carlo Giuffrè";
+  schema:sameAs wd:Q555880 .
+
+<http://data.performing-arts.ch/w/4c39afdb-7176-416a-a091-6579abde94c0> rdau:P60399
+    skgpap:48103ff1-cc7b-48ee-945a-0d9b4f29f8e3 .
+
+skgpap:48103ff1-cc7b-48ee-945a-0d9b4f29f8e3 a schema:Person;
+  rdfs:label "Luca Ronconi" .
+
+<http://data.performing-arts.ch/w/4c6e2492-4cc9-44b0-b12c-a746146ec8ba> rdau:P60399
+    skgpap:7afa8e8b-fe5e-4648-a1e4-da1d9b89a330 .
+
+skgpap:7afa8e8b-fe5e-4648-a1e4-da1d9b89a330 a schema:Person;
+  rdfs:label "Monika Neun" .
+
+<http://data.performing-arts.ch/w/4d6aa037-1c9c-4154-bf51-695a410a56fb> rdau:P60399
+    skgpap:a77fa3ed-668f-462e-8e0e-0384641c3425 .
+
+skgpap:a77fa3ed-668f-462e-8e0e-0384641c3425 a schema:Person;
+  rdfs:label "Erwin Axer";
+  schema:sameAs wd:Q532624 .
+
+<http://data.performing-arts.ch/w/4dabe991-3c21-46a2-bc16-c2a912c70df3> rdau:P60399
+    skgpap:62d8665c-291d-44ab-99db-b58103f9bd53 .
+
+skgpap:62d8665c-291d-44ab-99db-b58103f9bd53 a schema:Person;
+  rdfs:label "Christian Weise" .
+
+<http://data.performing-arts.ch/w/4f6d166c-47fe-4344-b6f7-dd100915b93c> rdau:P60399
+    skgpap:2f0d63ad-175b-4d24-b187-fa530240a5fd .
+
+skgpap:2f0d63ad-175b-4d24-b187-fa530240a5fd a schema:Person;
+  rdfs:label "Henning Brockhaus";
+  schema:sameAs wd:Q3784826 .
+
+<http://data.performing-arts.ch/w/5a5401cc-c05a-45ac-9382-04b9c22a807c> rdau:P60399
+    skgpap:2f0d63ad-175b-4d24-b187-fa530240a5fd .
+
+<http://data.performing-arts.ch/w/4ffc0fbf-3d19-4702-8a45-24ae8b8b9601> rdau:P60399
+    skgpap:9f9728da-5ce1-413e-bd36-c6bcb59438aa .
+
+skgpap:9f9728da-5ce1-413e-bd36-c6bcb59438aa a schema:Person;
+  rdfs:label "Clara Dobbertin";
+  schema:sameAs wd:Q62822366 .
+
+<http://data.performing-arts.ch/w/50367177-5558-4fbf-addf-c72a940561ee> rdau:P60399
+    skgpap:54581691-b0e0-410c-b131-bc65b7ae465e .
+
+skgpap:54581691-b0e0-410c-b131-bc65b7ae465e a schema:Person;
+  rdfs:label "Karl Heinz Stroux";
+  schema:sameAs wd:Q1685147 .
+
+<http://data.performing-arts.ch/w/5062ee52-4fc1-4b84-82a8-b085094da0c2> rdau:P60399
+    skgpap:0c3a6074-b3de-453e-9197-b6f5f14289f0, skgpap:a6c66a30-d1a4-479c-8fe7-1d5a16489270 .
+
+skgpap:0c3a6074-b3de-453e-9197-b6f5f14289f0 a schema:Person;
+  rdfs:label "Manfred Karge" .
+
+skgpap:a6c66a30-d1a4-479c-8fe7-1d5a16489270 a schema:Person;
+  rdfs:label "Matthias Langhoff";
+  schema:sameAs wd:Q96054 .
+
+<http://data.performing-arts.ch/w/54f7922f-2b9a-4533-81a2-d0622233e2a5> rdau:P60399
+    skgpap:a6c66a30-d1a4-479c-8fe7-1d5a16489270 .
+
+<http://data.performing-arts.ch/w/535f0910-9842-4bcf-9525-6a4b6acea83b> rdau:P60399
+    skgpap:b70eaae5-5f7e-4a8d-9b46-9c3784640675 .
+
+skgpap:b70eaae5-5f7e-4a8d-9b46-9c3784640675 a schema:Person;
+  rdfs:label "Christophe Correia" .
+
+<http://data.performing-arts.ch/w/544e248e-d09b-4812-bcd9-df2da44c21de> rdau:P60399
+    skgpap:351d26f1-dd10-489e-8f2f-6d136d010723 .
+
+skgpap:351d26f1-dd10-489e-8f2f-6d136d010723 a schema:Person;
+  rdfs:label "Dušan David Pařízek";
+  schema:sameAs wd:Q14923709 .
+
+<http://data.performing-arts.ch/w/5475f414-85d0-49bc-b908-5f1578db91ee> rdau:P60399
+    skgpap:700d5e07-cfe8-4a34-b555-d85c4df49e09 .
+
+skgpap:700d5e07-cfe8-4a34-b555-d85c4df49e09 a schema:Person;
+  rdfs:label "Maximilian Enderle" .
+
+<http://data.performing-arts.ch/w/5508cc04-72f7-4ce1-b86f-de6c4da30e9c> rdau:P60399
+    skgpap:57f95743-f1f5-4391-aa32-47ed3a6346c2 .
+
+skgpap:57f95743-f1f5-4391-aa32-47ed3a6346c2 a schema:Person;
+  rdfs:label "Hans Neuenfels";
+  schema:sameAs wd:Q89890 .
+
+<http://data.performing-arts.ch/w/55936b19-b14b-4d6d-ae55-a50fe09fccbc> rdau:P60399
+    skgpap:1918e63f-e9da-4607-a3c1-c1135a08de78 .
+
+skgpap:1918e63f-e9da-4607-a3c1-c1135a08de78 a schema:Person;
+  rdfs:label "Angelika Hurwicz";
+  schema:sameAs wd:Q110571 .
+
+<http://data.performing-arts.ch/w/55ebb49f-7590-4f96-9e23-fd9432f8ecb8> rdau:P60399
+    skgpap:22469e0e-9980-4eed-8d8b-832dbee5ed59 .
+
+skgpap:22469e0e-9980-4eed-8d8b-832dbee5ed59 a schema:Person;
+  rdfs:label "Christof Loy";
+  schema:sameAs wd:Q1084305 .
+
+skgpap:49055ee5-d52e-437f-b0f8-667370bff554 a schema:Person;
+  rdfs:label "Helgard Haug";
+  schema:sameAs wd:Q52634758 .
+
+<http://data.performing-arts.ch/w/57c205e8-4cd3-499a-a5a6-b72bca48a051> rdau:P60399
+    skgpap:a8d91976-c415-4052-8037-bd07d5c99a95 .
+
+skgpap:a8d91976-c415-4052-8037-bd07d5c99a95 a schema:Person;
+  rdfs:label "Kateryna Sokolova" .
+
+<http://data.performing-arts.ch/w/5815c131-2e4b-431d-a3be-0f9561217cb7> rdau:P60399
+    skgpap:5d9559d1-0f0e-4462-8b83-0dc1ee67e361 .
+
+skgpap:5d9559d1-0f0e-4462-8b83-0dc1ee67e361 a schema:Person;
+  rdfs:label "Marco Milling" .
+
+<http://data.performing-arts.ch/w/58bae90c-db81-4274-a924-660ccf5a997f> rdau:P60399
+    skgpap:bce57b5d-8c5d-47b4-aaae-05f238430f95 .
+
+skgpap:bce57b5d-8c5d-47b4-aaae-05f238430f95 a schema:Person;
+  rdfs:label "Erich Sidler";
+  schema:sameAs wd:Q15808385 .
+
+<http://data.performing-arts.ch/w/5a03c572-f05d-4987-a5a5-19dcb7e88d86> rdau:P60399
+    skgpap:96f0346c-c363-4309-996d-bb8c8c6859ef .
+
+skgpap:96f0346c-c363-4309-996d-bb8c8c6859ef a schema:Person;
+  rdfs:label "Václav Hudecek";
+  schema:sameAs wd:Q11985546 .
+
+<http://data.performing-arts.ch/w/5a093834-9e20-44b9-a69a-f62a4437f75f> rdau:P60399
+    skgpap:241343b6-9c08-4750-8e5f-8498eb7c2251 .
+
+skgpap:241343b6-9c08-4750-8e5f-8498eb7c2251 a schema:Person;
+  rdfs:label "Robert Lehniger" .
+
+<http://data.performing-arts.ch/w/5a29b26e-b721-4f1a-860a-bf6ef3273639> rdau:P60399
+    skgpap:b3d200f5-eb37-4b05-9c76-a8b03f65694c .
+
+skgpap:b3d200f5-eb37-4b05-9c76-a8b03f65694c a schema:Person;
+  rdfs:label "Françoise Petit" .
+
+<http://data.performing-arts.ch/w/5a67699f-60d5-49ff-81be-1a9c81052124> rdau:P60399
+    skgpap:d4939d81-3a37-4e58-8266-820b7d3883f0 .
+
+skgpap:d4939d81-3a37-4e58-8266-820b7d3883f0 a schema:Person;
+  rdfs:label "Rolf Stahl";
+  schema:sameAs wd:Q95248965 .
+
+skgpap:2f7fadea-3375-4d3c-bb6c-a6b9bee27bfe a schema:Person;
+  rdfs:label "Daniel Wetzel";
+  schema:sameAs wd:Q52914065 .
+
+<http://data.performing-arts.ch/w/5acde9a2-69f6-46b0-bffe-d9b0c0fd0f9d> rdau:P60399
+    skgpap:423facba-511c-4c25-9b91-ccbd827a5a12 .
+
+skgpap:423facba-511c-4c25-9b91-ccbd827a5a12 a schema:Person;
+  rdfs:label "Manfred Ferrari" .
+
+<http://data.performing-arts.ch/w/5bb3ea1e-8cc1-4bec-b9b9-4d2672ffe196> rdau:P60399
+    skgpap:5dbe0e58-7970-4483-a283-a975deed6e6d .
+
+skgpap:5dbe0e58-7970-4483-a283-a975deed6e6d a schema:Person;
+  rdfs:label "Antje Schupp" .
+
+<http://data.performing-arts.ch/w/5c01fa42-1d06-4f6f-a39f-bd30364e8c49> rdau:P60399
+    skgpap:1bce105d-73cd-4467-aeb6-634edfd870dc .
+
+skgpap:1bce105d-73cd-4467-aeb6-634edfd870dc a schema:Person;
+  rdfs:label "Henri Hohenemser";
+  schema:sameAs wd:Q1520066 .
+
+<http://data.performing-arts.ch/w/5c26289a-c928-457e-8e1a-ad3d5893dbfa> rdau:P60399
+    skgpap:78511a92-0d59-4dd4-a4f0-80f11802c06d, skgpap:b6e627fb-5c3d-46be-8b22-c4baf261ecfe .
+
+skgpap:78511a92-0d59-4dd4-a4f0-80f11802c06d a schema:Person;
+  rdfs:label "Mirijam Walther Kohn" .
+
+skgpap:b6e627fb-5c3d-46be-8b22-c4baf261ecfe a schema:Person;
+  rdfs:label "Timo Kristen" .
+
+<http://data.performing-arts.ch/w/5d3f16ee-0434-4659-8949-bf2f0a329e5d> rdau:P60399
+    skgpap:a383e8a3-d0fd-4ed3-a56e-bed10d9fb35a .
+
+skgpap:a383e8a3-d0fd-4ed3-a56e-bed10d9fb35a a schema:Person;
+  rdfs:label "Benno Besson";
+  schema:sameAs wd:Q449296 .
+
+<http://data.performing-arts.ch/w/5d9d66ff-74be-4748-b0eb-73913219420f> rdau:P60399
+    skgpap:bbe4d31d-c18c-4248-9b32-650a9bfa3bb3 .
+
+skgpap:bbe4d31d-c18c-4248-9b32-650a9bfa3bb3 a schema:Person;
+  rdfs:label "Nicolas Charaux" .
+
+<http://data.performing-arts.ch/w/5e0c62b1-28d0-466a-98fb-33146b133067> rdau:P60399
+    skgpap:7fed4b8a-138d-4251-bd40-921ae4a91760 .
+
+skgpap:7fed4b8a-138d-4251-bd40-921ae4a91760 a schema:Person;
+  rdfs:label "Inge Flimm";
+  schema:sameAs wd:Q1662769 .
+
+<http://data.performing-arts.ch/w/5fb56a85-31b6-4386-a557-62c05720a4f9> rdau:P60399
+    skgpap:8df76f6a-2773-44b9-8cf7-1723377bdd2a .
+
+skgpap:8df76f6a-2773-44b9-8cf7-1723377bdd2a a schema:Person;
+  rdfs:label "Horst Balzer";
+  schema:sameAs wd:Q94914028 .
+
+<http://data.performing-arts.ch/w/61118d1e-088a-4245-a2d4-01932e50cbcb> rdau:P60399
+    skgpap:f42981fc-735a-41ea-b5e9-508d353d170b .
+
+skgpap:f42981fc-735a-41ea-b5e9-508d353d170b a schema:Person;
+  rdfs:label "Hans Escher";
+  schema:sameAs wd:Q95297709 .
+
+<http://data.performing-arts.ch/w/6111c31d-703f-4720-a0bd-584b95628db2> rdau:P60399
+    skgpap:32ef7bed-1c09-418b-83f7-5d802d40fb5e .
+
+skgpap:32ef7bed-1c09-418b-83f7-5d802d40fb5e a schema:Person;
+  rdfs:label "Nicolas Stemann";
+  schema:sameAs wd:Q98761 .
+
+<http://data.performing-arts.ch/w/61eccce7-fb7e-465a-a6bd-005f074b610d> rdau:P60399
+    skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f .
+
+skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f a schema:Person;
+  rdfs:label "Rüdiger Burbach" .
+
+<http://data.performing-arts.ch/w/629c5411-159d-4dc3-8106-4dbd863b1a28> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/62e03fee-93af-4cdc-a7a6-71ebdc110597> rdau:P60399
+    skgpap:8608b214-b747-4b2f-942e-73813a4667d7 .
+
+<http://data.performing-arts.ch/w/6334baeb-8b3c-4222-8df8-80e957fbb3a4> rdau:P60399
+    skgpap:467abe64-2825-4cc9-912d-102d088c6235 .
+
+<http://data.performing-arts.ch/w/6407af4c-4d6d-4201-89cb-b39c213e5160> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30, skgpap:d5129565-d6b4-4a39-8e7e-80e6ab3c882c .
+
+skgpap:d5129565-d6b4-4a39-8e7e-80e6ab3c882c a schema:Person;
+  rdfs:label "Hermann Kutscher";
+  schema:sameAs wd:Q55684234 .
+
+<http://data.performing-arts.ch/w/64f9749a-1892-4fa5-a5f0-c591c9b90088> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/64fd4e3b-7f0f-44d5-9a93-8bba5a333c0c> rdau:P60399
+    skgpap:05aaae19-5a01-47ff-8ea0-337017536391 .
+
+<http://data.performing-arts.ch/w/65109752-30f6-4cd7-9e4e-34c3e0c1bff8> rdau:P60399
+    skgpap:bcf6588c-e41a-43e7-9811-3222f12fa959 .
+
+skgpap:bcf6588c-e41a-43e7-9811-3222f12fa959 a schema:Person;
+  rdfs:label "Barbara Liebster" .
+
+<http://data.performing-arts.ch/w/65318a8d-94de-4588-a90e-ef06cf2f02a6> rdau:P60399
+    skgpap:b1ed0c16-7b56-4955-a356-82e3528a0848 .
+
+skgpap:b1ed0c16-7b56-4955-a356-82e3528a0848 a schema:Person;
+  rdfs:label "Christian Stückl";
+  schema:sameAs wd:Q45606 .
+
+<http://data.performing-arts.ch/w/66869fb7-fd5a-4141-9e56-ac1a4c7dc9a1> rdau:P60399
+    skgpap:b283d105-64ad-456d-8855-4e7b91f839ec .
+
+<http://data.performing-arts.ch/w/66c941eb-332c-48b8-87db-b65a1cff027e> rdau:P60399
+    skgpap:410a490f-b42d-4d6e-b792-df383a4d4e92 .
+
+skgpap:410a490f-b42d-4d6e-b792-df383a4d4e92 a schema:Person;
+  rdfs:label "Samir Jamal Aldin" .
+
+<http://data.performing-arts.ch/w/6777159e-44f9-41cb-a98c-2c73d7a2cfa7> rdau:P60399
+    skgpap:d3634ede-4b57-4c68-b92f-9799dafcca65 .
+
+skgpap:d3634ede-4b57-4c68-b92f-9799dafcca65 a schema:Person;
+  rdfs:label "Milo Rau";
+  schema:sameAs wd:Q1935664 .
+
+<http://data.performing-arts.ch/w/67995ff2-e8c1-461e-a62b-b5ab7e326ccc> rdau:P60399
+    skgpap:8b6cd47b-d880-439c-a315-5e04fd74e76f .
+
+<http://data.performing-arts.ch/w/67b1d5f4-a57a-4f6f-ae07-4b0b7873389d> rdau:P60399
+    skgpap:e14436c0-18a8-47c9-bc3a-db4b8efe950f .
+
+skgpap:e14436c0-18a8-47c9-bc3a-db4b8efe950f a schema:Person;
+  rdfs:label "Thorsten Lensing";
+  schema:sameAs wd:Q2429167 .
+
+<http://data.performing-arts.ch/w/688c125d-b0fa-4971-a3cc-2ca46f2e99d6> rdau:P60399
+    skgpap:ca17c329-e201-458f-94fa-d9cb6b2c269f .
+
+<http://data.performing-arts.ch/w/68985224-9a2c-4ced-8727-808aad1fbaf1> rdau:P60399
+    skgpap:5a8702c9-e196-439a-a315-cebd0e9173aa .
+
+skgpap:5a8702c9-e196-439a-a315-cebd0e9173aa a schema:Person;
+  rdfs:label "Rudolf Noelte";
+  schema:sameAs wd:Q104792 .
+
+<http://data.performing-arts.ch/w/689dcffd-45f0-465a-bdfa-e0b7d260a607> rdau:P60399
+    skgpap:2210e9f8-180a-4884-b0f9-b670656ebbb8 .
+
+<http://data.performing-arts.ch/w/68df4c13-140a-441b-8d58-37aa6ea930a8> rdau:P60399
+    skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f .
+
+<http://data.performing-arts.ch/w/6919ac7c-76f5-49f8-aea6-77b15f5a6a4e> rdau:P60399
+    skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 .
+
+<http://data.performing-arts.ch/w/6998987c-5ff8-4ff8-8cc8-f8e9b1539c3d> rdau:P60399
+    skgpap:4fba2673-0a9b-4471-96f1-72b764a55b24 .
+
+<http://data.performing-arts.ch/w/6a07e400-47b3-4a43-ae22-09a13a15b270> rdau:P60399
+    skgpap:93db894d-a6bc-4073-b3f8-6f379a76bf11 .
+
+skgpap:93db894d-a6bc-4073-b3f8-6f379a76bf11 a schema:Person;
+  rdfs:label "Lars Schmidt" .
+
+<http://data.performing-arts.ch/w/6a1b205a-72e7-4f91-8e1f-59350267f303> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017, skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6,
+    skgpap:4179f135-9135-43a3-bc55-2e10546e1a3a, skgpap:d8608d7e-919b-45a4-a530-98867a5f5393,
+    skgpap:2fd0e4e8-52ea-491a-a2f5-e4fd108f30b2, skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57,
+    skgpap:e439c3ed-6cca-492b-9523-0681d18231bb .
+
+<http://data.performing-arts.ch/w/6a3104cd-7565-4189-89f5-4b30b90dca68> rdau:P60399
+    skgpap:1be213eb-fe30-433f-b4f3-664e4eb4d2e9 .
+
+<http://data.performing-arts.ch/w/6a559724-1d9d-4b6a-9229-c9fd22a974e5> rdau:P60399
+    skgpap:722a2f1c-473e-4f25-aa4d-2c4fcb4bec91 .
+
+skgpap:722a2f1c-473e-4f25-aa4d-2c4fcb4bec91 a schema:Person;
+  rdfs:label "Barbara Schlumpf";
+  schema:sameAs wd:Q95205476 .
+
+<http://data.performing-arts.ch/w/6ab18781-4440-49f8-89e6-8c8dadba3166> rdau:P60399
+    skgpap:77cbd498-86ab-46bb-844b-2930d4cc0478 .
+
+<http://data.performing-arts.ch/w/6b88f343-ea0e-406a-9539-2cbad6e1c000> rdau:P60399
+    skgpap:14667022-d3c5-49a0-a791-e5d00f30a98f .
+
+skgpap:14667022-d3c5-49a0-a791-e5d00f30a98f a schema:Person;
+  rdfs:label "Heike M. Goetze";
+  schema:sameAs wd:Q1000983 .
+
+<http://data.performing-arts.ch/w/6c27a531-d600-47dc-8245-62b74ad69a82> rdau:P60399
+    skgpap:eaa1edd2-51f4-42ad-bbb8-18feb4c24829 .
+
+skgpap:eaa1edd2-51f4-42ad-bbb8-18feb4c24829 a schema:Person;
+  rdfs:label "Christina Rast";
+  schema:sameAs wd:Q1083251 .
+
+<http://data.performing-arts.ch/w/6c5d4287-7c4d-4e8c-a637-fec66c97f81e> rdau:P60399
+    skgpap:d3634ede-4b57-4c68-b92f-9799dafcca65 .
+
+<http://data.performing-arts.ch/w/6c6e28d4-d0ea-4b64-a0d0-28a7d2fc5f40> rdau:P60399
+    skgpap:220f3c9b-f53e-45e6-b716-e2c6bb5576a6 .
+
+<http://data.performing-arts.ch/w/6cbb44f0-2079-48c9-8aa0-11dbc557b4ac> rdau:P60399
+    skgpap:3146af1a-888f-4725-a2c2-3160a55bcda7 .
+
+skgpap:3146af1a-888f-4725-a2c2-3160a55bcda7 a schema:Person;
+  rdfs:label "Antonio Vigano" .
+
+<http://data.performing-arts.ch/w/6d36fed9-36b9-4421-8eb6-311d1276d345> rdau:P60399
+    skgpap:c99c5016-9b6a-48cc-b96a-2389ea4330b7 .
+
+skgpap:c99c5016-9b6a-48cc-b96a-2389ea4330b7 a schema:Person;
+  rdfs:label "Carsten Bodinus";
+  schema:sameAs wd:Q95791718 .
+
+<http://data.performing-arts.ch/w/6e071027-bfd2-4dd6-96a9-c51ee0bccdab> rdau:P60399
+    skgpap:9da78bc7-87ac-4d9a-b81f-ca8ac340657e .
+
+<http://data.performing-arts.ch/w/6e1e199d-8e4c-44d8-a7c6-bdd7c6ca696e> rdau:P60399
+    skgpap:cd9d53b2-8aff-4b7c-b809-447206367ef3 .
+
+skgpap:cd9d53b2-8aff-4b7c-b809-447206367ef3 a schema:Person;
+  rdfs:label "Lars-Ole Walburg";
+  schema:sameAs wd:Q1564744 .
+
+<http://data.performing-arts.ch/w/6ed37a83-661b-4687-a6af-0af89cdf227a> rdau:P60399
+    skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 .
+
+<http://data.performing-arts.ch/w/6ee92300-a39a-4b74-b6af-3ebea5d786ac> rdau:P60399
+    skgpap:66ffa037-e9ff-4910-9365-7892cf4749dc .
+
+skgpap:66ffa037-e9ff-4910-9365-7892cf4749dc a schema:Person;
+  rdfs:label "Sasha Waltz" .
+
+<http://data.performing-arts.ch/w/6eefae2e-23f6-4f06-9bd6-e0fee22c252e> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/6f6014be-f423-434a-ae28-79c7d4b972e8> rdau:P60399
+    skgpap:08e0e065-3abc-4a97-891f-636859eaa497 .
+
+skgpap:08e0e065-3abc-4a97-891f-636859eaa497 a schema:Person;
+  rdfs:label "Erik Altorfer";
+  schema:sameAs wd:Q47487057 .
+
+<http://data.performing-arts.ch/w/703c2e32-a470-4ba8-87ed-6d7033854ada> rdau:P60399
+    skgpap:ea662076-c9d5-40a7-98f4-680fdc5cde46 .
+
+<http://data.performing-arts.ch/w/7070006c-ae16-4a49-b410-317e4248bfb1> rdau:P60399
+    skgpap:ad86e2db-1020-4da9-bc96-49693c2eb2fd .
+
+<http://data.performing-arts.ch/w/708c2309-b9c2-49ba-9631-33cd2c9434f8> rdau:P60399
+    skgpap:410a490f-b42d-4d6e-b792-df383a4d4e92 .
+
+<http://data.performing-arts.ch/w/7094a77d-098e-4204-97da-bf79d52c90b3> rdau:P60399
+    skgpap:deffdd64-5617-435d-844d-d825e5574987 .
+
+skgpap:deffdd64-5617-435d-844d-d825e5574987 a schema:Person;
+  rdfs:label "Christine Rudolph" .
+
+<http://data.performing-arts.ch/w/70e58499-cf01-4f3a-aa9d-e4026b34a348> rdau:P60399
+    skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 .
+
+<http://data.performing-arts.ch/w/7103a5f2-31ca-45c3-ac9f-d1caadbb5a42> rdau:P60399
+    skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df .
+
+<http://data.performing-arts.ch/w/710782b7-d0d6-47d5-89e1-2dd0a09102ae> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/710e02be-db96-46a0-be0e-555df70f8b30> rdau:P60399
+    skgpap:82fa7f41-b2b4-4f32-9072-1d63a1170c20 .
+
+skgpap:82fa7f41-b2b4-4f32-9072-1d63a1170c20 a schema:Person;
+  rdfs:label "Klaus Weise";
+  schema:sameAs wd:Q1302017 .
+
+<http://data.performing-arts.ch/w/710e115f-9fb6-410a-843d-361890d133ae> rdau:P60399
+    skgpap:77cbd498-86ab-46bb-844b-2930d4cc0478 .
+
+<http://data.performing-arts.ch/w/710ef55f-fae2-4b57-a5d4-c0d017a1fd4f> rdau:P60399
+    skgpap:0883bd2d-d481-46c0-a388-3065d6618a1e .
+
+skgpap:0883bd2d-d481-46c0-a388-3065d6618a1e a schema:Person;
+  rdfs:label "Elsabe Stange" .
+
+<http://data.performing-arts.ch/w/7195fe95-4c84-4df4-be42-748a26f2906e> rdau:P60399
+    skgpap:e32862d6-3757-4233-b751-47092fe5f6dd .
+
+skgpap:e32862d6-3757-4233-b751-47092fe5f6dd a schema:Person;
+  rdfs:label "Bram Jansen" .
+
+<http://data.performing-arts.ch/w/71cfee98-1a2f-47a4-abe3-e5655a47f026> rdau:P60399
+    skgpap:fa060de0-c207-42f6-99cd-f0a0fbdd045d, skgpap:5223bea3-34d5-4844-85eb-f10c967ce39a .
+
+skgpap:fa060de0-c207-42f6-99cd-f0a0fbdd045d a schema:Person;
+  rdfs:label "David Hera" .
+
+skgpap:5223bea3-34d5-4844-85eb-f10c967ce39a a schema:Person;
+  rdfs:label "Marcel Bächtiger" .
+
+<http://data.performing-arts.ch/w/72b6dc2e-0145-4477-ac67-88d5a91ab7ea> rdau:P60399
+    skgpap:a383e8a3-d0fd-4ed3-a56e-bed10d9fb35a .
+
+<http://data.performing-arts.ch/w/72c92243-1e3a-4cca-9f22-bdc286e64f14> rdau:P60399
+    skgpap:77cbd498-86ab-46bb-844b-2930d4cc0478 .
+
+<http://data.performing-arts.ch/w/7329545b-f7e0-44be-9f2a-f89fd24703e0> rdau:P60399
+    skgpap:c422a227-f6cd-4407-8c6b-d9e9c78a7636, skgpap:365f4aec-703b-4671-9579-9fee17612b77 .
+
+skgpap:c422a227-f6cd-4407-8c6b-d9e9c78a7636 a schema:Person;
+  rdfs:label "Heiner Goebbels";
+  schema:sameAs wd:Q525180 .
+
+skgpap:365f4aec-703b-4671-9579-9fee17612b77 a schema:Person;
+  rdfs:label "Matthias Mohr";
+  schema:sameAs wd:Q52896753 .
+
+<http://data.performing-arts.ch/w/7366d7ff-99df-4752-a823-b86693ab8c6e> rdau:P60399
+    skgpap:8fef0d17-138a-45e5-b5e6-f2ffe6c6d255 .
+
+<http://data.performing-arts.ch/w/73f09407-602b-4c1d-a445-3c6cab3c37b1> rdau:P60399
+    skgpap:7bf7b412-b7b6-4c2e-9148-4721770e67e4 .
+
+<http://data.performing-arts.ch/w/74074f87-d062-4d9d-8649-5339b0672497> rdau:P60399
+    skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 .
+
+<http://data.performing-arts.ch/w/74318b24-5945-4647-8d14-259e9ff0fdee> rdau:P60399
+    skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df .
+
+<http://data.performing-arts.ch/w/746508ac-21e7-4367-9f21-eb6e9017c9b3> rdau:P60399
+    skgpap:0bb7c2d0-f7b3-47fc-b731-425be7863e40 .
+
+skgpap:0bb7c2d0-f7b3-47fc-b731-425be7863e40 a schema:Person;
+  rdfs:label "Simone Lüdi" .
+
+<http://data.performing-arts.ch/w/74d38e3d-9d51-49ee-8b0b-c45fc6de9d1f> rdau:P60399
+    skgpap:f2861bf6-6a5c-4152-87a8-0c0ddfad112c .
+
+skgpap:f2861bf6-6a5c-4152-87a8-0c0ddfad112c a schema:Person;
+  rdfs:label "Wolfgang Engel";
+  schema:sameAs wd:Q1263235 .
+
+<http://data.performing-arts.ch/w/75554b61-8add-4639-96ab-d098537ef9cb> rdau:P60399
+    skgpap:8a7679af-05f9-429a-a5bc-c992a072b66d .
+
+<http://data.performing-arts.ch/w/7555e04c-ba52-40c7-a143-67d48fecc1b5> rdau:P60399
+    skgpap:9c1ac44f-f7c4-4971-a80c-31a970e80cb3 .
+
+skgpap:9c1ac44f-f7c4-4971-a80c-31a970e80cb3 a schema:Person;
+  rdfs:label "Nigel Lowery";
+  schema:sameAs wd:Q52831175 .
+
+<http://data.performing-arts.ch/w/75ac7aa0-3387-48ed-a556-c7275621cd93> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/7667fa99-9c6b-46ee-b2cf-9a7a90a21c45> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/769962ad-ff75-4f5a-a931-3bcd5de7ec7c> rdau:P60399
+    skgpap:116f71e7-d61a-4fbf-9623-faee717ec11e .
+
+skgpap:116f71e7-d61a-4fbf-9623-faee717ec11e a schema:Person;
+  rdfs:label "Rafael Sanchez" .
+
+<http://data.performing-arts.ch/w/76e23d77-1bfa-4992-9f27-d1562790092d> rdau:P60399
+    skgpap:ca17c329-e201-458f-94fa-d9cb6b2c269f .
+
+<http://data.performing-arts.ch/w/7786ff7c-0d7c-4843-b83b-8ac304fd22f4> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/778f107d-a6e3-49b9-bec2-bb9eedaaba86> rdau:P60399
+    skgpap:8eb9254f-d3a0-40fd-9b8a-453c2f98a88d .
+
+skgpap:8eb9254f-d3a0-40fd-9b8a-453c2f98a88d a schema:Person;
+  rdfs:label "Anna Viebrock" .
+
+<http://data.performing-arts.ch/w/77d8c1cf-fcc5-4e09-bd5b-46e8a2e9b8f5> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/77f73d95-4aab-472c-b825-995fe5657560> rdau:P60399
+    skgpap:7f781e86-e7e4-4f91-bf82-5cbd8e58085f .
+
+skgpap:7f781e86-e7e4-4f91-bf82-5cbd8e58085f a schema:Person;
+  rdfs:label "Ansgar Haag";
+  schema:sameAs wd:Q569713 .
+
+<http://data.performing-arts.ch/w/780b34f8-02a9-4735-97ce-c0de67e45a41> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/7836292e-29a2-4d84-856e-ec4fc565a931> rdau:P60399
+    skgpap:220f3c9b-f53e-45e6-b716-e2c6bb5576a6 .
+
+<http://data.performing-arts.ch/w/78530d76-9224-4ede-92a4-3ca59e81c09c> rdau:P60399
+    skgpap:ea349603-987d-4851-ad8a-40f16debbff4 .
+
+<http://data.performing-arts.ch/w/79c65d0e-0de5-4021-b7ed-5fa21b1ac15d> rdau:P60399
+    skgpap:e439c3ed-6cca-492b-9523-0681d18231bb .
+
+<http://data.performing-arts.ch/w/79eccc0e-b9e8-43a7-8d8c-7c288755e56e> rdau:P60399
+    skgpap:5bc03919-8306-4325-a682-48cebf604724 .
+
+<http://data.performing-arts.ch/w/79f0baa8-24b5-438f-8bcb-12b03c7fdb30> rdau:P60399
+    skgpap:9b380d2f-1080-4bac-8063-172c07df0433 .
+
+skgpap:9b380d2f-1080-4bac-8063-172c07df0433 a schema:Person;
+  rdfs:label "Thomas Jonigk";
+  schema:sameAs wd:Q106285 .
+
+<http://data.performing-arts.ch/w/7a043385-4ae8-4873-a2c5-b5e4c250b01b> rdau:P60399
+    skgpap:e439c3ed-6cca-492b-9523-0681d18231bb .
+
+<http://data.performing-arts.ch/w/7a38b244-be1a-46fc-9447-938ee0335bf8> rdau:P60399
+    skgpap:0883bd2d-d481-46c0-a388-3065d6618a1e .
+
+<http://data.performing-arts.ch/w/7a40bb0b-d424-4004-be64-b699f64f5c77> rdau:P60399
+    skgpap:247d558c-5995-4c39-b593-703c836ea984 .
+
+skgpap:247d558c-5995-4c39-b593-703c836ea984 a schema:Person;
+  rdfs:label "Lavinia Frey" .
+
+<http://data.performing-arts.ch/w/7a5eaca2-80a1-49fe-b4a8-432fbd93d8d1> rdau:P60399
+    skgpap:4ac3790d-b75c-4d43-977e-741720c0c8b0 .
+
+<http://data.performing-arts.ch/w/7b4f70be-9e4a-4d00-bb6e-d96de7f4de6e> rdau:P60399
+    skgpap:1a323395-975d-4cbc-8eba-d7759353ccb7 .
+
+skgpap:1a323395-975d-4cbc-8eba-d7759353ccb7 a schema:Person;
+  rdfs:label "Hans Dieter Schwarze";
+  schema:sameAs wd:Q1579173 .
+
+<http://data.performing-arts.ch/w/7bc5f76d-9027-4378-96dd-9215309fd172> rdau:P60399
+    skgpap:116f71e7-d61a-4fbf-9623-faee717ec11e .
+
+<http://data.performing-arts.ch/w/7c9268b2-25d5-41c3-bfe3-60d1ada08c9e> rdau:P60399
+    skgpap:14667022-d3c5-49a0-a791-e5d00f30a98f .
+
+<http://data.performing-arts.ch/w/7ca0abab-266d-45fb-bb72-3bf46eafaeec> rdau:P60399
+    skgpap:97009471-f9b1-46ce-b555-f0376619157b .
+
+skgpap:97009471-f9b1-46ce-b555-f0376619157b a schema:Person;
+  rdfs:label "Sebastian Kreyer";
+  schema:sameAs wd:Q52496053 .
+
+<http://data.performing-arts.ch/w/7e09dac4-8234-4ec5-81ce-aad56dc9708f> rdau:P60399
+    skgpap:cb99920b-313e-48c0-bf53-b8bbba6713ca .
+
+skgpap:cb99920b-313e-48c0-bf53-b8bbba6713ca a schema:Person;
+  rdfs:label "Kazimierz Demjek" .
+
+<http://data.performing-arts.ch/w/7e6ae3ff-9433-4d79-bd63-3b67bef6047e> rdau:P60399
+    skgpap:8efe09a7-e8e5-4326-8d68-09f579bb2750 .
+
+skgpap:8efe09a7-e8e5-4326-8d68-09f579bb2750 a schema:Person;
+  rdfs:label "Marc Koralnik" .
+
+<http://data.performing-arts.ch/w/7ee782f7-b3c5-49c0-a114-6bf0b942f366> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b a schema:Person;
+  rdfs:label "Matthias Hartmann";
+  schema:sameAs wd:Q1909949 .
+
+<http://data.performing-arts.ch/w/7ef01acf-9c05-4294-ba23-7300ac3e31ff> rdau:P60399
+    skgpap:f0a0fd18-3792-42df-9303-ea6b42f1ef8d .
+
+skgpap:f0a0fd18-3792-42df-9303-ea6b42f1ef8d a schema:Person;
+  rdfs:label "Urs Widmer" .
+
+<http://data.performing-arts.ch/w/7f40b3b6-8c0c-4a51-99e1-cf2805c44e3c> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 a schema:Person;
+  rdfs:label "Harry Buckwitz";
+  schema:sameAs wd:Q1586409 .
+
+<http://data.performing-arts.ch/w/7f468191-8a4f-4f7d-a700-1b09df24b12b> rdau:P60399
+    skgpap:f0e9fea6-6992-446b-9dbe-b49f55788318 .
+
+skgpap:f0e9fea6-6992-446b-9dbe-b49f55788318 a schema:Person;
+  rdfs:label "Manfred Wekwerth";
+  schema:sameAs wd:Q1709881 .
+
+<http://data.performing-arts.ch/w/7fad06f8-0b7e-4023-84db-e90e83331bdb> rdau:P60399
+    skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f .
+
+skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f a schema:Person;
+  rdfs:label "Rüdiger Burbach" .
+
+<http://data.performing-arts.ch/w/80a99eb1-42c5-407f-b766-bcebe532b586> rdau:P60399
+    skgpap:4a01260a-594f-4f43-9e59-1f2f81384856, skgpap:583f0b2f-bb4f-4cf6-99de-32c190e58a93 .
+
+skgpap:4a01260a-594f-4f43-9e59-1f2f81384856 a schema:Person;
+  rdfs:label "Benjamin Korn";
+  schema:sameAs wd:Q817577 .
+
+skgpap:583f0b2f-bb4f-4cf6-99de-32c190e58a93 a schema:Person;
+  rdfs:label "Dominique Valentin" .
+
+<http://data.performing-arts.ch/w/816579df-5b3e-4e2e-b237-dcfba302ed7a> rdau:P60399
+    skgpap:5d90d517-e7c0-43c7-9165-ef0b7576494c .
+
+skgpap:5d90d517-e7c0-43c7-9165-ef0b7576494c a schema:Person;
+  rdfs:label "Ingo Berk" .
+
+<http://data.performing-arts.ch/w/81854cd2-17c3-4cca-b602-4d40856b6569> rdau:P60399
+    skgpap:e32862d6-3757-4233-b751-47092fe5f6dd .
+
+skgpap:e32862d6-3757-4233-b751-47092fe5f6dd a schema:Person;
+  rdfs:label "Bram Jansen" .
+
+<http://data.performing-arts.ch/w/8198f4d7-8074-4124-8b73-b607ae2418d3> rdau:P60399
+    skgpap:620a43c8-51f8-4145-991b-1b97f03d1b3c .
+
+skgpap:620a43c8-51f8-4145-991b-1b97f03d1b3c a schema:Person;
+  rdfs:label "Christina Paulhofer";
+  schema:sameAs wd:Q1083238 .
+
+<http://data.performing-arts.ch/w/81d1b576-e8b5-41a8-941c-475b3184f199> rdau:P60399
+    skgpap:8df76f6a-2773-44b9-8cf7-1723377bdd2a .
+
+skgpap:8df76f6a-2773-44b9-8cf7-1723377bdd2a a schema:Person;
+  rdfs:label "Horst Balzer";
+  schema:sameAs wd:Q94914028 .
+
+<http://data.performing-arts.ch/w/822e6ce8-5890-47e1-9689-1d30e4a8341e> rdau:P60399
+    skgpap:9c4acc46-f5cc-4acb-b9d8-abede6e7b83b, skgpap:54c88c04-8468-4d93-b0c5-23dd9f1fe831 .
+
+skgpap:9c4acc46-f5cc-4acb-b9d8-abede6e7b83b a schema:Person;
+  rdfs:label "Peter Stein";
+  schema:sameAs wd:Q64421 .
+
+skgpap:54c88c04-8468-4d93-b0c5-23dd9f1fe831 a schema:Person;
+  rdfs:label "Ulrich Heisig" .
+
+<http://data.performing-arts.ch/w/832dc382-065d-45f4-9ada-6a62dae51abe> rdau:P60399
+    skgpap:19303a48-694c-4536-b9e2-418b52403ab0 .
+
+skgpap:19303a48-694c-4536-b9e2-418b52403ab0 a schema:Person;
+  rdfs:label "Spyros A. Evangelatos" .
+
+<http://data.performing-arts.ch/w/838b6c2f-49b1-4ebc-adea-d9d8459ae97b> rdau:P60399
+    skgpap:0481ff8a-db4e-462e-941a-f07b92c742aa .
+
+skgpap:0481ff8a-db4e-462e-941a-f07b92c742aa a schema:Person;
+  rdfs:label "Mélanie Huber" .
+
+<http://data.performing-arts.ch/w/83a4f0c7-8631-4d9c-b90e-cc23b9f54c76> rdau:P60399
+    skgpap:bcf6588c-e41a-43e7-9811-3222f12fa959 .
+
+skgpap:bcf6588c-e41a-43e7-9811-3222f12fa959 a schema:Person;
+  rdfs:label "Barbara Liebster" .
+
+<http://data.performing-arts.ch/w/840f3182-8ea5-480c-b674-7c63c964ee4b> rdau:P60399
+    skgpap:132e59c7-ad48-495c-80dd-5e2d6dbad7be .
+
+skgpap:132e59c7-ad48-495c-80dd-5e2d6dbad7be a schema:Person;
+  rdfs:label "Hans Lietzau";
+  schema:sameAs wd:Q122843 .
+
+<http://data.performing-arts.ch/w/8421be62-1f7d-40b7-beb8-4d3d8e4a53b1> rdau:P60399
+    skgpap:9d2a6e00-67a3-467c-8234-e50455a38a30 .
+
+skgpap:9d2a6e00-67a3-467c-8234-e50455a38a30 a schema:Person;
+  rdfs:label "Sonja Streifinger" .
+
+<http://data.performing-arts.ch/w/84627031-4671-4c2c-b3ba-d78bd8599a39> rdau:P60399
+    skgpap:c427f063-92a1-49f6-b1ee-aff0f125ca6e .
+
+skgpap:c427f063-92a1-49f6-b1ee-aff0f125ca6e a schema:Person;
+  rdfs:label "Matthias Fontheim";
+  schema:sameAs wd:Q18221919 .
+
+<http://data.performing-arts.ch/w/8487fcac-d1d5-4028-8579-a619a59d0380> rdau:P60399
+    skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df .
+
+skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df a schema:Person;
+  rdfs:label "Dieter Giesing";
+  schema:sameAs wd:Q1221984 .
+
+<http://data.performing-arts.ch/w/85877715-6f39-4455-8e5e-e5f7353d399e> rdau:P60399
+    skgpap:d471f249-fa6b-465e-93d4-cd618ae1789c .
+
+skgpap:d471f249-fa6b-465e-93d4-cd618ae1789c a schema:Person;
+  rdfs:label "Helmuth Fuschl";
+  schema:sameAs wd:Q47291730 .
+
+<http://data.performing-arts.ch/w/8606bf46-4f6c-4455-bf34-005c4f7e0464> rdau:P60399
+    skgpap:fd346dae-5df6-42fe-b7aa-6c40f4ca10fd .
+
+skgpap:fd346dae-5df6-42fe-b7aa-6c40f4ca10fd a schema:Person;
+  rdfs:label "Jean-Pierre Ponnelle*";
+  schema:sameAs wd:Q1322353 .
+
+<http://data.performing-arts.ch/w/8642ef64-e0cb-44aa-ac3c-b5391d667938> rdau:P60399
+    skgpap:0c94cf35-9ad5-4328-93ab-d4f5d6957b15 .
+
+skgpap:0c94cf35-9ad5-4328-93ab-d4f5d6957b15 a schema:Person;
+  rdfs:label "Peter Wood";
+  schema:sameAs wd:Q7177772 .
+
+<http://data.performing-arts.ch/w/8664ce45-aaf7-471f-ad0c-282ffa5fb2e5> rdau:P60399
+    skgpap:09ca4a65-a789-49f9-a85c-0687e460df10 .
+
+skgpap:09ca4a65-a789-49f9-a85c-0687e460df10 a schema:Person;
+  rdfs:label "Marcel Bluwal";
+  schema:sameAs wd:Q3246627 .
+
+<http://data.performing-arts.ch/w/86994794-fb5f-47da-b183-ef44eba656d3> rdau:P60399
+    skgpap:ef43ce92-028f-429a-bcf0-64cfc7815171 .
+
+skgpap:ef43ce92-028f-429a-bcf0-64cfc7815171 a schema:Person;
+  rdfs:label "Alexander Giesche";
+  schema:sameAs wd:Q87060079 .
+
+<http://data.performing-arts.ch/w/86acd414-c17c-447e-b961-a56689aedf4d> rdau:P60399
+    skgpap:3c75004d-d9ae-4d83-94be-c6ba66a11353 .
+
+skgpap:3c75004d-d9ae-4d83-94be-c6ba66a11353 a schema:Person;
+  rdfs:label "Niklaus Helbling";
+  schema:sameAs wd:Q18222234 .
+
+<http://data.performing-arts.ch/w/86db6b09-c059-41f7-8a9a-cd064836a929> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 a schema:Person;
+  rdfs:label "Achim Benning";
+  schema:sameAs wd:Q104573 .
+
+<http://data.performing-arts.ch/w/872d8478-20af-457e-ba81-02407c1fcf19> rdau:P60399
+    skgpap:8df76f6a-2773-44b9-8cf7-1723377bdd2a .
+
+<http://data.performing-arts.ch/w/87ec5f5b-0aaf-4963-9349-2c6352cd561d> rdau:P60399
+    skgpap:fc0d66b3-f1fb-4836-944a-fa0565715758 .
+
+skgpap:fc0d66b3-f1fb-4836-944a-fa0565715758 a schema:Person;
+  rdfs:label "Markus Öhrn" .
+
+<http://data.performing-arts.ch/w/880f84de-18d0-48f2-b9d5-8b23bf1a83d1> rdau:P60399
+    skgpap:e439c3ed-6cca-492b-9523-0681d18231bb .
+
+skgpap:e439c3ed-6cca-492b-9523-0681d18231bb a schema:Person;
+  rdfs:label "Herbert Fritsch";
+  schema:sameAs wd:Q1608294 .
+
+<http://data.performing-arts.ch/w/88ad4ee0-0c43-4112-8d3c-4bbffd09b6d2> rdau:P60399
+    skgpap:871359f4-ef67-4e0c-b5f5-1e758abdb243 .
+
+skgpap:871359f4-ef67-4e0c-b5f5-1e758abdb243 a schema:Person;
+  rdfs:label "Sarah Verny" .
+
+<http://data.performing-arts.ch/w/89983891-b19d-4af2-8d3a-8fd3963ad8e0> rdau:P60399
+    skgpap:e06b716f-8349-4094-8fc8-351b1ef2dddf .
+
+skgpap:e06b716f-8349-4094-8fc8-351b1ef2dddf a schema:Person;
+  rdfs:label "Tobias Herzberg" .
+
+<http://data.performing-arts.ch/w/8a4c1ce9-4008-4648-92d2-672943313ad7> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 a schema:Person;
+  rdfs:label "Sebastian Nübling";
+  schema:sameAs wd:Q2262993 .
+
+<http://data.performing-arts.ch/w/8a989c09-be26-4d72-a75a-ab5c16a2578f> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/8b080514-f8cf-490d-961f-a90485d3cbf7> rdau:P60399
+    skgpap:ae6323ed-d733-4393-a9cf-68e49d885ce1 .
+
+skgpap:ae6323ed-d733-4393-a9cf-68e49d885ce1 a schema:Person;
+  rdfs:label "Nicolai Sykosch" .
+
+<http://data.performing-arts.ch/w/8b1e6f17-a8c7-4f8d-98e0-f9c7b68c6de2> rdau:P60399
+    skgpap:ba97a37b-15a5-485f-bf0f-6871fa6d3eed .
+
+skgpap:ba97a37b-15a5-485f-bf0f-6871fa6d3eed a schema:Person;
+  rdfs:label "Jürgen Gosch";
+  schema:sameAs wd:Q71872 .
+
+<http://data.performing-arts.ch/w/8b264760-08e6-4963-81c5-8ac82567b5ba> rdau:P60399
+    skgpap:4f38ec59-c500-4e1d-8e39-a58d3d89159c .
+
+skgpap:4f38ec59-c500-4e1d-8e39-a58d3d89159c a schema:Person;
+  rdfs:label "Andreas Herrmann" .
+
+<http://data.performing-arts.ch/w/8b4bacdc-aa0c-48af-974e-3ea15fda8b7e> rdau:P60399
+    skgpap:80c1c18a-169e-414f-aca6-581e7af0e107 .
+
+skgpap:80c1c18a-169e-414f-aca6-581e7af0e107 a schema:Person;
+  rdfs:label "Bruno Besson";
+  schema:sameAs wd:Q993037 .
+
+<http://data.performing-arts.ch/w/8b749ffb-2fae-4eda-8338-7cb847965e2e> rdau:P60399
+    skgpap:2d5d917b-8dcf-43f8-a5ec-2110cf3db2e0 .
+
+skgpap:2d5d917b-8dcf-43f8-a5ec-2110cf3db2e0 a schema:Person;
+  rdfs:label "Ina Kathrin Korff" .
+
+<http://data.performing-arts.ch/w/8b8e92d4-bb16-46b4-a716-e182afd9a942> rdau:P60399
+    skgpap:fa87c925-d8c6-4646-8c04-798793852f99 .
+
+skgpap:fa87c925-d8c6-4646-8c04-798793852f99 a schema:Person;
+  rdfs:label "Jossi Wieler";
+  schema:sameAs wd:Q1480343 .
+
+<http://data.performing-arts.ch/w/8bd84bcb-683b-48f6-969c-119e9432b726> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 a schema:Person;
+  rdfs:label "Stefan Pucher";
+  schema:sameAs wd:Q2337342 .
+
+<http://data.performing-arts.ch/w/8c8f8795-1da0-4740-a718-aa1dbc457977> rdau:P60399
+    skgpap:2de2c7e8-dc2b-4885-901a-90d9f8f61f1d .
+
+skgpap:2de2c7e8-dc2b-4885-901a-90d9f8f61f1d a schema:Person;
+  rdfs:label "Theo Fransz" .
+
+<http://data.performing-arts.ch/w/8d77df69-3976-42c6-9ee7-f438494cb91e> rdau:P60399
+    skgpap:d4939d81-3a37-4e58-8266-820b7d3883f0 .
+
+skgpap:d4939d81-3a37-4e58-8266-820b7d3883f0 a schema:Person;
+  rdfs:label "Rolf Stahl";
+  schema:sameAs wd:Q95248965 .
+
+<http://data.performing-arts.ch/w/8dcac1f9-6805-40e1-906c-bad788d48d10> rdau:P60399
+    skgpap:57f95743-f1f5-4391-aa32-47ed3a6346c2 .
+
+skgpap:57f95743-f1f5-4391-aa32-47ed3a6346c2 a schema:Person;
+  rdfs:label "Hans Neuenfels";
+  schema:sameAs wd:Q89890 .
+
+<http://data.performing-arts.ch/w/8e24fad3-196c-46f8-8eeb-b3c0dbff2f05> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/8ec23aba-565e-49a5-bda8-13999d551e64> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57, skgpap:c4e1c5df-8818-4394-8177-cbcef0b90a9e .
+
+skgpap:c4e1c5df-8818-4394-8177-cbcef0b90a9e a schema:Person;
+  rdfs:label "Ives Thuwis";
+  schema:sameAs wd:Q53453765 .
+
+<http://data.performing-arts.ch/w/8f3bb71f-146f-4cd6-8126-d8642f9cce25> rdau:P60399
+    skgpap:f3894db2-44ff-4ba7-9609-214699997906 .
+
+skgpap:f3894db2-44ff-4ba7-9609-214699997906 a schema:Person;
+  rdfs:label "Jean-Luc Boutté";
+  schema:sameAs wd:Q3167093 .
+
+<http://data.performing-arts.ch/w/9032cb9b-a378-4882-9ae5-3843a8858adf> rdau:P60399
+    skgpap:eaa1edd2-51f4-42ad-bbb8-18feb4c24829 .
+
+skgpap:eaa1edd2-51f4-42ad-bbb8-18feb4c24829 a schema:Person;
+  rdfs:label "Christina Rast";
+  schema:sameAs wd:Q1083251 .
+
+<http://data.performing-arts.ch/w/90cf7b7c-145e-41a2-b97a-1bce09c7c3e8> rdau:P60399
+    skgpap:ca17c329-e201-458f-94fa-d9cb6b2c269f .
+
+skgpap:ca17c329-e201-458f-94fa-d9cb6b2c269f a schema:Person;
+  rdfs:label "Daniel Karasek";
+  schema:sameAs wd:Q970992 .
+
+<http://data.performing-arts.ch/w/90fc903d-9202-4303-80ba-39506cf862f9> rdau:P60399
+    skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df .
+
+<http://data.performing-arts.ch/w/910c8b98-7240-41d3-9c53-27a977870f49> rdau:P60399
+    skgpap:ad86e2db-1020-4da9-bc96-49693c2eb2fd .
+
+skgpap:ad86e2db-1020-4da9-bc96-49693c2eb2fd a schema:Person;
+  rdfs:label "Peter Palitzsch";
+  schema:sameAs wd:Q2077417 .
+
+<http://data.performing-arts.ch/w/92559f2f-6652-4509-8cbb-6972af9b43f9> rdau:P60399
+    skgpap:8eb9254f-d3a0-40fd-9b8a-453c2f98a88d .
+
+skgpap:8eb9254f-d3a0-40fd-9b8a-453c2f98a88d a schema:Person;
+  rdfs:label "Anna Viebrock" .
+
+<http://data.performing-arts.ch/w/92779021-9ce1-4ee0-b813-c45c24236ccc> rdau:P60399
+    skgpap:fa87c925-d8c6-4646-8c04-798793852f99 .
+
+<http://data.performing-arts.ch/w/929eb222-0c21-4a7b-a4d0-9ecc848fec6c> rdau:P60399
+    skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 .
+
+skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 a schema:Person;
+  rdfs:label "René Pollesch";
+  schema:sameAs wd:Q85625 .
+
+<http://data.performing-arts.ch/w/92f8f981-2377-46b2-90ce-c4d8fe6b79e8> rdau:P60399
+    skgpap:191c4d32-d6c0-4d30-81a5-54349da96866 .
+
+skgpap:191c4d32-d6c0-4d30-81a5-54349da96866 a schema:Person;
+  rdfs:label "Barbara Ellenberger" .
+
+<http://data.performing-arts.ch/w/93b33c07-9280-49b1-956c-c5f01d4a2944> rdau:P60399
+    skgpap:de2b316f-7627-42b9-9286-4b0feca4ff33 .
+
+skgpap:de2b316f-7627-42b9-9286-4b0feca4ff33 a schema:Person;
+  rdfs:label "Christiane Pohle";
+  schema:sameAs wd:Q1082792 .
+
+<http://data.performing-arts.ch/w/94482199-abf2-40a9-8658-bb569db261ff> rdau:P60399
+    skgpap:eaa1edd2-51f4-42ad-bbb8-18feb4c24829 .
+
+<http://data.performing-arts.ch/w/95894c28-0628-408d-9141-411451ac7f96> rdau:P60399
+    skgpap:a383e8a3-d0fd-4ed3-a56e-bed10d9fb35a .
+
+skgpap:a383e8a3-d0fd-4ed3-a56e-bed10d9fb35a a schema:Person;
+  rdfs:label "Benno Besson";
+  schema:sameAs wd:Q449296 .
+
+<http://data.performing-arts.ch/w/95b2a729-ba8a-4436-a317-7ef9b9b9ac27> rdau:P60399
+    skgpap:8df76f6a-2773-44b9-8cf7-1723377bdd2a .
+
+<http://data.performing-arts.ch/w/960f606f-24ed-4f09-a4bf-938e7793174c> rdau:P60399
+    skgpap:b1b9c9f2-edb0-4d70-9d09-92190ebb6dde .
+
+skgpap:b1b9c9f2-edb0-4d70-9d09-92190ebb6dde a schema:Person;
+  rdfs:label "Carl M. Weber" .
+
+<http://data.performing-arts.ch/w/97318686-1f4c-4f9f-9e3d-b957e56fb385> rdau:P60399
+    skgpap:8296ad5b-2d0c-48bb-88a7-041fdfd16f16 .
+
+skgpap:8296ad5b-2d0c-48bb-88a7-041fdfd16f16 a schema:Person;
+  rdfs:label "Jürgen Flimm";
+  schema:sameAs wd:Q91997 .
+
+<http://data.performing-arts.ch/w/976be5c3-a8a9-4949-bef4-d7de3d908835> rdau:P60399
+    skgpap:9c4acc46-f5cc-4acb-b9d8-abede6e7b83b .
+
+<http://data.performing-arts.ch/w/97718c1b-1846-47d8-a76e-4998f108e6c6> rdau:P60399
+    skgpap:4ae6f66f-cc4e-406f-b4e4-34762cebfd84 .
+
+skgpap:4ae6f66f-cc4e-406f-b4e4-34762cebfd84 a schema:Person;
+  rdfs:label "Herbert Wernicke";
+  schema:sameAs wd:Q92352 .
+
+<http://data.performing-arts.ch/w/978950ab-dc9d-4e73-acde-8f49f534fc3f> rdau:P60399
+    skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df .
+
+<http://data.performing-arts.ch/w/987d0b6e-9cd5-48e0-875b-ebc6ecac55c5> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/98a54a50-73de-436b-9742-a746c18d375e> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 a schema:Person;
+  rdfs:label "Karin Henkel";
+  schema:sameAs wd:Q1729450 .
+
+<http://data.performing-arts.ch/w/98edccab-a166-4ea1-a333-3c1c5f749a08> rdau:P60399
+    skgpap:97009471-f9b1-46ce-b555-f0376619157b .
+
+skgpap:97009471-f9b1-46ce-b555-f0376619157b a schema:Person;
+  rdfs:label "Sebastian Kreyer";
+  schema:sameAs wd:Q52496053 .
+
+<http://data.performing-arts.ch/w/9994b3b3-14a1-4572-8d58-a42a1eacd593> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/9b23abf2-e3b0-4098-99b1-e00af45c382d> rdau:P60399
+    skgpap:bbe28863-0fb5-4f87-b601-e66c9841f372 .
+
+skgpap:bbe28863-0fb5-4f87-b601-e66c9841f372 a schema:Person;
+  rdfs:label "Stephan Kimmig";
+  schema:sameAs wd:Q2343430 .
+
+<http://data.performing-arts.ch/w/9b43bed4-ecef-4aba-adc9-aabb7a85c5f7> rdau:P60399
+    skgpap:4a1e6507-ccaa-4b3f-97b0-dca6a660c1e3 .
+
+skgpap:4a1e6507-ccaa-4b3f-97b0-dca6a660c1e3 a schema:Person;
+  rdfs:label "Meret Matter";
+  schema:sameAs wd:Q1577060 .
+
+<http://data.performing-arts.ch/w/9b884214-67a7-46cd-94e3-f73842fd0a6a> rdau:P60399
+    skgpap:9c4acc46-f5cc-4acb-b9d8-abede6e7b83b .
+
+<http://data.performing-arts.ch/w/9bb6afa6-0d3c-404c-92c5-f564d49b8d85> rdau:P60399
+    skgpap:6d117d33-14c4-4701-8446-566aed903b86 .
+
+skgpap:6d117d33-14c4-4701-8446-566aed903b86 a schema:Person;
+  rdfs:label "Alize Zandwijk";
+  schema:sameAs wd:Q37797024 .
+
+<http://data.performing-arts.ch/w/9bc31375-f907-4cd1-b5fb-f2ee99b5323d> rdau:P60399
+    skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 .
+
+<http://data.performing-arts.ch/w/9c5173b4-f177-491d-8312-ac2ced810b50> rdau:P60399
+    skgpap:329edc0f-6c14-4e81-a51b-0e88b3a58048 .
+
+skgpap:329edc0f-6c14-4e81-a51b-0e88b3a58048 a schema:Person;
+  rdfs:label "Jasmine Hoch";
+  schema:sameAs wd:Q63884984 .
+
+<http://data.performing-arts.ch/w/9d408d48-e90d-45be-8d84-ed2440640bde> rdau:P60399
+    skgpap:c1cd6963-bbc9-4173-8a0f-aa721ed4bea0 .
+
+skgpap:c1cd6963-bbc9-4173-8a0f-aa721ed4bea0 a schema:Person;
+  rdfs:label "Frank Castorf";
+  schema:sameAs wd:Q91075 .
+
+<http://data.performing-arts.ch/w/9d54d199-287f-4b2a-a98a-3d61459946f5> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/9e635443-0997-4114-b9b4-917afa265c6f> rdau:P60399
+    skgpap:a16ecaa0-6f51-4942-aeb4-cca87383072f .
+
+skgpap:a16ecaa0-6f51-4942-aeb4-cca87383072f a schema:Person;
+  rdfs:label "Max Peter Ammann";
+  schema:sameAs wd:Q1317894 .
+
+<http://data.performing-arts.ch/w/9e639689-5484-4a43-a9e4-04cf75716ce9> rdau:P60399
+    skgpap:7bf7b412-b7b6-4c2e-9148-4721770e67e4 .
+
+skgpap:7bf7b412-b7b6-4c2e-9148-4721770e67e4 a schema:Person;
+  rdfs:label "Harald Clemen";
+  schema:sameAs wd:Q1584441 .
+
+<http://data.performing-arts.ch/w/9ea41f5a-6d20-44d1-afcd-686305df9ab9> rdau:P60399
+    skgpap:386a7ecf-ac78-4ed1-9359-f020ff0be33d .
+
+skgpap:386a7ecf-ac78-4ed1-9359-f020ff0be33d a schema:Person;
+  rdfs:label "Jiri Menzel";
+  schema:sameAs wd:Q352030 .
+
+<http://data.performing-arts.ch/w/9f275154-3490-4c8f-b602-1c6b62020c01> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/9f7636e3-5b43-4e7e-b91d-67c3072e4fc8> rdau:P60399
+    skgpap:e1fcacd2-4686-4e22-ac62-9fcba3bf61d4, skgpap:49055ee5-d52e-437f-b0f8-667370bff554,
+    skgpap:2f7fadea-3375-4d3c-bb6c-a6b9bee27bfe .
+
+skgpap:e1fcacd2-4686-4e22-ac62-9fcba3bf61d4 a schema:Person;
+  rdfs:label "Stefan Kaegi";
+  schema:sameAs wd:Q52892396 .
+
+skgpap:49055ee5-d52e-437f-b0f8-667370bff554 a schema:Person;
+  rdfs:label "Helgard Haug";
+  schema:sameAs wd:Q52634758 .
+
+skgpap:2f7fadea-3375-4d3c-bb6c-a6b9bee27bfe a schema:Person;
+  rdfs:label "Daniel Wetzel";
+  schema:sameAs wd:Q52914065 .
+
+<http://data.performing-arts.ch/w/9fe92465-140c-4fa4-bf7c-2651eaef8c45> rdau:P60399
+    skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df .
+
+<http://data.performing-arts.ch/w/a01d9d3a-5393-4242-97a3-e09fd409cc60> rdau:P60399
+    skgpap:8efe09a7-e8e5-4326-8d68-09f579bb2750 .
+
+<http://data.performing-arts.ch/w/a1671f5e-79a5-458f-88b7-2550a0072e5c> rdau:P60399
+    skgpap:8df76f6a-2773-44b9-8cf7-1723377bdd2a .
+
+<http://data.performing-arts.ch/w/a1e6e315-ebe8-4257-beb4-dfd20d172d8e> rdau:P60399
+    skgpap:dc60d091-1b5d-484a-a6fc-b703682f8fb2 .
+
+skgpap:dc60d091-1b5d-484a-a6fc-b703682f8fb2 a schema:Person;
+  rdfs:label "Yael Ronen" .
+
+<http://data.performing-arts.ch/w/a1e9fe27-fee9-4944-919d-e752baef59c7> rdau:P60399
+    skgpap:a6c66a30-d1a4-479c-8fe7-1d5a16489270 .
+
+skgpap:a6c66a30-d1a4-479c-8fe7-1d5a16489270 a schema:Person;
+  rdfs:label "Matthias Langhoff";
+  schema:sameAs wd:Q96054 .
+
+<http://data.performing-arts.ch/w/a210f58e-805f-4577-9a42-2347013e4843> rdau:P60399
+    skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f .
+
+<http://data.performing-arts.ch/w/a2da593f-ed9a-486c-93d6-3aeb203e305c> rdau:P60399
+    skgpap:89c6c076-842e-4f76-ad96-8dcf1481d45b .
+
+skgpap:89c6c076-842e-4f76-ad96-8dcf1481d45b a schema:Person;
+  rdfs:label "Anina La Roche" .
+
+<http://data.performing-arts.ch/w/a30110f0-e747-409b-a812-0425f124ad39> rdau:P60399
+    skgpap:d3634ede-4b57-4c68-b92f-9799dafcca65 .
+
+skgpap:d3634ede-4b57-4c68-b92f-9799dafcca65 a schema:Person;
+  rdfs:label "Milo Rau";
+  schema:sameAs wd:Q1935664 .
+
+<http://data.performing-arts.ch/w/a3f31cbd-3cba-4b0c-9ba0-349c6ef89305> rdau:P60399
+    skgpap:77cbd498-86ab-46bb-844b-2930d4cc0478 .
+
+skgpap:77cbd498-86ab-46bb-844b-2930d4cc0478 a schema:Person;
+  rdfs:label "Jean Grädel" .
+
+<http://data.performing-arts.ch/w/a43fca7b-d9d2-48d5-80ed-26b3b5047ffb> rdau:P60399
+    skgpap:ce2c0a8e-88ca-40eb-9ef4-4e5e67c69b54 .
+
+skgpap:ce2c0a8e-88ca-40eb-9ef4-4e5e67c69b54 a schema:Person;
+  rdfs:label "Hermann Kleinselbeck" .
+
+<http://data.performing-arts.ch/w/a4637ac9-6cd9-40d8-a170-9dd801f42666> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/a47a8d28-f6b7-42c0-962c-b53ab8a23c27> rdau:P60399
+    skgpap:ea662076-c9d5-40a7-98f4-680fdc5cde46 .
+
+skgpap:ea662076-c9d5-40a7-98f4-680fdc5cde46 a schema:Person;
+  rdfs:label "Alvis Hermanis";
+  schema:sameAs wd:Q449386 .
+
+<http://data.performing-arts.ch/w/a5235e1f-c11b-4bd2-9b5d-7db356c083fb> rdau:P60399
+    skgpap:1bce105d-73cd-4467-aeb6-634edfd870dc .
+
+skgpap:1bce105d-73cd-4467-aeb6-634edfd870dc a schema:Person;
+  rdfs:label "Henri Hohenemser";
+  schema:sameAs wd:Q1520066 .
+
+<http://data.performing-arts.ch/w/a58ffdd4-97fd-4130-877c-4af0563a1528> rdau:P60399
+    skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f .
+
+<http://data.performing-arts.ch/w/a59682c8-204c-4c27-a0fd-4d899c8f63a6> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/a5bc58bb-d276-435a-8198-1b5f0041c70c> rdau:P60399
+    skgpap:c1cd6963-bbc9-4173-8a0f-aa721ed4bea0 .
+
+<http://data.performing-arts.ch/w/a6e17162-2c83-4071-8942-0e996bb33ea2> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/a70f5589-61eb-465c-8906-4b66ce364425> rdau:P60399
+    skgpap:eaa1edd2-51f4-42ad-bbb8-18feb4c24829 .
+
+<http://data.performing-arts.ch/w/a7567074-d914-4e2e-9a3e-e5e7c9837be4> rdau:P60399
+    skgpap:5d9559d1-0f0e-4462-8b83-0dc1ee67e361 .
+
+skgpap:5d9559d1-0f0e-4462-8b83-0dc1ee67e361 a schema:Person;
+  rdfs:label "Marco Milling" .
+
+<http://data.performing-arts.ch/w/a784679c-f811-4377-90a3-9580cbdce659> rdau:P60399
+    skgpap:d6e2eb35-4ba3-47cc-9feb-bc9670f3efe8 .
+
+skgpap:d6e2eb35-4ba3-47cc-9feb-bc9670f3efe8 a schema:Person;
+  rdfs:label "Daniela Löffner";
+  schema:sameAs wd:Q1553062 .
+
+<http://data.performing-arts.ch/w/a7e278ab-ee96-414e-88bf-9569da36b338> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/a8578715-2800-4873-80ad-db3d30a731eb> rdau:P60399
+    skgpap:6dc60e7b-b697-496e-830e-c5d71a542042 .
+
+skgpap:6dc60e7b-b697-496e-830e-c5d71a542042 a schema:Person;
+  rdfs:label "Luc Bondy";
+  schema:sameAs wd:Q116359 .
+
+<http://data.performing-arts.ch/w/a8c3f862-2bbe-4e66-bd89-e039d1828896> rdau:P60399
+    skgpap:063e12b5-4b44-46b8-9336-5201c835867f .
+
+skgpap:063e12b5-4b44-46b8-9336-5201c835867f a schema:Person;
+  rdfs:label "Andreas Erdmann" .
+
+<http://data.performing-arts.ch/w/a8dbc7d3-470b-4968-92d9-d8b9daf9b187> rdau:P60399
+    skgpap:2a7f53f3-9c0f-4d12-8f03-8935ebe290a5, skgpap:cbf0a20d-d3a6-4159-a818-c0f4ed448905,
+    skgpap:770cca9f-83b5-4da1-88a8-e80661c57609 .
+
+skgpap:2a7f53f3-9c0f-4d12-8f03-8935ebe290a5 a schema:Person;
+  rdfs:label "Markus Luchsinger";
+  schema:sameAs wd:Q94923300 .
+
+skgpap:cbf0a20d-d3a6-4159-a818-c0f4ed448905 a schema:Person;
+  rdfs:label "Dieter Bachmann";
+  schema:sameAs wd:Q124615 .
+
+skgpap:770cca9f-83b5-4da1-88a8-e80661c57609 a schema:Person;
+  rdfs:label "Marco Läuchli" .
+
+<http://data.performing-arts.ch/w/a9663fe4-1c54-41f1-a05e-38cefdc101df> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/a9abadb8-8c28-493a-952a-82b5a4232894> rdau:P60399
+    skgpap:700d5e07-cfe8-4a34-b555-d85c4df49e09 .
+
+skgpap:700d5e07-cfe8-4a34-b555-d85c4df49e09 a schema:Person;
+  rdfs:label "Maximilian Enderle" .
+
+<http://data.performing-arts.ch/w/a9e2e587-1896-4915-bc98-8cedfcfaa39e> rdau:P60399
+    skgpap:bcf6588c-e41a-43e7-9811-3222f12fa959 .
+
+<http://data.performing-arts.ch/w/aac9d174-7a84-43f9-8c3d-e6d779f02903> rdau:P60399
+    skgpap:cb0f14cb-81d7-4bac-b80f-2cceb7323632 .
+
+skgpap:cb0f14cb-81d7-4bac-b80f-2cceb7323632 a schema:Person;
+  rdfs:label "Nina Hartwig" .
+
+<http://data.performing-arts.ch/w/ab0eef79-123c-4d37-9a2c-38f3de344c93> rdau:P60399
+    skgpap:770cca9f-83b5-4da1-88a8-e80661c57609 .
+
+<http://data.performing-arts.ch/w/ab236734-53c8-4d11-bb5b-b3ddc85686fc> rdau:P60399
+    skgpap:5fa72c10-777d-4c21-9a65-f1edcba601da .
+
+skgpap:5fa72c10-777d-4c21-9a65-f1edcba601da a schema:Person;
+  rdfs:label "Jan Sobrie";
+  schema:sameAs wd:Q2929049 .
+
+<http://data.performing-arts.ch/w/ab6303ef-088e-4150-ad21-741a9703fb19> rdau:P60399
+    skgpap:5d90d517-e7c0-43c7-9165-ef0b7576494c .
+
+<http://data.performing-arts.ch/w/ab9aef71-0c1f-4579-a536-b4e33999c44c> rdau:P60399
+    skgpap:bbb67c42-88c6-4c9b-a5a2-a8d1e559d279 .
+
+skgpap:bbb67c42-88c6-4c9b-a5a2-a8d1e559d279 a schema:Person;
+  rdfs:label "David Bösch" .
+
+<http://data.performing-arts.ch/w/ac267e9c-62e5-4095-84f8-a9ad5036c535> rdau:P60399
+    skgpap:4f89906b-05c5-48cf-a8b5-8be847dfc725 .
+
+skgpap:4f89906b-05c5-48cf-a8b5-8be847dfc725 a schema:Person;
+  rdfs:label "Jacques Rosny";
+  schema:sameAs wd:Q3159913 .
+
+<http://data.performing-arts.ch/w/ac366484-8bec-40a2-b6ee-a5122f728b58> rdau:P60399
+    skgpap:177b3759-8cb9-4f10-8cf7-370c243a13a6 .
+
+skgpap:177b3759-8cb9-4f10-8cf7-370c243a13a6 a schema:Person;
+  rdfs:label "Corinna von Rad";
+  schema:sameAs wd:Q88385311 .
+
+<http://data.performing-arts.ch/w/aca63e0c-b832-452c-8d9e-2f4b0c0f0402> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/ad010ecc-2347-4349-8fed-1766ff4d108c> rdau:P60399
+    skgpap:1bce105d-73cd-4467-aeb6-634edfd870dc .
+
+<http://data.performing-arts.ch/w/ad0a604b-8aff-4b76-9e97-20374d5c3e99> rdau:P60399
+    skgpap:d9a5ebf5-3240-4acb-bb9c-ac2e23f32e5c .
+
+skgpap:d9a5ebf5-3240-4acb-bb9c-ac2e23f32e5c a schema:Person;
+  rdfs:label "R. Merz" .
+
+<http://data.performing-arts.ch/w/ad1e4b2d-d34c-419d-b28d-3590108050a4> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/ad3f5bb7-1abc-46c2-b411-15ba4e88cff6> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/ad98a539-58d5-4117-8ff3-d2a18578b70d> rdau:P60399
+    skgpap:c1cd6963-bbc9-4173-8a0f-aa721ed4bea0 .
+
+<http://data.performing-arts.ch/w/adc7a53a-1534-4d29-bc0b-fe46c485b925> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/ae9777dd-01ea-4c3f-91d8-8af9e2e94d77> rdau:P60399
+    skgpap:c1cd6963-bbc9-4173-8a0f-aa721ed4bea0 .
+
+<http://data.performing-arts.ch/w/af24a555-ac18-4024-bfc3-a43697a3fa40> rdau:P60399
+    skgpap:38e1339b-e622-481d-97a8-548994368218 .
+
+skgpap:38e1339b-e622-481d-97a8-548994368218 a schema:Person;
+  rdfs:label "Jerzy Jarocki";
+  schema:sameAs wd:Q4538954 .
+
+<http://data.performing-arts.ch/w/af493c6a-0cea-4c56-bcb3-4cef2c57f4ac> rdau:P60399
+    skgpap:2210e9f8-180a-4884-b0f9-b670656ebbb8 .
+
+skgpap:2210e9f8-180a-4884-b0f9-b670656ebbb8 a schema:Person;
+  rdfs:label "Arie Zinger" .
+
+<http://data.performing-arts.ch/w/af55fc21-d49c-4ccc-9bef-b7e7d1fb7d91> rdau:P60399
+    skgpap:0481ff8a-db4e-462e-941a-f07b92c742aa .
+
+<http://data.performing-arts.ch/w/afaecf40-a58a-4878-8d4b-eb83fd9156f8> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/b0f2ed63-a6da-49d1-849f-f6f4f48c2fb5> rdau:P60399
+    skgpap:4a1e6507-ccaa-4b3f-97b0-dca6a660c1e3 .
+
+<http://data.performing-arts.ch/w/b15ca580-6c5e-4f01-9968-38e627c8d835> rdau:P60399
+    skgpap:eaa1edd2-51f4-42ad-bbb8-18feb4c24829 .
+
+<http://data.performing-arts.ch/w/b1dd23ad-28bd-4d53-b88c-967a5ba7b488> rdau:P60399
+    skgpap:4b23e576-ecc1-422c-88b4-0578c5808df6 .
+
+skgpap:4b23e576-ecc1-422c-88b4-0578c5808df6 a schema:Person;
+  rdfs:label "Sanda Weigl";
+  schema:sameAs wd:Q2220376 .
+
+<http://data.performing-arts.ch/w/b22a928c-c341-4746-9e04-528822493d58> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/b28c122b-4c32-4b2d-9f2d-d9b48c940ecc> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/b3106b3d-7507-4aac-ad70-be111aab2569> rdau:P60399
+    skgpap:a2cb3e30-6d06-4d81-bcf9-27686e4981eb .
+
+skgpap:a2cb3e30-6d06-4d81-bcf9-27686e4981eb a schema:Person;
+  rdfs:label "Johan Simons";
+  schema:sameAs wd:Q327891 .
+
+<http://data.performing-arts.ch/w/b32f2248-dabd-499f-a4c6-385457999256> rdau:P60399
+    skgpap:2210e9f8-180a-4884-b0f9-b670656ebbb8 .
+
+<http://data.performing-arts.ch/w/b3498bf5-be4a-40d7-b492-829e58f1845f> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/b3710915-5918-4a3c-9b5a-bea5c2f2c80f> rdau:P60399
+    skgpap:de0fb0ec-fa00-4b7a-9ae0-84baa6b52725 .
+
+skgpap:de0fb0ec-fa00-4b7a-9ae0-84baa6b52725 a schema:Person;
+  rdfs:label "Günther Büch";
+  schema:sameAs wd:Q1412748 .
+
+<http://data.performing-arts.ch/w/b4256937-018c-4eaa-9649-c7fc58708cdc> rdau:P60399
+    skgpap:57f95743-f1f5-4391-aa32-47ed3a6346c2 .
+
+<http://data.performing-arts.ch/w/b47dbc6c-0acd-4242-9452-c0afa6f9fed7> rdau:P60399
+    skgpap:deffdd64-5617-435d-844d-d825e5574987 .
+
+skgpap:deffdd64-5617-435d-844d-d825e5574987 a schema:Person;
+  rdfs:label "Christine Rudolph" .
+
+<http://data.performing-arts.ch/w/b4c30c9c-ba24-4ded-9269-c5d0ffd10468> rdau:P60399
+    skgpap:074e4195-0e17-4b52-a574-912633d57456 .
+
+skgpap:074e4195-0e17-4b52-a574-912633d57456 a schema:Person;
+  rdfs:label "Jérôme Bel" .
+
+<http://data.performing-arts.ch/w/b5108785-d014-40e8-b07f-d181d362de24> rdau:P60399
+    skgpap:81893dca-6877-4ec4-b670-22923cab73be .
+
+skgpap:81893dca-6877-4ec4-b670-22923cab73be a schema:Person;
+  rdfs:label "Sibylle Burkart" .
+
+<http://data.performing-arts.ch/w/b54a2bec-2663-4ba5-8a51-fdf9c6837e1e> rdau:P60399
+    skgpap:4fba2673-0a9b-4471-96f1-72b764a55b24 .
+
+skgpap:4fba2673-0a9b-4471-96f1-72b764a55b24 a schema:Person;
+  rdfs:label "Urs Schaub";
+  schema:sameAs wd:Q2501355 .
+
+<http://data.performing-arts.ch/w/b54d7574-cd05-4cc1-9c3f-875732d9f52d> rdau:P60399
+    skgpap:6d94bcdb-32c7-4400-8c5d-dc524be1f1d2 .
+
+skgpap:6d94bcdb-32c7-4400-8c5d-dc524be1f1d2 a schema:Person;
+  rdfs:label "Hansjörg Betschart";
+  schema:sameAs wd:Q1583847 .
+
+<http://data.performing-arts.ch/w/b56104c8-818d-43cc-940f-87e41ef55a42> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/b5d810fe-75e5-4a55-81dc-d6df5d3dd9b0> rdau:P60399
+    skgpap:9d7230d3-7f81-49b2-8a99-f7e7cd5f6c54 .
+
+skgpap:9d7230d3-7f81-49b2-8a99-f7e7cd5f6c54 a schema:Person;
+  rdfs:label "Geneviève Pasquier" .
+
+<http://data.performing-arts.ch/w/b6046047-2919-484b-9a5d-5aa583212cab> rdau:P60399
+    skgpap:b283d105-64ad-456d-8855-4e7b91f839ec .
+
+skgpap:b283d105-64ad-456d-8855-4e7b91f839ec a schema:Person;
+  rdfs:label "Gerd Leo Kuck" .
+
+<http://data.performing-arts.ch/w/b654d942-3e8c-442c-a975-0bd3cd10475b> rdau:P60399
+    skgpap:4dd35ebb-a3ac-4f47-8fe8-f48da648f57d .
+
+skgpap:4dd35ebb-a3ac-4f47-8fe8-f48da648f57d a schema:Person;
+  rdfs:label "Thomas Koerfer";
+  schema:sameAs wd:Q122833 .
+
+<http://data.performing-arts.ch/w/b747a340-9908-4064-96f4-b65b1acbec3a> rdau:P60399
+    skgpap:4a1e6507-ccaa-4b3f-97b0-dca6a660c1e3 .
+
+<http://data.performing-arts.ch/w/b783b6be-bd6c-4f09-9685-111c599135a2> rdau:P60399
+    skgpap:ec84adfe-f1eb-4c84-a888-14f6e973dabb .
+
+skgpap:ec84adfe-f1eb-4c84-a888-14f6e973dabb a schema:Person;
+  rdfs:label "Leonhard Koppelmann";
+  schema:sameAs wd:Q1819234 .
+
+<http://data.performing-arts.ch/w/b821cf75-6ab3-4827-a7ba-9ae6142649be> rdau:P60399
+    skgpap:77cbd498-86ab-46bb-844b-2930d4cc0478 .
+
+<http://data.performing-arts.ch/w/b9417fda-a7fb-4a7b-b8a5-8f30d9c7b21c> rdau:P60399
+    skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 .
+
+skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 a schema:Person;
+  rdfs:label "Hans Hollmann" .
+
+<http://data.performing-arts.ch/w/b9cbf41b-53d2-49bf-88ec-45e83c4b9d3b> rdau:P60399
+    skgpap:440f8377-09cd-40a8-8942-3bcf85dbaf3e .
+
+skgpap:440f8377-09cd-40a8-8942-3bcf85dbaf3e a schema:Person;
+  rdfs:label "Hans Bauer";
+  schema:sameAs wd:Q15819340 .
+
+<http://data.performing-arts.ch/w/ba74a27e-1e80-4e5b-9bef-d13f3442596b> rdau:P60399
+    skgpap:671e1dd3-3290-40af-bb84-9515b3eb6661 .
+
+skgpap:671e1dd3-3290-40af-bb84-9515b3eb6661 a schema:Person;
+  rdfs:label "Peter Sattmann";
+  schema:sameAs wd:Q97510 .
+
+<http://data.performing-arts.ch/w/bad50dbb-2d5e-446a-97b0-505bd8915153> rdau:P60399
+    skgpap:ddc855f5-ab24-4c90-9def-b7f58dedca82 .
+
+skgpap:ddc855f5-ab24-4c90-9def-b7f58dedca82 a schema:Person;
+  rdfs:label "Thomas Tanner" .
+
+<http://data.performing-arts.ch/w/bbf01403-6b39-401a-b9e0-59cad93c0e32> rdau:P60399
+    skgpap:8608b214-b747-4b2f-942e-73813a4667d7 .
+
+skgpap:8608b214-b747-4b2f-942e-73813a4667d7 a schema:Person;
+  rdfs:label "Mani Wintsch" .
+
+<http://data.performing-arts.ch/w/bc1ff61f-28b9-403b-a353-4e6d631709df> rdau:P60399
+    skgpap:cb4d5520-e458-4bd5-9661-b088b188799d .
+
+skgpap:cb4d5520-e458-4bd5-9661-b088b188799d a schema:Person;
+  rdfs:label "Jean Martinez" .
+
+<http://data.performing-arts.ch/w/bc6ef414-7472-434d-9c30-4ee5da35d196> rdau:P60399
+    skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 .
+
+skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 a schema:Person;
+  rdfs:label "Bastian Kraft";
+  schema:sameAs wd:Q810618 .
+
+<http://data.performing-arts.ch/w/bc86cb94-c22c-4e30-a8d6-bd328d8b90ef> rdau:P60399
+    skgpap:b289eff7-c416-48b9-9b14-268c566ea290 .
+
+skgpap:b289eff7-c416-48b9-9b14-268c566ea290 a schema:Person;
+  rdfs:label "Kornél Mundruczó";
+  schema:sameAs wd:Q537284 .
+
+<http://data.performing-arts.ch/w/bd0a81d1-20d6-4d24-8a42-ae9598448483> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/bdecbff4-1fcd-4cc9-9c17-de391b3c9b4d> rdau:P60399
+    skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 .
+
+<http://data.performing-arts.ch/w/bdf9b514-5f23-460b-9389-ec5dda035a77> rdau:P60399
+    skgpap:5d90d517-e7c0-43c7-9165-ef0b7576494c .
+
+<http://data.performing-arts.ch/w/be2376af-2fe4-4256-bfe2-145f8364d04a> rdau:P60399
+    skgpap:4179f135-9135-43a3-bc55-2e10546e1a3a .
+
+skgpap:4179f135-9135-43a3-bc55-2e10546e1a3a a schema:Person;
+  rdfs:label "Enrico Beeler" .
+
+<http://data.performing-arts.ch/w/be92a16a-c9d1-4f95-8fe8-4a5ea63562b8> rdau:P60399
+    skgpap:909f1ad9-d322-43af-a7f6-0bf70035de10 .
+
+skgpap:909f1ad9-d322-43af-a7f6-0bf70035de10 a schema:Person;
+  rdfs:label "Alexandra Liedtke";
+  schema:sameAs wd:Q28146634 .
+
+<http://data.performing-arts.ch/w/bea858cf-1d53-470f-9be7-20a1e4b4cb99> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/bee0a780-e31a-4686-b933-3f5c3b2f88f9> rdau:P60399
+    skgpap:877a86e2-6def-466f-a543-7ccecfadd3d9 .
+
+skgpap:877a86e2-6def-466f-a543-7ccecfadd3d9 a schema:Person;
+  rdfs:label "Michael Klette";
+  schema:sameAs wd:Q1426759 .
+
+<http://data.performing-arts.ch/w/bef2d41e-e4d6-4418-a374-9ab1d74b965a> rdau:P60399
+    skgpap:b96d0960-c8b7-4d3e-bb2e-4a4ed508f429 .
+
+skgpap:b96d0960-c8b7-4d3e-bb2e-4a4ed508f429 a schema:Person;
+  rdfs:label "Zino Wey" .
+
+<http://data.performing-arts.ch/w/bfa39114-105f-41bb-a18c-8a19f46071b5> rdau:P60399
+    skgpap:64ed53ff-d82c-451c-b7fa-f610798e1dee .
+
+skgpap:64ed53ff-d82c-451c-b7fa-f610798e1dee a schema:Person;
+  rdfs:label "Dusan David Parízek";
+  schema:sameAs wd:Q14923709 .
+
+<http://data.performing-arts.ch/w/c0ceb29f-72ff-43a2-88cd-37202a56b4c2> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/c0dab864-cc0d-4a86-b5a9-55fd836c8d17> rdau:P60399
+    skgpap:6dc60e7b-b697-496e-830e-c5d71a542042 .
+
+<http://data.performing-arts.ch/w/c1262a40-3c92-4fc4-a5d3-b8685f3a7480> rdau:P60399
+    skgpap:5dbe0e58-7970-4483-a283-a975deed6e6d .
+
+skgpap:5dbe0e58-7970-4483-a283-a975deed6e6d a schema:Person;
+  rdfs:label "Antje Schupp" .
+
+<http://data.performing-arts.ch/w/c14bd949-ea2d-41f7-9c63-741f5c352bd3> rdau:P60399
+    skgpap:ea662076-c9d5-40a7-98f4-680fdc5cde46 .
+
+<http://data.performing-arts.ch/w/c14dffde-6bf5-4a33-94b4-9844c5348e93> rdau:P60399
+    skgpap:5d90d517-e7c0-43c7-9165-ef0b7576494c .
+
+<http://data.performing-arts.ch/w/c23bc394-5658-4ce3-9fc5-6b97de4e6378> rdau:P60399
+    skgpap:37a95312-3385-4dd0-9003-bb2135f00b1a .
+
+skgpap:37a95312-3385-4dd0-9003-bb2135f00b1a a schema:Person;
+  rdfs:label "Jan Bosse";
+  schema:sameAs wd:Q1681644 .
+
+<http://data.performing-arts.ch/w/c26193dc-9dc3-4987-8772-7949cf38368d> rdau:P60399
+    skgpap:aac923fd-cbdb-42ea-bac6-bad084335de6 .
+
+skgpap:aac923fd-cbdb-42ea-bac6-bad084335de6 a schema:Person;
+  rdfs:label "Alain Platel" .
+
+<http://data.performing-arts.ch/w/c27d1ca9-117b-4a8a-afd0-d3ba0d11eba1> rdau:P60399
+    skgpap:e1cc68e2-84e4-4add-b9fc-c768beb65162 .
+
+skgpap:e1cc68e2-84e4-4add-b9fc-c768beb65162 a schema:Person;
+  rdfs:label "Alvaro Piccardi" .
+
+<http://data.performing-arts.ch/w/c27e056b-7ded-4bd1-859e-e8b50ad42cf2> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/c27fca38-4693-4f09-86c4-fa293f232d46> rdau:P60399
+    skgpap:64ed53ff-d82c-451c-b7fa-f610798e1dee .
+
+<http://data.performing-arts.ch/w/c2b71e8a-bab1-4bd4-b56e-d4f3ab7d9cee> rdau:P60399
+    skgpap:cbf2eb75-f068-401a-9789-7b01106dc99c .
+
+skgpap:cbf2eb75-f068-401a-9789-7b01106dc99c a schema:Person;
+  rdfs:label "Simon Stokes";
+  schema:sameAs wd:Q106458051 .
+
+<http://data.performing-arts.ch/w/c329b139-0cc2-41ed-be8a-1239ea5b2174> rdau:P60399
+    skgpap:49055ee5-d52e-437f-b0f8-667370bff554, skgpap:2f7fadea-3375-4d3c-bb6c-a6b9bee27bfe .
+
+<http://data.performing-arts.ch/w/c3369998-7863-40a1-84f9-69bce50a0430> rdau:P60399
+    skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f .
+
+<http://data.performing-arts.ch/w/c426a6f3-4dd5-4e5d-af9b-a383e65711cb> rdau:P60399
+    skgpap:a2cb3e30-6d06-4d81-bcf9-27686e4981eb .
+
+<http://data.performing-arts.ch/w/c438c82b-537d-43b6-83f0-5561aa4f3f62> rdau:P60399
+    skgpap:0c94cf35-9ad5-4328-93ab-d4f5d6957b15 .
+
+<http://data.performing-arts.ch/w/c4603560-84cd-48fa-9d45-1d28266ce3cd> rdau:P60399
+    skgpap:8ed37f29-8058-4f21-8231-2d90a5c07807 .
+
+skgpap:8ed37f29-8058-4f21-8231-2d90a5c07807 a schema:Person;
+  rdfs:label "Fritz Zecha";
+  schema:sameAs wd:Q19280045 .
+
+<http://data.performing-arts.ch/w/c48435ca-1efd-4a6a-801d-c74a41aea946> rdau:P60399
+    skgpap:d6e2eb35-4ba3-47cc-9feb-bc9670f3efe8 .
+
+<http://data.performing-arts.ch/w/c5275cae-f772-4f49-a0e0-67549c7c5886> rdau:P60399
+    skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 .
+
+<http://data.performing-arts.ch/w/c564ca2d-5d3a-4508-92af-dceae5121bfc> rdau:P60399
+    skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 .
+
+<http://data.performing-arts.ch/w/c5af9f85-5348-4db6-a136-2581b73d7020> rdau:P60399
+    skgpap:9463411a-c8bd-4c99-9645-83f677636cb4 .
+
+skgpap:9463411a-c8bd-4c99-9645-83f677636cb4 a schema:Person;
+  rdfs:label "Lily Sykes";
+  schema:sameAs wd:Q17323043 .
+
+<http://data.performing-arts.ch/w/c63323df-2dc8-4c5d-9f8a-908d84b743f5> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/c686058a-92d9-4200-a9d3-21aa1607b3ad> rdau:P60399
+    skgpap:b96d0960-c8b7-4d3e-bb2e-4a4ed508f429 .
+
+<http://data.performing-arts.ch/w/c6ba47f7-e4cc-44ab-ac24-93b20ca5dbc4> rdau:P60399
+    skgpap:62d8665c-291d-44ab-99db-b58103f9bd53 .
+
+skgpap:62d8665c-291d-44ab-99db-b58103f9bd53 a schema:Person;
+  rdfs:label "Christian Weise" .
+
+<http://data.performing-arts.ch/w/c6d530f1-c5d0-4697-9735-ed2d8d9d1644> rdau:P60399
+    skgpap:f2e3c5c4-6ac7-408a-ad41-9c385fa728f2 .
+
+skgpap:f2e3c5c4-6ac7-408a-ad41-9c385fa728f2 a schema:Person;
+  rdfs:label "Antú Romero Nunes";
+  schema:sameAs wd:Q612115 .
+
+<http://data.performing-arts.ch/w/c6d55a1d-d54e-4184-98bc-ee697524939f> rdau:P60399
+    skgpap:64ed53ff-d82c-451c-b7fa-f610798e1dee .
+
+<http://data.performing-arts.ch/w/c6eca2cd-229a-4383-b6a8-1d2afc7d8fb1> rdau:P60399
+    skgpap:6d94bcdb-32c7-4400-8c5d-dc524be1f1d2 .
+
+<http://data.performing-arts.ch/w/c764b28e-5874-40a7-bb1a-316f99965bb9> rdau:P60399
+    skgpap:ea662076-c9d5-40a7-98f4-680fdc5cde46 .
+
+<http://data.performing-arts.ch/w/c7bd0e3f-f0f5-4059-9ea7-1464e604f790> rdau:P60399
+    skgpap:77cbd498-86ab-46bb-844b-2930d4cc0478 .
+
+<http://data.performing-arts.ch/w/c7c8a933-804d-4716-b395-5de32cbc8ee4> rdau:P60399
+    skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f .
+
+<http://data.performing-arts.ch/w/c8005bac-640b-4d2e-891f-89412c3c0fd6> rdau:P60399
+    skgpap:18213ac9-ae4e-4c9a-bc96-354bef8b2e6b .
+
+skgpap:18213ac9-ae4e-4c9a-bc96-354bef8b2e6b a schema:Person;
+  rdfs:label "Armin Petras";
+  schema:sameAs wd:Q688146 .
+
+<http://data.performing-arts.ch/w/c8f16150-d4d6-4f9b-9de8-40bb041faa7f> rdau:P60399
+    skgpap:ddc855f5-ab24-4c90-9def-b7f58dedca82 .
+
+<http://data.performing-arts.ch/w/c998fd5d-015f-4704-8080-b8f301f5d3d4> rdau:P60399
+    skgpap:8608b214-b747-4b2f-942e-73813a4667d7 .
+
+<http://data.performing-arts.ch/w/cb00d562-8f94-4f3c-998f-2e5d21b6a293> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/cbe11654-ce05-4e90-9c03-8add62050f9e> rdau:P60399
+    skgpap:4d593b4e-dba2-4ed2-a794-6c3ea6fd4024 .
+
+skgpap:4d593b4e-dba2-4ed2-a794-6c3ea6fd4024 a schema:Person;
+  rdfs:label "Hartmut Lange";
+  schema:sameAs wd:Q90002 .
+
+<http://data.performing-arts.ch/w/cc06f6e2-adde-409b-9c95-861c74dc02a4> rdau:P60399
+    skgpap:5aaf4068-0bdc-41b8-be5c-90ab694a1d6b .
+
+skgpap:5aaf4068-0bdc-41b8-be5c-90ab694a1d6b a schema:Person;
+  rdfs:label "Martin Kreutzberg";
+  schema:sameAs wd:Q95227739 .
+
+<http://data.performing-arts.ch/w/cc8ce972-2dd0-42eb-bcf0-e330011d1615> rdau:P60399
+    skgpap:6701841b-9212-41ea-a640-f4e0ee9edc9c .
+
+skgpap:6701841b-9212-41ea-a640-f4e0ee9edc9c a schema:Person;
+  rdfs:label "Jordi Faura" .
+
+<http://data.performing-arts.ch/w/cc903e07-da98-4398-89f6-1f438a3d7ca0> rdau:P60399
+    skgpap:f2e3c5c4-6ac7-408a-ad41-9c385fa728f2 .
+
+<http://data.performing-arts.ch/w/cd5da7ec-8776-4845-8b7a-be11f89a650b> rdau:P60399
+    skgpap:7c0689ce-d69f-40a1-8997-05e11852721a .
+
+skgpap:7c0689ce-d69f-40a1-8997-05e11852721a a schema:Person;
+  rdfs:label "Jan Stephan Schmieding" .
+
+<http://data.performing-arts.ch/w/cd9e8ae3-4c55-4a28-b379-cf8a9d944ddd> rdau:P60399
+    skgpap:f0e9fea6-6992-446b-9dbe-b49f55788318 .
+
+<http://data.performing-arts.ch/w/cdb61bee-bd83-4bf9-bfb0-fa8a888fe951> rdau:P60399
+    skgpap:b283d105-64ad-456d-8855-4e7b91f839ec .
+
+<http://data.performing-arts.ch/w/ce1cc770-d0ef-4d3f-af70-4009e494b668> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/ceb2ea2d-6002-4f79-b1a7-beff85b56a27> rdau:P60399
+    skgpap:63dab42e-92ab-46bb-9d8e-61d88e7906c4 .
+
+skgpap:63dab42e-92ab-46bb-9d8e-61d88e7906c4 a schema:Person;
+  rdfs:label "Jean-Luc Moreau" .
+
+<http://data.performing-arts.ch/w/ceb6e6f0-d377-471e-8acd-e5ad015e92f4> rdau:P60399
+    skgpap:10670ca1-c277-4d49-acab-35ae92e8c07f .
+
+skgpap:10670ca1-c277-4d49-acab-35ae92e8c07f a schema:Person;
+  rdfs:label "Karl Guttmann";
+  schema:sameAs wd:Q3144036 .
+
+<http://data.performing-arts.ch/w/cfa6120e-bc23-443e-b9ad-ba627348e145> rdau:P60399
+    skgpap:ec84adfe-f1eb-4c84-a888-14f6e973dabb .
+
+<http://data.performing-arts.ch/w/cfbd4612-aac4-4ff2-a993-fabc9e76b860> rdau:P60399
+    skgpap:f0e9fea6-6992-446b-9dbe-b49f55788318 .
+
+<http://data.performing-arts.ch/w/d0911f61-6431-4bfc-a582-3728d13d899e> rdau:P60399
+    skgpap:77cbd498-86ab-46bb-844b-2930d4cc0478 .
+
+<http://data.performing-arts.ch/w/d123e3d5-b467-45cc-b101-fdb04567c3b0> rdau:P60399
+    skgpap:5dbe0e58-7970-4483-a283-a975deed6e6d .
+
+<http://data.performing-arts.ch/w/d131e497-581e-4f6d-9fc3-2499fa3f975e> rdau:P60399
+    skgpap:785e6a71-807d-49e3-acfb-193fd1904bd8 .
+
+skgpap:785e6a71-807d-49e3-acfb-193fd1904bd8 a schema:Person;
+  rdfs:label "Ulrich Waller";
+  schema:sameAs wd:Q2476884 .
+
+<http://data.performing-arts.ch/w/d14c9304-ddf6-4fff-b2b0-9b358d888f63> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/d168adb2-a733-41d8-8700-e06226e95ae4> rdau:P60399
+    skgpap:1369e5c9-fa00-4893-b0af-c3023c6798e8 .
+
+skgpap:1369e5c9-fa00-4893-b0af-c3023c6798e8 a schema:Person;
+  rdfs:label "Loek Huisman";
+  schema:sameAs wd:Q47494629 .
+
+<http://data.performing-arts.ch/w/d176200a-08f2-4bb4-a1de-9ff02d89690b> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/d1b3c9a5-474d-4ec0-8e93-9f0f9c81cc81> rdau:P60399
+    skgpap:440f8377-09cd-40a8-8942-3bcf85dbaf3e .
+
+<http://data.performing-arts.ch/w/d1cef12c-e642-483b-a00e-432845f94c70> rdau:P60399
+    skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 .
+
+<http://data.performing-arts.ch/w/d29cb0ff-55a4-42bf-a259-4aedd55ef4ee> rdau:P60399
+    skgpap:cd9d53b2-8aff-4b7c-b809-447206367ef3 .
+
+skgpap:cd9d53b2-8aff-4b7c-b809-447206367ef3 a schema:Person;
+  rdfs:label "Lars-Ole Walburg";
+  schema:sameAs wd:Q1564744 .
+
+<http://data.performing-arts.ch/w/d38f2977-b778-4d91-9dd2-e07302e7f3ce> rdau:P60399
+    skgpap:4179f135-9135-43a3-bc55-2e10546e1a3a .
+
+<http://data.performing-arts.ch/w/d3bbc360-82bd-4e25-82b3-9f507d90bfba> rdau:P60399
+    skgpap:014bd7e0-c092-47df-a71e-9f244053474f .
+
+skgpap:014bd7e0-c092-47df-a71e-9f244053474f a schema:Person;
+  rdfs:label "Peter Lotschak";
+  schema:sameAs wd:Q95765604 .
+
+<http://data.performing-arts.ch/w/d41f751d-6be9-4cd4-8674-489e2bf5e7d3> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/d50327d1-deb2-4c69-824b-8e2f9536c88f> rdau:P60399
+    skgpap:c99c5016-9b6a-48cc-b96a-2389ea4330b7 .
+
+skgpap:c99c5016-9b6a-48cc-b96a-2389ea4330b7 a schema:Person;
+  rdfs:label "Carsten Bodinus";
+  schema:sameAs wd:Q95791718 .
+
+<http://data.performing-arts.ch/w/d51833f7-77e2-4de7-ad68-79f9462f74f2> rdau:P60399
+    skgpap:cb618328-858a-42e3-be4e-9cb54e4162e3 .
+
+skgpap:cb618328-858a-42e3-be4e-9cb54e4162e3 a schema:Person;
+  rdfs:label "Nikolaus Habjan";
+  schema:sameAs wd:Q1481518 .
+
+<http://data.performing-arts.ch/w/d54c6e4d-4f68-468b-a6d8-603708c21b3c> rdau:P60399
+    skgpap:a08f63b9-acfb-40a5-9d6e-58bef1a364d1 .
+
+skgpap:a08f63b9-acfb-40a5-9d6e-58bef1a364d1 a schema:Person;
+  rdfs:label "Geoffrey Reeves" .
+
+<http://data.performing-arts.ch/w/d559ccca-be87-4c7b-b069-096a2b0752e8> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/d5b301cf-ec12-46d2-afe2-c0da1d0b947e> rdau:P60399
+    skgpap:e908ae76-932f-49e7-969a-f702dbd10214 .
+
+skgpap:e908ae76-932f-49e7-969a-f702dbd10214 a schema:Person;
+  rdfs:label "Elias Perrig";
+  schema:sameAs wd:Q1329112 .
+
+<http://data.performing-arts.ch/w/d5f98b03-f4c5-4632-baf7-82d6d90d0919> rdau:P60399
+    skgpap:d65f2c8a-0574-4482-b81f-48fc8228dc80 .
+
+skgpap:d65f2c8a-0574-4482-b81f-48fc8228dc80 a schema:Person;
+  rdfs:label "David Mouchtar-Samorai";
+  schema:sameAs wd:Q15392075 .
+
+<http://data.performing-arts.ch/w/d5ffeb2f-868a-49ed-8bf6-e14bf6cc0c2d> rdau:P60399
+    skgpap:770cca9f-83b5-4da1-88a8-e80661c57609 .
+
+<http://data.performing-arts.ch/w/d63b1555-3e87-4618-a938-c2607cd173d2> rdau:P60399
+    skgpap:fa505768-649a-46c9-9b65-ed508fcc5a7e .
+
+skgpap:fa505768-649a-46c9-9b65-ed508fcc5a7e a schema:Person;
+  rdfs:label "Stefan Müller" .
+
+<http://data.performing-arts.ch/w/d66975f3-0568-4531-a64d-26db5c5f4df4> rdau:P60399
+    skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 .
+
+<http://data.performing-arts.ch/w/d6856fa0-83cb-4f2b-b7c8-5b333cb46453> rdau:P60399
+    skgpap:627ce94f-cc08-41ef-aed1-0b567b6c4da4 .
+
+skgpap:627ce94f-cc08-41ef-aed1-0b567b6c4da4 a schema:Person;
+  rdfs:label "Karst Woudstra";
+  schema:sameAs wd:Q2220316 .
+
+<http://data.performing-arts.ch/w/d6ae8e01-b819-4378-af96-f8dbe6487622> rdau:P60399
+    skgpap:4a1e6507-ccaa-4b3f-97b0-dca6a660c1e3 .
+
+<http://data.performing-arts.ch/w/d6d820d4-1559-4a4d-b002-b3e670c3d283> rdau:P60399
+    skgpap:be644b60-8f12-4f26-946c-ecd56092e6a3 .
+
+skgpap:be644b60-8f12-4f26-946c-ecd56092e6a3 a schema:Person;
+  rdfs:label "Andrzej Wajda";
+  schema:sameAs wd:Q106685 .
+
+<http://data.performing-arts.ch/w/d7189c22-feb2-408a-b49d-1ead3aa7ab9c> rdau:P60399
+    skgpap:80cd995f-8333-4119-80fb-fa19856b5fbf .
+
+skgpap:80cd995f-8333-4119-80fb-fa19856b5fbf a schema:Person;
+  rdfs:label "Jean-Pierre Ponnelle";
+  schema:sameAs wd:Q1322353 .
+
+<http://data.performing-arts.ch/w/d87f604f-cca5-4ce5-9e4e-f48726632318> rdau:P60399
+    skgpap:a383e8a3-d0fd-4ed3-a56e-bed10d9fb35a .
+
+<http://data.performing-arts.ch/w/d992fad0-0d30-4ff9-9799-36761be69659> rdau:P60399
+    skgpap:b283d105-64ad-456d-8855-4e7b91f839ec .
+
+<http://data.performing-arts.ch/w/d9db585d-b1bb-4c09-a878-e385ab1079e2> rdau:P60399
+    skgpap:cd9d53b2-8aff-4b7c-b809-447206367ef3 .
+
+<http://data.performing-arts.ch/w/da20c2c9-acdb-4002-ad0a-7a2643243e3a> rdau:P60399
+    skgpap:f4775675-f342-4ab3-9bf1-ee82820c2bcb .
+
+skgpap:f4775675-f342-4ab3-9bf1-ee82820c2bcb a schema:Person;
+  rdfs:label "Tina Lanik";
+  schema:sameAs wd:Q1417898 .
+
+<http://data.performing-arts.ch/w/da44b3c5-e702-434a-a5a9-e926f852f36b> rdau:P60399
+    skgpap:3c75004d-d9ae-4d83-94be-c6ba66a11353 .
+
+<http://data.performing-arts.ch/w/db0f0b79-9b55-4406-afae-30c1219a4f6a> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/dca74af6-7948-4f9e-8b3e-975676344ca0> rdau:P60399
+    skgpap:22469e0e-9980-4eed-8d8b-832dbee5ed59 .
+
+skgpap:22469e0e-9980-4eed-8d8b-832dbee5ed59 a schema:Person;
+  rdfs:label "Christof Loy";
+  schema:sameAs wd:Q1084305 .
+
+<http://data.performing-arts.ch/w/dcc7fabe-1b5b-4490-9436-5087da94c3f3> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/dd42c8b4-ac91-4940-a567-b82dd38b4ea4> rdau:P60399
+    skgpap:24451b96-17ff-458c-b19f-05ad1e950f54 .
+
+skgpap:24451b96-17ff-458c-b19f-05ad1e950f54 a schema:Person;
+  rdfs:label "Bernard Sobel";
+  schema:sameAs wd:Q4893659 .
+
+<http://data.performing-arts.ch/w/ddcb2e2f-9fc7-46af-a843-03815c8b7b0d> rdau:P60399
+    skgpap:8df76f6a-2773-44b9-8cf7-1723377bdd2a .
+
+<http://data.performing-arts.ch/w/de110544-28fb-4e98-b483-e2d212133195> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/dec88479-b74e-45c9-9e63-daf16990371f> rdau:P60399
+    skgpap:66ffa037-e9ff-4910-9365-7892cf4749dc .
+
+skgpap:66ffa037-e9ff-4910-9365-7892cf4749dc a schema:Person;
+  rdfs:label "Sasha Waltz" .
+
+<http://data.performing-arts.ch/w/def3fe2d-3d8b-4070-a6e6-37a32d3016de> rdau:P60399
+    skgpap:4a01260a-594f-4f43-9e59-1f2f81384856 .
+
+<http://data.performing-arts.ch/w/df1b1ef9-0195-4108-bae0-92045652c49d> rdau:P60399
+    skgpap:d6e2eb35-4ba3-47cc-9feb-bc9670f3efe8 .
+
+<http://data.performing-arts.ch/w/df8d4c0f-91f7-4065-8a12-f8017bed5f78> rdau:P60399
+    skgpap:fdee4ec6-2b9f-4204-81c8-7c3d97fa9787 .
+
+skgpap:fdee4ec6-2b9f-4204-81c8-7c3d97fa9787 a schema:Person;
+  rdfs:label "George Tabori";
+  schema:sameAs wd:Q152301 .
+
+<http://data.performing-arts.ch/w/e005a793-8ce6-4664-b6fb-5eabe3da6fb0> rdau:P60399
+    skgpap:1bf6c715-00c8-41df-a845-fc9d19fefc21 .
+
+skgpap:1bf6c715-00c8-41df-a845-fc9d19fefc21 a schema:Person;
+  rdfs:label "Stephan Müller";
+  schema:sameAs wd:Q1563630 .
+
+<http://data.performing-arts.ch/w/e01b607e-fbc0-41cf-98e8-bc3f152959e9> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/e05bfe8f-feb0-4d50-b4b3-21f3d4ce823e> rdau:P60399
+    skgpap:37a95312-3385-4dd0-9003-bb2135f00b1a .
+
+<http://data.performing-arts.ch/w/e071247d-a432-42b1-9445-4093e1807841> rdau:P60399
+    skgpap:0c94cf35-9ad5-4328-93ab-d4f5d6957b15 .
+
+<http://data.performing-arts.ch/w/e074f956-085b-4c08-8869-b4e8cdcf4ca9> rdau:P60399
+    skgpap:9f9728da-5ce1-413e-bd36-c6bcb59438aa .
+
+skgpap:9f9728da-5ce1-413e-bd36-c6bcb59438aa a schema:Person;
+  rdfs:label "Clara Dobbertin";
+  schema:sameAs wd:Q62822366 .
+
+<http://data.performing-arts.ch/w/e1b05bbf-be98-44ab-abcf-3527014875e5> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/e1b15fca-5212-4123-aa37-4078337e25a3> rdau:P60399
+    skgpap:c42315d5-c48b-4c90-bf9c-65a8277d3703 .
+
+skgpap:c42315d5-c48b-4c90-bf9c-65a8277d3703 a schema:Person;
+  rdfs:label "Karin Beier";
+  schema:sameAs wd:Q102309 .
+
+<http://data.performing-arts.ch/w/e1b79c5c-b3d9-41e0-affb-301c33472cdb> rdau:P60399
+    skgpap:14667022-d3c5-49a0-a791-e5d00f30a98f .
+
+skgpap:14667022-d3c5-49a0-a791-e5d00f30a98f a schema:Person;
+  rdfs:label "Heike M. Goetze";
+  schema:sameAs wd:Q1000983 .
+
+<http://data.performing-arts.ch/w/e1d3558f-ee3d-4f94-9ce4-400fc924ca1f> rdau:P60399
+    skgpap:4ae6f66f-cc4e-406f-b4e4-34762cebfd84 .
+
+<http://data.performing-arts.ch/w/e250035f-8feb-4824-aa8a-7bbaf4138129> rdau:P60399
+    skgpap:d4939d81-3a37-4e58-8266-820b7d3883f0 .
+
+<http://data.performing-arts.ch/w/e26c9283-95df-4589-b9ac-7ef6312cc5f4> rdau:P60399
+    skgpap:783ac78b-2101-4fe3-9d41-2a5d1980ea83 .
+
+skgpap:783ac78b-2101-4fe3-9d41-2a5d1980ea83 a schema:Person;
+  rdfs:label "Luk Perceval";
+  schema:sameAs wd:Q872881 .
+
+<http://data.performing-arts.ch/w/e3104155-c60a-4680-9e51-aa9270eec01a> rdau:P60399
+    skgpap:2fd0e4e8-52ea-491a-a2f5-e4fd108f30b2 .
+
+skgpap:2fd0e4e8-52ea-491a-a2f5-e4fd108f30b2 a schema:Person;
+  rdfs:label "Sophia Bodamer" .
+
+<http://data.performing-arts.ch/w/e31dd377-c991-4e84-be22-ea09ea44739f> rdau:P60399
+    skgpap:4fba2673-0a9b-4471-96f1-72b764a55b24 .
+
+<http://data.performing-arts.ch/w/e3684b1c-c85b-41ca-ac09-a1e721a2aa85> rdau:P60399
+    skgpap:2174aadf-c81c-40ec-a1ff-4aed82268291 .
+
+skgpap:2174aadf-c81c-40ec-a1ff-4aed82268291 a schema:Person;
+  rdfs:label "Felicitas Brucker";
+  schema:sameAs wd:Q62591903 .
+
+<http://data.performing-arts.ch/w/e3688eaa-4597-4542-99b0-207c30a46f61> rdau:P60399
+    skgpap:64ed53ff-d82c-451c-b7fa-f610798e1dee .
+
+<http://data.performing-arts.ch/w/e3873b08-141f-49e0-b220-01ceb2a7c9d2> rdau:P60399
+    skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 .
+
+<http://data.performing-arts.ch/w/e3b201ac-12f0-43b3-8822-ae5b3303e481> rdau:P60399
+    skgpap:5b3f72b0-8136-4f71-b819-b5a44a48475c .
+
+skgpap:5b3f72b0-8136-4f71-b819-b5a44a48475c a schema:Person;
+  rdfs:label "Annette Raffalt";
+  schema:sameAs wd:Q27918531 .
+
+<http://data.performing-arts.ch/w/e49c0250-1f95-46a3-bd6f-6059e7b37258> rdau:P60399
+    skgpap:c1cd6963-bbc9-4173-8a0f-aa721ed4bea0 .
+
+<http://data.performing-arts.ch/w/e4e384e1-3a26-43a5-a434-4bab497e4be5> rdau:P60399
+    skgpap:f4775675-f342-4ab3-9bf1-ee82820c2bcb .
+
+<http://data.performing-arts.ch/w/e4ee4c43-d812-4f85-866d-da2728cababe> rdau:P60399
+    skgpap:4fba2673-0a9b-4471-96f1-72b764a55b24 .
+
+<http://data.performing-arts.ch/w/e55c5080-6cde-4e7c-9461-3fed4c21727e> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/e6a6b8b1-7f8d-4550-bb33-fa24b60554d3> rdau:P60399
+    skgpap:1573924d-462e-49e3-b07b-a1b4056ce285 .
+
+skgpap:1573924d-462e-49e3-b07b-a1b4056ce285 a schema:Person;
+  rdfs:label "Sebastian Baumgarten";
+  schema:sameAs wd:Q1263850 .
+
+<http://data.performing-arts.ch/w/e6e8a37c-f0b2-4258-8cac-8813c5bbbfab> rdau:P60399
+    skgpap:d6e2eb35-4ba3-47cc-9feb-bc9670f3efe8 .
+
+<http://data.performing-arts.ch/w/e705dc54-2c55-4340-b78c-80a483bee17c> rdau:P60399
+    skgpap:5dbe0e58-7970-4483-a283-a975deed6e6d .
+
+<http://data.performing-arts.ch/w/e73e80cf-f87d-4767-b20b-d2b266bc0778> rdau:P60399
+    skgpap:a383e8a3-d0fd-4ed3-a56e-bed10d9fb35a .
+
+<http://data.performing-arts.ch/w/e74664c5-df7d-40db-882f-890725b524ba> rdau:P60399
+    skgpap:48103ff1-cc7b-48ee-945a-0d9b4f29f8e3 .
+
+skgpap:48103ff1-cc7b-48ee-945a-0d9b4f29f8e3 a schema:Person;
+  rdfs:label "Luca Ronconi" .
+
+<http://data.performing-arts.ch/w/e7946fc4-76c7-4991-bfa3-4c727c2285de> rdau:P60399
+    skgpap:1e05fe32-3437-4a9b-87f4-4fe3508c3bb6 .
+
+skgpap:1e05fe32-3437-4a9b-87f4-4fe3508c3bb6 a schema:Person;
+  rdfs:label "Paul Pörtner" .
+
+<http://data.performing-arts.ch/w/e7ed9e42-ab05-4481-939a-2e1924b7e0be> rdau:P60399
+    skgpap:bce57b5d-8c5d-47b4-aaae-05f238430f95 .
+
+skgpap:bce57b5d-8c5d-47b4-aaae-05f238430f95 a schema:Person;
+  rdfs:label "Erich Sidler";
+  schema:sameAs wd:Q15808385 .
+
+<http://data.performing-arts.ch/w/e86398c8-ddf2-4442-b75f-1a7f7b055ea3> rdau:P60399
+    skgpap:1918e63f-e9da-4607-a3c1-c1135a08de78 .
+
+skgpap:1918e63f-e9da-4607-a3c1-c1135a08de78 a schema:Person;
+  rdfs:label "Angelika Hurwicz";
+  schema:sameAs wd:Q110571 .
+
+<http://data.performing-arts.ch/w/e9411c55-74b2-4ec7-bffd-66848908951e> rdau:P60399
+    skgpap:08e0e065-3abc-4a97-891f-636859eaa497 .
+
+skgpap:08e0e065-3abc-4a97-891f-636859eaa497 a schema:Person;
+  rdfs:label "Erik Altorfer";
+  schema:sameAs wd:Q47487057 .
+
+<http://data.performing-arts.ch/w/e98c3ce9-051f-4292-a818-33e24de77f0b> rdau:P60399
+    skgpap:df42a9d5-19cb-4508-856a-f34b839a7923 .
+
+skgpap:df42a9d5-19cb-4508-856a-f34b839a7923 a schema:Person;
+  rdfs:label "Peter Zadek";
+  schema:sameAs wd:Q63185 .
+
+<http://data.performing-arts.ch/w/e99cc647-edae-48cf-b67d-5813f54792d3> rdau:P60399
+    skgpap:ea662076-c9d5-40a7-98f4-680fdc5cde46 .
+
+<http://data.performing-arts.ch/w/e9c7ad5b-a82e-4d7c-be77-886965783b32> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/eaae2a68-9e36-4555-88aa-c64986f2db61> rdau:P60399
+    skgpap:eb7e441a-1305-46be-afd9-2a4076ed8055 .
+
+skgpap:eb7e441a-1305-46be-afd9-2a4076ed8055 a schema:Person;
+  rdfs:label "Alexander Varesco" .
+
+<http://data.performing-arts.ch/w/eab95c50-5d02-4a80-887c-33767a87b8c8> rdau:P60399
+    skgpap:e439c3ed-6cca-492b-9523-0681d18231bb .
+
+<http://data.performing-arts.ch/w/eaf65677-576d-441d-ae8f-3f3891533b3b> rdau:P60399
+    skgpap:329edc0f-6c14-4e81-a51b-0e88b3a58048 .
+
+<http://data.performing-arts.ch/w/eb2f7a51-beae-4f46-9d3a-22f4573bb501> rdau:P60399
+    skgpap:30288c53-46ae-466f-b883-4bf814c12c99 .
+
+skgpap:30288c53-46ae-466f-b883-4bf814c12c99 a schema:Person;
+  rdfs:label "Francis Joffo" .
+
+<http://data.performing-arts.ch/w/eb6102ed-abc6-46e1-9910-a46dc6e534d8> rdau:P60399
+    skgpap:d80763f1-58ff-4919-8632-4fb66eb16e57 .
+
+<http://data.performing-arts.ch/w/ebb4eb98-3abb-48d6-9e26-59427521cac6> rdau:P60399
+    skgpap:8f76caf9-1b37-472d-8084-e1f985cbe32d .
+
+skgpap:8f76caf9-1b37-472d-8084-e1f985cbe32d a schema:Person;
+  rdfs:label "Ralph Bridle";
+  schema:sameAs wd:Q95849498 .
+
+<http://data.performing-arts.ch/w/ebc48bb7-e7fe-4ab2-8658-646c32c1d997> rdau:P60399
+    skgpap:c42315d5-c48b-4c90-bf9c-65a8277d3703 .
+
+<http://data.performing-arts.ch/w/ec4f9a8a-c2db-42e3-8754-a823be7fdf93> rdau:P60399
+    skgpap:ad0d1e12-4f3a-40f4-a3ff-5e44fa481020 .
+
+skgpap:ad0d1e12-4f3a-40f4-a3ff-5e44fa481020 a schema:Person;
+  rdfs:label "Niels-Peter Rudolph";
+  schema:sameAs wd:Q1988954 .
+
+<http://data.performing-arts.ch/w/ecbcbf95-6686-4f7c-a0b0-66272bbd1ed9> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/eea6319d-1a66-4520-ac39-bfb7a16d9112> rdau:P60399
+    skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f .
+
+<http://data.performing-arts.ch/w/eeb286d2-9e2b-4a87-8529-2cc3813364e1> rdau:P60399
+    skgpap:191c4d32-d6c0-4d30-81a5-54349da96866 .
+
+<http://data.performing-arts.ch/w/ef2563d4-3372-47b3-8b6d-07f0a45ab084> rdau:P60399
+    skgpap:b96d0960-c8b7-4d3e-bb2e-4a4ed508f429 .
+
+<http://data.performing-arts.ch/w/ef424193-0a36-4766-ba09-5a629329815b> rdau:P60399
+    skgpap:9a0aba36-8463-4bf5-b8f0-d12cd6755aaf .
+
+skgpap:9a0aba36-8463-4bf5-b8f0-d12cd6755aaf a schema:Person;
+  rdfs:label "Eberhard Itzenplitz";
+  schema:sameAs wd:Q1279128 .
+
+<http://data.performing-arts.ch/w/ef562f09-f837-4792-91a3-7e21444a63b5> rdau:P60399
+    skgpap:05485b14-e8de-47c5-9c5e-5f6d4b72761f .
+
+<http://data.performing-arts.ch/w/ef84e933-fd90-4102-8b23-18a6eba95f62> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/eff8d8f9-7b7a-4053-b2bd-e01bdb89e983> rdau:P60399
+    skgpap:8470d4cb-b3b1-48f9-a1bd-ed59ffe7c7fe .
+
+skgpap:8470d4cb-b3b1-48f9-a1bd-ed59ffe7c7fe a schema:Person;
+  rdfs:label "Ernst Seiltgen";
+  schema:sameAs wd:Q1360203 .
+
+<http://data.performing-arts.ch/w/f0687dc3-c1ae-4315-a71d-d0dc50942df4> rdau:P60399
+    skgpap:bedf9bc0-6da7-4085-aebd-a3e3af45cd7d .
+
+skgpap:bedf9bc0-6da7-4085-aebd-a3e3af45cd7d a schema:Person;
+  rdfs:label "Manon Pfunder" .
+
+<http://data.performing-arts.ch/w/f06e66ad-0d44-4322-adc0-c577e2c3a2ee> rdau:P60399
+    skgpap:f3740fc6-b6f7-48e8-b514-135159732338 .
+
+skgpap:f3740fc6-b6f7-48e8-b514-135159732338 a schema:Person;
+  rdfs:label "Martin Meltke" .
+
+<http://data.performing-arts.ch/w/f0ebab98-15f5-4c93-9580-a23f41ff1b75> rdau:P60399
+    skgpap:df42a9d5-19cb-4508-856a-f34b839a7923 .
+
+<http://data.performing-arts.ch/w/f1471698-b295-481e-b36b-64bd9a6aa8a3> rdau:P60399
+    skgpap:a77fa3ed-668f-462e-8e0e-0384641c3425 .
+
+skgpap:a77fa3ed-668f-462e-8e0e-0384641c3425 a schema:Person;
+  rdfs:label "Erwin Axer";
+  schema:sameAs wd:Q532624 .
+
+<http://data.performing-arts.ch/w/f1658c16-c8fb-41f6-a031-703a230148ab> rdau:P60399
+    skgpap:5f578231-a21c-4561-87e2-af18f6d12215 .
+
+skgpap:5f578231-a21c-4561-87e2-af18f6d12215 a schema:Person;
+  rdfs:label "Roberto Guicciardini";
+  schema:sameAs wd:Q3938866 .
+
+<http://data.performing-arts.ch/w/f173d502-6069-40a3-a97f-303333e57164> rdau:P60399
+    skgpap:c1cd6963-bbc9-4173-8a0f-aa721ed4bea0 .
+
+<http://data.performing-arts.ch/w/f18ba153-7d87-417f-ab7c-374c1a9f2898> rdau:P60399
+    skgpap:bacfb169-d1ab-4c54-97cd-5b7994073eab .
+
+skgpap:bacfb169-d1ab-4c54-97cd-5b7994073eab a schema:Person;
+  rdfs:label "Barbara Weber";
+  schema:sameAs wd:Q125393 .
+
+<http://data.performing-arts.ch/w/f1c3e42c-5164-4b5a-88f7-2c7ac091f794> rdau:P60399
+    skgpap:3675fbe3-8b93-4ef5-bcf7-bd10bf7d2134 .
+
+skgpap:3675fbe3-8b93-4ef5-bcf7-bd10bf7d2134 a schema:Person;
+  rdfs:label "Anestis Azas";
+  schema:sameAs wd:Q64434341 .
+
+<http://data.performing-arts.ch/w/f22ea6a1-6b7c-46b0-96f6-edd57f1cb9c9> rdau:P60399
+    skgpap:33ad7243-c866-436a-90a7-27fa20b7d5fc .
+
+skgpap:33ad7243-c866-436a-90a7-27fa20b7d5fc a schema:Person;
+  rdfs:label "Uwe B. Carstensen";
+  schema:sameAs wd:Q2503974 .
+
+<http://data.performing-arts.ch/w/f238facd-c69c-4b5d-9954-1a72f9956003> rdau:P60399
+    skgpap:3c75004d-d9ae-4d83-94be-c6ba66a11353 .
+
+<http://data.performing-arts.ch/w/f25bc873-dfd5-4ff9-a1d1-078976dc2b72> rdau:P60399
+    skgpap:5d90d517-e7c0-43c7-9165-ef0b7576494c, skgpap:0fcf6b21-4842-45b5-be27-43eeeb80b399 .
+
+skgpap:0fcf6b21-4842-45b5-be27-43eeeb80b399 a schema:Person;
+  rdfs:label "Mervyn Millar" .
+
+<http://data.performing-arts.ch/w/f25f8d81-1208-4c9f-ba7f-7e459327cbc7> rdau:P60399
+    skgpap:e908ae76-932f-49e7-969a-f702dbd10214 .
+
+<http://data.performing-arts.ch/w/f30225c2-7716-45aa-bdf3-8b1f6092a044> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/f30584d4-14af-4777-a223-6ee28f19f668> rdau:P60399
+    skgpap:5c6484e1-7e3c-4848-98e3-2569b953257e, skgpap:78b4efab-8725-433e-8e67-531c6bcec46e .
+
+skgpap:5c6484e1-7e3c-4848-98e3-2569b953257e a schema:Person;
+  rdfs:label "Tankred Dorst";
+  schema:sameAs wd:Q77468 .
+
+skgpap:78b4efab-8725-433e-8e67-531c6bcec46e a schema:Person;
+  rdfs:label "Ursula Ehler";
+  schema:sameAs wd:Q15057209 .
+
+<http://data.performing-arts.ch/w/f3b406f8-cd93-41a4-8c81-c48d5cb15404> rdau:P60399
+    skgpap:efca34e2-1d38-4c13-b214-8d908a03b429 .
+
+<http://data.performing-arts.ch/w/f3ecc505-1788-4250-8e57-cbf4acaacf2b> rdau:P60399
+    skgpap:ff57a081-af8b-4563-9dfd-cac864cdc5c8 .
+
+skgpap:ff57a081-af8b-4563-9dfd-cac864cdc5c8 a schema:Person;
+  rdfs:label "Peter Schweiger";
+  schema:sameAs wd:Q47291750 .
+
+<http://data.performing-arts.ch/w/f4ec75dd-d5d4-475a-a085-47f90c271069> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/f50873ee-ffde-4afd-9b3d-5b339af974ca> rdau:P60399
+    skgpap:f8f351b2-7b2f-44fb-9a6b-8a6f4dc99873 .
+
+<http://data.performing-arts.ch/w/f52a381c-4515-4aac-b7e5-c03bde0eaf9a> rdau:P60399
+    skgpap:b283d105-64ad-456d-8855-4e7b91f839ec .
+
+<http://data.performing-arts.ch/w/f5f87db1-c5d0-4344-b4ac-65b3a9ec852e> rdau:P60399
+    skgpap:6d94bcdb-32c7-4400-8c5d-dc524be1f1d2 .
+
+<http://data.performing-arts.ch/w/f610ca77-9b38-4935-9e28-6bef4d1c1559> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/f6710ef9-a829-43f8-940e-15354e5b6f90> rdau:P60399
+    skgpap:57ef5f7e-80e3-496a-b28c-d0fef518fc51 .
+
+skgpap:57ef5f7e-80e3-496a-b28c-d0fef518fc51 a schema:Person;
+  rdfs:label "Jean Bouchaud" .
+
+<http://data.performing-arts.ch/w/f69414bf-267d-49b2-b5bc-cb7ce0516c34> rdau:P60399
+    skgpap:2210e9f8-180a-4884-b0f9-b670656ebbb8 .
+
+<http://data.performing-arts.ch/w/f6b75d35-cff7-4221-b46d-b54d7587ac4e> rdau:P60399
+    skgpap:ec84adfe-f1eb-4c84-a888-14f6e973dabb .
+
+<http://data.performing-arts.ch/w/f6cc8866-1a7f-4f6c-9a47-6874ef833458> rdau:P60399
+    skgpap:ca17c329-e201-458f-94fa-d9cb6b2c269f .
+
+<http://data.performing-arts.ch/w/f6dbc215-4f0b-4e94-b1eb-91103c97114a> rdau:P60399
+    skgpap:a4eca987-3b16-4e22-95e5-8c91aae8ef50 .
+
+skgpap:a4eca987-3b16-4e22-95e5-8c91aae8ef50 a schema:Person;
+  rdfs:label "Wolfgang Quetes";
+  schema:sameAs wd:Q47291799 .
+
+<http://data.performing-arts.ch/w/f7e0b0dd-d9d3-499a-9653-d71485234e2a> rdau:P60399
+    skgpap:8296ad5b-2d0c-48bb-88a7-041fdfd16f16 .
+
+<http://data.performing-arts.ch/w/f813adf1-5616-4988-abad-c05aac24e76f> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/f85d5be9-cece-4783-bdc5-c327481e2c32> rdau:P60399
+    skgpap:16da13d9-60ef-4c98-ace0-135255257fd6 .
+
+skgpap:16da13d9-60ef-4c98-ace0-135255257fd6 a schema:Person;
+  rdfs:label "Alois-Michael Heigl" .
+
+<http://data.performing-arts.ch/w/f8acca77-c627-4775-a3e2-a76f5e5b780e> rdau:P60399
+    skgpap:34da058b-d81e-4fb9-a5fc-b7232679bb30 .
+
+<http://data.performing-arts.ch/w/f9ac55a1-d497-4eca-a110-6fb3df1a3041> rdau:P60399
+    skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 .
+
+<http://data.performing-arts.ch/w/f9d14434-b4a0-42c3-8b80-fc4b12bed5d9> rdau:P60399
+    skgpap:db89f005-17be-4d50-a2ae-f8ed82f7519b .
+
+<http://data.performing-arts.ch/w/fa4c0649-ab19-484d-8da3-ca2beed22b1d> rdau:P60399
+    skgpap:14667022-d3c5-49a0-a791-e5d00f30a98f .
+
+<http://data.performing-arts.ch/w/fa53244d-1d55-4601-9269-aed75a622bbe> rdau:P60399
+    skgpap:38e1339b-e622-481d-97a8-548994368218 .
+
+<http://data.performing-arts.ch/w/fa9d889e-f278-4ed6-ba20-fef05fbfaacf> rdau:P60399
+    skgpap:6a22f225-0f5d-442b-85e1-a8e60a5fa5e6 .
+
+<http://data.performing-arts.ch/w/fc67af12-0225-4770-bf55-c35b6b925b47> rdau:P60399
+    skgpap:60273edc-8da5-4d30-9f10-e20c751e1cc5 .
+
+skgpap:60273edc-8da5-4d30-9f10-e20c751e1cc5 a schema:Person;
+  rdfs:label "Jean-Christian Grinevald";
+  schema:sameAs wd:Q38178566 .
+
+<http://data.performing-arts.ch/w/fc6b3aae-b4e5-4c2d-9e13-e3ec14b22818> rdau:P60399
+    skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df .
+
+<http://data.performing-arts.ch/w/fca95e8d-8545-4673-9ad1-5e604bbd2b2a> rdau:P60399
+    skgpap:bbe28863-0fb5-4f87-b601-e66c9841f372 .
+
+<http://data.performing-arts.ch/w/fd1ceca6-0eb4-4092-a00d-3c3535339297> rdau:P60399
+    skgpap:de2b316f-7627-42b9-9286-4b0feca4ff33 .
+
+<http://data.performing-arts.ch/w/fd7f6f93-3fd8-41ac-8b9b-5a90f89465c7> rdau:P60399
+    skgpap:0539fe63-7ce6-4fdc-b2f3-2237b56c0bc3 .
+
+skgpap:0539fe63-7ce6-4fdc-b2f3-2237b56c0bc3 a schema:Person;
+  rdfs:label "Dani Levy";
+  schema:sameAs wd:Q69344 .
+
+<http://data.performing-arts.ch/w/fe120a03-de59-4b1b-81ac-4661b1ddd47d> rdau:P60399
+    skgpap:748309f6-f628-4361-85a8-c7d5f4dc7854 .
+
+<http://data.performing-arts.ch/w/fefc9fa9-5b2e-49bd-866d-6acc164fa995> rdau:P60399
+    skgpap:d8608d7e-919b-45a4-a530-98867a5f5393 .
+
+<http://data.performing-arts.ch/w/ff273c51-2f35-4d71-93fe-804d8b66f644> rdau:P60399
+    skgpap:9fd34c24-3db0-4e69-a8f9-1f0ff84545df .
+
+<http://data.performing-arts.ch/w/ff388026-5621-4f1a-a628-2268d6b1b92d> rdau:P60399
+    skgpap:0d772b15-2d1b-4546-9cd9-4bfcb632b631 .
+
+skgpap:0d772b15-2d1b-4546-9cd9-4bfcb632b631 a schema:Person;
+  rdfs:label "Walter Adler";
+  schema:sameAs wd:Q2543429 .
+
+<http://data.performing-arts.ch/w/ff4464be-72bd-43f3-8c18-1dbcacd57b10> rdau:P60399
+    skgpap:132e59c7-ad48-495c-80dd-5e2d6dbad7be .
+
+<http://data.performing-arts.ch/w/ff479de9-5f7f-4783-b668-4dabddc802b9> rdau:P60399
+    skgpap:0c8f7ed1-64f3-4301-8d2d-b5568cd3e017 .
+
+<http://data.performing-arts.ch/w/ff702ddf-6af2-4448-af02-1708db54180d> rdau:P60399
+    skgpap:d4939d81-3a37-4e58-8266-820b7d3883f0 .

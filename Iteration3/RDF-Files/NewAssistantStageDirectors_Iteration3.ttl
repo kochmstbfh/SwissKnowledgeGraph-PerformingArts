@@ -1,0 +1,365 @@
+@base <http://example.com/base/> .
+@prefix skgpa: <http://www.artsdata.eu/skgpa-ontology/> .
+@prefix skgpap: <http://www.artsdata.eu/Person/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<http://data.performing-arts.ch/w/005b27e2-f5d6-4c53-a376-97af645b1140> skgpa:hasAssistantStageDirector
+    skgpap:89b3f4d2-63d4-427f-ae1d-4ef0c78e10ad .
+
+skgpap:89b3f4d2-63d4-427f-ae1d-4ef0c78e10ad a schema:Person;
+  rdfs:label "Maximilian Enderle" .
+
+<http://data.performing-arts.ch/w/2771f38b-970d-47c9-ad66-bff8536dfb2a> skgpa:hasAssistantStageDirector
+    skgpap:89b3f4d2-63d4-427f-ae1d-4ef0c78e10ad .
+
+<http://data.performing-arts.ch/w/430d1c89-272f-417e-866c-b904b24d49f3> skgpa:hasAssistantStageDirector
+    skgpap:89b3f4d2-63d4-427f-ae1d-4ef0c78e10ad .
+
+<http://data.performing-arts.ch/w/024e098e-f897-4573-a497-c16ebd54539e> skgpa:hasAssistantStageDirector
+    skgpap:c1c2179c-fc55-48bd-aa42-787fa5ef891f .
+
+skgpap:c1c2179c-fc55-48bd-aa42-787fa5ef891f a schema:Person;
+  rdfs:label "Daniel Wernli" .
+
+<http://data.performing-arts.ch/w/07e016ac-0e62-4de5-bda7-61a392baca81> skgpa:hasAssistantStageDirector
+    skgpap:ca4f85b5-8fb7-4e87-ada8-559decaa0929 .
+
+skgpap:ca4f85b5-8fb7-4e87-ada8-559decaa0929 a schema:Person;
+  rdfs:label "Tobias Herzberg" .
+
+<http://data.performing-arts.ch/w/13a98a9e-1e6d-4dc4-8be9-b3b3a5431798> skgpa:hasAssistantStageDirector
+    skgpap:ca4f85b5-8fb7-4e87-ada8-559decaa0929 .
+
+<http://data.performing-arts.ch/w/14131f33-454f-4cf4-856f-a646a351bd7f> skgpa:hasAssistantStageDirector
+    skgpap:ca4f85b5-8fb7-4e87-ada8-559decaa0929 .
+
+<http://data.performing-arts.ch/w/1420b5c6-70e1-477e-aa39-2dde9e07471e> skgpa:hasAssistantStageDirector
+    skgpap:ca4f85b5-8fb7-4e87-ada8-559decaa0929 .
+
+<http://data.performing-arts.ch/w/314373ab-4c8a-40d0-8aa3-e219211499c9> skgpa:hasAssistantStageDirector
+    skgpap:ca4f85b5-8fb7-4e87-ada8-559decaa0929 .
+
+<http://data.performing-arts.ch/w/0b07d26c-5e83-4d94-a67a-a534c5162a30> skgpa:hasAssistantStageDirector
+    skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 .
+
+skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 a schema:Person;
+  rdfs:label "Manon Pfrunder";
+  schema:sameAs wd:Q79406292 .
+
+<http://data.performing-arts.ch/w/16bd873e-ee3e-47f3-a779-5046dee91a20> skgpa:hasAssistantStageDirector
+    skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 .
+
+<http://data.performing-arts.ch/w/3e99f1f0-2b31-4ab9-b64d-9a4d18eddb44> skgpa:hasAssistantStageDirector
+    skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 .
+
+<http://data.performing-arts.ch/w/0f5d800e-e6cc-42ca-a1f4-b2283e33ae7e> skgpa:hasAssistantStageDirector
+    skgpap:29742826-dca6-4348-bc6c-244b2c04034f .
+
+skgpap:29742826-dca6-4348-bc6c-244b2c04034f a schema:Person;
+  rdfs:label "Maximilian Enderie" .
+
+<http://data.performing-arts.ch/w/21a812c8-87d4-4f89-a39e-685a13decf00> skgpa:hasAssistantStageDirector
+    skgpap:29742826-dca6-4348-bc6c-244b2c04034f .
+
+<http://data.performing-arts.ch/w/2afbbe2b-453f-441e-8ea8-c26498ef6b10> skgpa:hasAssistantStageDirector
+    skgpap:29742826-dca6-4348-bc6c-244b2c04034f .
+
+<http://data.performing-arts.ch/w/15e98484-4f73-4c14-8fe6-db6eed8ecc8b> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688 .
+
+skgpap:3899d880-2267-412c-8043-888bb4f3b688 a schema:Person;
+  rdfs:label "Marco Milling" .
+
+<http://data.performing-arts.ch/w/1683f3ee-ceb7-4ea3-a5d9-7c7d5684d4d0> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688 .
+
+<http://data.performing-arts.ch/w/488728ab-55ca-4559-a576-9a7d82f6c799> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688, skgpap:bc3d7626-69e2-406a-b3ab-85ca474aa318 .
+
+<http://data.performing-arts.ch/w/17260947-0b4f-4829-9818-e50a8d8772e7> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 a schema:Person;
+  rdfs:label "Clara Isabelle Dobbertin" .
+
+<http://data.performing-arts.ch/w/3162a725-7807-461b-ad6d-6925e4d5ea7c> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/179e949b-a24a-45f1-bb53-3d09ffe376e1> skgpa:hasAssistantStageDirector
+    skgpap:c4da2b1e-9d25-49d1-b326-022030768600 .
+
+skgpap:c4da2b1e-9d25-49d1-b326-022030768600 a schema:Person;
+  rdfs:label "Martina Lüscher" .
+
+<http://data.performing-arts.ch/w/18f3a975-0999-4aed-bb2f-1a2e0b424343> skgpa:hasAssistantStageDirector
+    skgpap:c589827e-a13c-41b4-af2c-8c3bbc65763b .
+
+skgpap:c589827e-a13c-41b4-af2c-8c3bbc65763b a schema:Person;
+  rdfs:label "Hand-Christian Hasselmann" .
+
+<http://data.performing-arts.ch/w/1f50feef-f0b5-4a02-95fd-7eca9b423832> skgpa:hasAssistantStageDirector
+    skgpap:76d45cad-f641-4c2a-8591-bd721b73a589 .
+
+skgpap:76d45cad-f641-4c2a-8591-bd721b73a589 a schema:Person;
+  rdfs:label "Jörg Schwahlen" .
+
+<http://data.performing-arts.ch/w/28356028-75f6-414d-90fd-fad4ca01df1e> skgpa:hasAssistantStageDirector
+    skgpap:7ae7dbd6-ff77-4493-a9b6-02e0e582f1c5 .
+
+skgpap:7ae7dbd6-ff77-4493-a9b6-02e0e582f1c5 a schema:Person;
+  rdfs:label "Clara Dobbertin";
+  schema:sameAs wd:Q62822366 .
+
+<http://data.performing-arts.ch/w/2d1113ee-cee4-4b01-94dd-2e5f1e2a013a> skgpa:hasAssistantStageDirector
+    skgpap:c3a67e7e-1b75-4232-b67d-4b9c69f3f61c .
+
+skgpap:c3a67e7e-1b75-4232-b67d-4b9c69f3f61c a schema:Person;
+  rdfs:label "Sophia Bodamer" .
+
+<http://data.performing-arts.ch/w/44531f75-d782-42fc-9f97-46b63623fde2> skgpa:hasAssistantStageDirector
+    skgpap:c3a67e7e-1b75-4232-b67d-4b9c69f3f61c .
+
+<http://data.performing-arts.ch/w/2ddae686-e043-4e45-8c54-5212fcdfb078> skgpa:hasAssistantStageDirector
+    skgpap:9e3cc36d-039c-449c-bfd0-85d0499dcb42 .
+
+skgpap:9e3cc36d-039c-449c-bfd0-85d0499dcb42 a schema:Person;
+  rdfs:label "Clara Isablle Dobbertin" .
+
+<http://data.performing-arts.ch/w/31bc03d0-aa2d-408b-a4b1-459682ebbc3f> skgpa:hasAssistantStageDirector
+    skgpap:6fe9f1f3-96e6-4593-b60e-298480047cb2 .
+
+skgpap:6fe9f1f3-96e6-4593-b60e-298480047cb2 a schema:Person;
+  rdfs:label "Aleander Wiegold" .
+
+<http://data.performing-arts.ch/w/34b9401e-97e1-420e-b1c2-565c865dde99> skgpa:hasAssistantStageDirector
+    skgpap:9266555f-d2df-4990-87f4-fdce74fc2429 .
+
+skgpap:9266555f-d2df-4990-87f4-fdce74fc2429 a schema:Person;
+  rdfs:label "Tobis Herzberg" .
+
+<http://data.performing-arts.ch/w/3e13ccaa-5ee1-495c-964d-8c996ef7fffd> skgpa:hasAssistantStageDirector
+    skgpap:94561788-e12e-4593-844f-861718d104e1 .
+
+skgpap:94561788-e12e-4593-844f-861718d104e1 a schema:Person;
+  rdfs:label "Sonja Streifinger" .
+
+<http://data.performing-arts.ch/w/43865f8b-0a39-4a92-9368-baf3c5c0a8ec> skgpa:hasAssistantStageDirector
+    skgpap:1b06385e-b63f-4bf9-8769-dfae86832e97 .
+
+skgpap:1b06385e-b63f-4bf9-8769-dfae86832e97 a schema:Person;
+  rdfs:label "Clara Isabelle Dobberlin" .
+
+<http://data.performing-arts.ch/w/43af61a0-58eb-41c1-8df2-cbbf74fff7e3> skgpa:hasAssistantStageDirector
+    skgpap:277eabec-d61b-4c7c-8be6-3d82388f3b86 .
+
+skgpap:277eabec-d61b-4c7c-8be6-3d82388f3b86 a schema:Person;
+  rdfs:label "Hans-Christian Hasselmann" .
+
+<http://data.performing-arts.ch/w/468ad2c7-4a52-4e68-a192-4e6b4980152c> skgpa:hasAssistantStageDirector
+    skgpap:ed9db72a-2649-403b-b3f5-e9ea32b67372 .
+
+skgpap:ed9db72a-2649-403b-b3f5-e9ea32b67372 a schema:Person;
+  rdfs:label "Elsabe Stange" .
+
+skgpap:bc3d7626-69e2-406a-b3ab-85ca474aa318 a schema:Person;
+  rdfs:label "Selma Björnsdóttir" .
+
+<http://data.performing-arts.ch/w/4a667708-df5e-4659-a957-78191d9176eb> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/544e248e-d09b-4812-bcd9-df2da44c21de> skgpa:hasAssistantStageDirector
+    skgpap:94561788-e12e-4593-844f-861718d104e1 .
+
+<http://data.performing-arts.ch/w/54f87158-6143-4140-ba7f-4c4657a33d2b> skgpa:hasAssistantStageDirector
+    skgpap:94561788-e12e-4593-844f-861718d104e1 .
+
+<http://data.performing-arts.ch/w/56140618-c4c5-46c8-845d-856578307af6> skgpa:hasAssistantStageDirector
+    skgpap:94561788-e12e-4593-844f-861718d104e1 .
+
+<http://data.performing-arts.ch/w/5614dd35-7c9a-4d1b-9194-86909bb2d05e> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688 .
+
+<http://data.performing-arts.ch/w/5ec5c979-165c-4f30-b9c8-fc79f90b6bf6> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688 .
+
+<http://data.performing-arts.ch/w/677e4123-40ac-4340-99af-02ae822fef3b> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/68df6793-0d57-446d-983e-12281a2d8344> skgpa:hasAssistantStageDirector
+    skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 .
+
+<http://data.performing-arts.ch/w/6919ac7c-76f5-49f8-aea6-77b15f5a6a4e> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688 .
+
+<http://data.performing-arts.ch/w/7ca5e4dc-29dc-4859-9e5b-ccf84b37b85a> skgpa:hasAssistantStageDirector
+    skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 .
+
+<http://data.performing-arts.ch/w/822e6ce8-5890-47e1-9689-1d30e4a8341e> skgpa:hasAssistantStageDirector
+    skgpap:86caa952-c5e1-49de-bfaa-dc8ebf382342 .
+
+skgpap:86caa952-c5e1-49de-bfaa-dc8ebf382342 a schema:Person;
+  rdfs:label "Christoph Ohly" .
+
+<http://data.performing-arts.ch/w/87ec5f5b-0aaf-4963-9349-2c6352cd561d> skgpa:hasAssistantStageDirector
+    skgpap:9a24db97-bbf7-4adc-ab1a-8ed7867fffbd .
+
+skgpap:9a24db97-bbf7-4adc-ab1a-8ed7867fffbd a schema:Person;
+  rdfs:label "Marcus Rehberger" .
+
+<http://data.performing-arts.ch/w/880f84de-18d0-48f2-b9d5-8b23bf1a83d1> skgpa:hasAssistantStageDirector
+    skgpap:94561788-e12e-4593-844f-861718d104e1 .
+
+<http://data.performing-arts.ch/w/8e24fad3-196c-46f8-8eeb-b3c0dbff2f05> skgpa:hasAssistantStageDirector
+    skgpap:89b3f4d2-63d4-427f-ae1d-4ef0c78e10ad .
+
+<http://data.performing-arts.ch/w/929eb222-0c21-4a7b-a4d0-9ecc848fec6c> skgpa:hasAssistantStageDirector
+    skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 .
+
+<http://data.performing-arts.ch/w/976be5c3-a8a9-4949-bef4-d7de3d908835> skgpa:hasAssistantStageDirector
+    skgpap:c8db7703-5df5-4dc9-adbd-eec07ce402e8 .
+
+skgpap:c8db7703-5df5-4dc9-adbd-eec07ce402e8 a schema:Person;
+  rdfs:label "Günter Lehmann" .
+
+<http://data.performing-arts.ch/w/987d0b6e-9cd5-48e0-875b-ebc6ecac55c5> skgpa:hasAssistantStageDirector
+    skgpap:94561788-e12e-4593-844f-861718d104e1 .
+
+<http://data.performing-arts.ch/w/98edccab-a166-4ea1-a333-3c1c5f749a08> skgpa:hasAssistantStageDirector
+    skgpap:94561788-e12e-4593-844f-861718d104e1 .
+
+<http://data.performing-arts.ch/w/9b23abf2-e3b0-4098-99b1-e00af45c382d> skgpa:hasAssistantStageDirector
+    skgpap:7c62cbb1-4015-43c9-b17a-8e48688e456f .
+
+skgpap:7c62cbb1-4015-43c9-b17a-8e48688e456f a schema:Person;
+  rdfs:label "Clarab Isabelle Dobbertin" .
+
+<http://data.performing-arts.ch/w/9bb6afa6-0d3c-404c-92c5-f564d49b8d85> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/9d408d48-e90d-45be-8d84-ed2440640bde> skgpa:hasAssistantStageDirector
+    skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 .
+
+<http://data.performing-arts.ch/w/9fa17039-ecd4-4611-9b72-9552201df280> skgpa:hasAssistantStageDirector
+    skgpap:1aa805eb-6025-4e7b-91c2-682713a52720 .
+
+skgpap:1aa805eb-6025-4e7b-91c2-682713a52720 a schema:Person;
+  rdfs:label "Rüdiger Burbach" .
+
+<http://data.performing-arts.ch/w/a1e6e315-ebe8-4257-beb4-dfd20d172d8e> skgpa:hasAssistantStageDirector
+    skgpap:7d9b5998-fc5a-4f84-b9b4-efa194be8d09 .
+
+skgpap:7d9b5998-fc5a-4f84-b9b4-efa194be8d09 a schema:Person;
+  rdfs:label "León Siewert-Langhoff" .
+
+<http://data.performing-arts.ch/w/a47a8d28-f6b7-42c0-962c-b53ab8a23c27> skgpa:hasAssistantStageDirector
+    skgpap:ca4f85b5-8fb7-4e87-ada8-559decaa0929 .
+
+<http://data.performing-arts.ch/w/a70f5589-61eb-465c-8906-4b66ce364425> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/a7737bb5-4cd9-4261-936b-3ddf11cb07a0> skgpa:hasAssistantStageDirector
+    skgpap:89b3f4d2-63d4-427f-ae1d-4ef0c78e10ad .
+
+<http://data.performing-arts.ch/w/a7e278ab-ee96-414e-88bf-9569da36b338> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/ac3840c1-b67d-4b24-b07c-f0a3897a1849> skgpa:hasAssistantStageDirector
+    skgpap:4ee1ab4d-a24a-4057-a5af-43727ab3b902 .
+
+skgpap:4ee1ab4d-a24a-4057-a5af-43727ab3b902 a schema:Person;
+  rdfs:label "Marco Läuchli" .
+
+<http://data.performing-arts.ch/w/ad201a0a-2ceb-41ec-95e2-af4eb35e6603> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688 .
+
+<http://data.performing-arts.ch/w/b5108785-d014-40e8-b07f-d181d362de24> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/bb4e8446-f7b2-407c-8e07-df43115f740e> skgpa:hasAssistantStageDirector
+    skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 .
+
+<http://data.performing-arts.ch/w/c426a6f3-4dd5-4e5d-af9b-a383e65711cb> skgpa:hasAssistantStageDirector
+    skgpap:d9e97e75-7ee9-4a24-96a0-da8cb2edad9f .
+
+skgpap:d9e97e75-7ee9-4a24-96a0-da8cb2edad9f a schema:Person;
+  rdfs:label "Ivo van Megen" .
+
+<http://data.performing-arts.ch/w/c764b28e-5874-40a7-bb1a-316f99965bb9> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688 .
+
+<http://data.performing-arts.ch/w/d19fb645-1d23-4e5a-b8db-5f0274e6fc50> skgpa:hasAssistantStageDirector
+    skgpap:c3a67e7e-1b75-4232-b67d-4b9c69f3f61c .
+
+<http://data.performing-arts.ch/w/d41f751d-6be9-4cd4-8674-489e2bf5e7d3> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688 .
+
+<http://data.performing-arts.ch/w/d51833f7-77e2-4de7-ad68-79f9462f74f2> skgpa:hasAssistantStageDirector
+    skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 .
+
+<http://data.performing-arts.ch/w/de110544-28fb-4e98-b483-e2d212133195> skgpa:hasAssistantStageDirector
+    skgpap:7ae7dbd6-ff77-4493-a9b6-02e0e582f1c5 .
+
+<http://data.performing-arts.ch/w/e005a793-8ce6-4664-b6fb-5eabe3da6fb0> skgpa:hasAssistantStageDirector
+    skgpap:29af39d4-fa14-4fa7-bcfa-186a718ec700 .
+
+skgpap:29af39d4-fa14-4fa7-bcfa-186a718ec700 a schema:Person;
+  rdfs:label "Nikolai Prawdzic" .
+
+<http://data.performing-arts.ch/w/e05bfe8f-feb0-4d50-b4b3-21f3d4ce823e> skgpa:hasAssistantStageDirector
+    skgpap:9e3cc36d-039c-449c-bfd0-85d0499dcb42 .
+
+<http://data.performing-arts.ch/w/e3684b1c-c85b-41ca-ac09-a1e721a2aa85> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/e3873b08-141f-49e0-b220-01ceb2a7c9d2> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688 .
+
+<http://data.performing-arts.ch/w/e6e8a37c-f0b2-4258-8cac-8813c5bbbfab> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/e9411c55-74b2-4ec7-bffd-66848908951e> skgpa:hasAssistantStageDirector
+    skgpap:4eceb3af-216d-46b4-94d1-d1e448a4b0dd .
+
+skgpap:4eceb3af-216d-46b4-94d1-d1e448a4b0dd a schema:Person;
+  rdfs:label "Colina Frisch" .
+
+<http://data.performing-arts.ch/w/eaae2a68-9e36-4555-88aa-c64986f2db61> skgpa:hasAssistantStageDirector
+    skgpap:5cb4a73a-2ef8-44c1-af92-b14c15ebeb71 .
+
+skgpap:5cb4a73a-2ef8-44c1-af92-b14c15ebeb71 a schema:Person;
+  rdfs:label "Monique Schwitter";
+  schema:sameAs wd:Q120946 .
+
+<http://data.performing-arts.ch/w/eab95c50-5d02-4a80-887c-33767a87b8c8> skgpa:hasAssistantStageDirector
+    skgpap:3899d880-2267-412c-8043-888bb4f3b688 .
+
+<http://data.performing-arts.ch/w/f25bc873-dfd5-4ff9-a1d1-078976dc2b72> skgpa:hasAssistantStageDirector
+    skgpap:f41b3e1b-594c-4e8c-ae26-89f996925b73 .
+
+<http://data.performing-arts.ch/w/f610ca77-9b38-4935-9e28-6bef4d1c1559> skgpa:hasAssistantStageDirector
+    skgpap:89b3f4d2-63d4-427f-ae1d-4ef0c78e10ad .
+
+<http://data.performing-arts.ch/w/f8272d30-676d-4199-90c3-01b55b552ea0> skgpa:hasAssistantStageDirector
+    skgpap:76d45cad-f641-4c2a-8591-bd721b73a589 .
+
+<http://data.performing-arts.ch/w/fa9d889e-f278-4ed6-ba20-fef05fbfaacf> skgpa:hasAssistantStageDirector
+    skgpap:8c107ea6-e916-4c50-b43a-a5b494590151 .
+
+skgpap:8c107ea6-e916-4c50-b43a-a5b494590151 a schema:Person;
+  rdfs:label "Alexander Wiegold";
+  schema:sameAs wd:Q2643273 .
+
+<http://data.performing-arts.ch/w/fca95e8d-8545-4673-9ad1-5e604bbd2b2a> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/fd7f6f93-3fd8-41ac-8b9b-5a90f89465c7> skgpa:hasAssistantStageDirector
+    skgpap:94561788-e12e-4593-844f-861718d104e1 .
+
+<http://data.performing-arts.ch/w/fefc9fa9-5b2e-49bd-866d-6acc164fa995> skgpa:hasAssistantStageDirector
+    skgpap:0d80e0b3-095f-4779-80af-4e859e42c2b6 .
+
+<http://data.performing-arts.ch/w/ff479de9-5f7f-4783-b668-4dabddc802b9> skgpa:hasAssistantStageDirector
+    skgpap:94561788-e12e-4593-844f-861718d104e1 .
