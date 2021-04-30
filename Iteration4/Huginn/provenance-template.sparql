@@ -2,7 +2,6 @@ PREFIX adr: <http://147.87.7.145:7200/repositories/SwissKnowledgeGraphforthePerf
 PREFIX prov: <http://www.w3.org/ns/prov#> 
 PREFIX schema: <http://schema.org/> 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
 insert data { 
   graph <graphUri> { 
     <graphUri>  a prov:Entity ; 
