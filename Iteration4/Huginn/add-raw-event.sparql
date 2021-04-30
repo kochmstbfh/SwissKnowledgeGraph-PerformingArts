@@ -1,0 +1,15 @@
+PREFIX schema: <http://schema.org/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+insert data { 
+  graph <graph_name_placeholder> {
+    <uri_placeholder> a schema:Event ;
+      schema:name "name_placeholder"; 
+      schema:startDate "startDate_placeholder"^^xsd:dateTime ; 
+      schema:description  "description_placeholder"  ; 
+      schema:image  "image_placeholder"   ; 
+      schema:location  "location_placeholder" ; 
+      schema:url  "url_placeholder"  ;
+      schema:eventStatus  schema:eventStatus_placeholder .
+  }
+}
