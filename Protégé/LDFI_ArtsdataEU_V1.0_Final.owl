@@ -1,0 +1,3812 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.artsdata.eu/skgpa-ontology/"
+     xml:base="http://www.artsdata.eu/skgpa-ontology/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:mo="http://purl.org/ontology/mo/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:po="https://www.bbc.co.uk/ontologies/po/0.2"
+     xmlns:pq="http://www.wikidata.org/prop/qualifier/"
+     xmlns:wd="http://www.wikidata.org/entity/"
+     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+     xmlns:edm="http://www.europeana.eu/schemas/edm/"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:ore="http://www.openarchives.org/ore/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ric="https://www.ica.org/standards/RiC/ontology#"
+     xmlns:wdt="http://www.wikidata.org/prop/direct/"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:frbr="http://purl.org/vocab/frbr/core#"
+     xmlns:rdac="http://www.rdaregistry.info/Elements/c/"
+     xmlns:rdae="http://www.rdaregistry.info/Elements/e/"
+     xmlns:rdam="http://www.rdaregistry.info/Elements/m/"
+     xmlns:rdau="http://www.rdaregistry.info/Elements/u/#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:fabio="http://purl.org/spar/fabio/"
+     xmlns:skgpa="http://www.artsdata.eu/skgpa-ontology/"
+     xmlns:FRBRoo="http://iflastandards.info/ns/fr/frbr/frbroo/"
+     xmlns:premis="http://www.loc.gov/premis/rdf/v3/"
+     xmlns:schema="http://schema.org/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:ebucore="https://www.ebu.ch/metadata/ontologies/ebucore/">
+    <owl:Ontology rdf:about="http://www.artsdata.eu/skgpa-ontology/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/spar/fabio/hasManifestation -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/spar/fabio/hasManifestation">
+        <owl:equivalentProperty rdf:resource="http://schema.org/workExample"/>
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P747"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/spar/fabio/isManifestationOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/spar/fabio/isManifestationOf">
+        <owl:equivalentProperty rdf:resource="http://schema.org/exampleOfWork"/>
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1557"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#adaptationOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/frbr/core#adaptationOf">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P5059"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#creator -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/frbr/core#creator">
+        <owl:equivalentProperty rdf:resource="http://schema.org/creator"/>
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P170"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#embodimentOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/frbr/core#embodimentOf">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1557"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#part -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/frbr/core#part">
+        <owl:equivalentProperty rdf:resource="http://schema.org/hasPart"/>
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P527"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#partOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/frbr/core#partOf">
+        <owl:equivalentProperty rdf:resource="http://schema.org/isPartOf"/>
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P361"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:range rdf:resource="http://schema.org/EventSeries"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#realizationOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/frbr/core#realizationOf">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P629"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/about -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/about">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/addressCountry -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/addressCountry">
+        <rdfs:domain rdf:resource="http://schema.org/GeoCoordinates"/>
+        <rdfs:domain rdf:resource="http://schema.org/PostalAddress"/>
+        <rdfs:range rdf:resource="http://schema.org/Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/addressLocality -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/addressLocality">
+        <rdfs:domain rdf:resource="http://schema.org/PostalAddress"/>
+        <rdfs:range rdf:resource="http://schema.org/AdministrativeArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/addressRegion -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/addressRegion">
+        <rdfs:domain rdf:resource="http://schema.org/PostalAddress"/>
+        <rdfs:range rdf:resource="http://schema.org/AdministrativeArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/areaServed -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/areaServed">
+        <rdfs:domain rdf:resource="http://schema.org/ContactPoint"/>
+        <rdfs:range rdf:resource="http://schema.org/AdministrativeArea"/>
+        <rdfs:range rdf:resource="http://schema.org/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/audience -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/audience">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2360"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Audience"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/author -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/author">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P50"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#creator"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/availableAtOrFrom -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/availableAtOrFrom">
+        <rdfs:domain rdf:resource="http://schema.org/Offer"/>
+        <rdfs:range rdf:resource="http://schema.org/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/award -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/award">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P166"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.artsdata.eu/skgpa-ontology/Award"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/birthPlace -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/birthPlace">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P19"/>
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://schema.org/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/contactPoint -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/contactPoint">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://schema.org/ContactPoint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/contactType -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/contactType">
+        <rdfs:domain rdf:resource="http://schema.org/ContactPoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/contributor -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/contributor">
+        <owl:equivalentProperty rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/copyrightHolder -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/copyrightHolder">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P3931"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/creator -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/creator"/>
+    
+
+
+    <!-- http://schema.org/deathPlace -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/deathPlace">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P20"/>
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://schema.org/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/director -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/director">
+        <owl:equivalentProperty rdf:resource="http://www.rdaregistry.info/Elements/u/#P60399"/>
+        <owl:equivalentProperty rdf:resource="http://www.rdaregistry.info/Elements/u/#P60449"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/exampleOfWork -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/exampleOfWork"/>
+    
+
+
+    <!-- http://schema.org/founder -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/founder">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P112"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/gender -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/gender">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P21"/>
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/Character"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/genre -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/genre">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P136"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/geo -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/geo">
+        <rdfs:domain rdf:resource="http://schema.org/Place"/>
+        <rdfs:range rdf:resource="http://schema.org/GeoCoordinates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/geographicArea -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/geographicArea">
+        <rdfs:domain rdf:resource="http://schema.org/Audience"/>
+        <rdfs:range rdf:resource="http://schema.org/AdministrativeArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/hasOccupation -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/hasOccupation">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P106"/>
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/hasPart">
+        <rdfs:domain rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformances"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformingArtsProductions"/>
+        <rdfs:range rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://www.artsdata.eu/skgpa-ontology/PartOfPerformingArtsProduction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/isBasedOn -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/isBasedOn">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P144"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/isPartOf">
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PartOfPerformingArtsProduction"/>
+        <rdfs:range rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/location -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/location">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P276"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:domain rdf:resource="http://schema.org/Place"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/Performance"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformances"/>
+        <rdfs:range rdf:resource="http://schema.org/AdministrativeArea"/>
+        <rdfs:range rdf:resource="http://schema.org/Country"/>
+        <rdfs:range rdf:resource="http://schema.org/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/memberOf -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/memberOf">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P463"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/nationality -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/nationality">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P27"/>
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://schema.org/Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/offeredBy -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/offeredBy">
+        <rdfs:domain rdf:resource="http://schema.org/Offer"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/offers -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/offers">
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Offer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/organizer -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/organizer">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P664"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/parentOrganization -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/parentOrganization">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P361"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/performer -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/performer">
+        <owl:equivalentProperty rdf:resource="http://www.rdaregistry.info/Elements/u/#P60387"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/priceCurrency -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/priceCurrency">
+        <rdfs:domain rdf:resource="http://schema.org/Offer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/publisher -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/publisher">
+        <owl:equivalentProperty rdf:resource="http://www.rdaregistry.info/Elements/u/#P60444"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/sponsor -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/sponsor">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P859"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventVenue"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/subEvent -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/subEvent">
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/EventSeries"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/subOrganization -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/subOrganization">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/subtitleLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/subtitleLanguage">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/superEvent -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/superEvent">
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:range rdf:resource="http://schema.org/Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/workExample -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/workExample"/>
+    
+
+
+    <!-- http://schema.org/workFeatured -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/workFeatured">
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/workPerformed -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/workPerformed">
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/characters -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/characters">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P674"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/Character"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/conferredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/conferredBy">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1027"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/Award"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/contactPerson -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/contactPerson">
+        <rdfs:domain rdf:resource="http://schema.org/ContactPoint"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/dedicatedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/dedicatedTo">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P825"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/fieldOfWork -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/fieldOfWork">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P101"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasAdministrativeDirector -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasAdministrativeDirector">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60633"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasArtisticDirector -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasArtisticDirector">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60633"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasCastMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasCastMember">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P161"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60387"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/EditorialObject"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasDirector -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasDirector">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1037"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60633"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasDramaturge -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasDramaturge">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P6086"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasEdition -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasEdition">
+        <rdfs:domain rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:range rdf:resource="http://schema.org/Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasEthnicGroup -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasEthnicGroup">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P172"/>
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://www.artsdata.eu/skgpa-ontology/EthnicGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasGuestPerformer -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasGuestPerformer">
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/Performance"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasLanguage">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1412"/>
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment>language spoken, written or signed</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasMusicPerformer -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasMusicPerformer">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60387"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasPartsOfTheClass -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasPartsOfTheClass">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2670"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformances"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasPlaceOfBurial -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasPlaceOfBurial">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P119"/>
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://schema.org/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasPosterDesigner -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasPosterDesigner">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasPresident -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasPresident">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P488"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60633"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasProjectionDesigner -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasProjectionDesigner">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P5881"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasScenographer -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasScenographer">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P4608"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasSetBuilder -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasSetBuilder">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/hasVideoDesigner -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/hasVideoDesigner">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P5880"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/inspiredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/inspiredBy">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P941"/>
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/Character"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/isFirstRepresentationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/isFirstRepresentationOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/isRepresentationOf"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/Performance"/>
+        <rdfs:range rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/isManagedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/isManagedBy">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P137"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventVenue"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/isRepresentationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/isRepresentationOf">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P4646"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/Performance"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformances"/>
+        <rdfs:range rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/itemOperated -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/itemOperated">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P121"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://schema.org/EventVenue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/locatedInTheAdministrativeTerritorialEntity -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/locatedInTheAdministrativeTerritorialEntity">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P131"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:range rdf:resource="http://schema.org/AdministrativeArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/locationCreated -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/locationCreated">
+        <rdfs:domain rdf:resource="http://schema.org/Photograph"/>
+        <rdfs:range rdf:resource="http://schema.org/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/locationOfFirstPerformance -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/locationOfFirstPerformance">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P4647"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:range rdf:resource="http://schema.org/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/namedAfter -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/namedAfter">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P138"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/Award"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/premiereType -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/premiereType">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P4634"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/Performance"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformances"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/publishedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/publishedIn">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1433"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/recordedAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/recordedAt">
+        <rdfs:domain rdf:resource="http://schema.org/Photograph"/>
+        <rdfs:range rdf:resource="http://schema.org/Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/revivalOrTouringVersionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/revivalOrTouringVersionOf">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P5328"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:range rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/timePeriod -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/timePeriod">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2348"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/voiceType -->
+
+    <owl:ObjectProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/voiceType">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P412"/>
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/Character"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60061 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60061">
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60099 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60099">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P407"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60141 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60141">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P3300"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60142 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60142">
+        <rdfs:subPropertyOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/hasCastMember"/>
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/EditorialObject"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60144 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60144">
+        <rdfs:subPropertyOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/hasCastMember"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/EditorialObject"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60146 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60146">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P371"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60387"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60148 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60148">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60387"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60150 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60150">
+        <rdfs:subPropertyOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/hasMusicPerformer"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60152 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60152">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P725"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60142"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60153 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60153">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2438"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/hasCastMember"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/EditorialObject"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60156 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60156">
+        <rdfs:subPropertyOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/hasMusicPerformer"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60163 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60163">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:range rdf:resource="http://schema.org/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60379 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60379">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60384 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60384">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2515"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60385 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60385">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P655"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60387 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60387">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P175"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60393 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60393">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P123"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60396 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60396">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P110"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60398 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60398">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P767"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60399 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60399">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60429 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60429">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#creator"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60433 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60433">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1809"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60441 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60441">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P162"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60444 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60444">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P123"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60449 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60449">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P57"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60477 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60477">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P676"/>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/author"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60478 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60478">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P87"/>
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/author"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60633 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60633">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2828"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60811 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60811">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P5028"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60813 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60813">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P5026"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60842 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60842">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P5024"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60141"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#60426 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#60426">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P86"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#creator"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#60441 -->
+
+    <owl:ObjectProperty rdf:about="http://www.rdaregistry.info/Elements/u/#60441">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P162"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P31"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Concept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P101 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P101"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1027 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P1027"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1037 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P1037">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60633"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P106 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P106"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P110 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P110">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P112 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P112"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P119 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P119"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P121 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P121"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P123 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P123">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P131 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P131"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P136 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P136"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P137 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P137"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P138 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P138"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1412 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P1412"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1433 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P1433"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P144 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P144"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1557 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P1557"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P161 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P161">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60387"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P162 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P162">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P166 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P166"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P170 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P170"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P172 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P172"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P175 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P175">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1809 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P1809">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P19 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P19"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P20 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P20"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P21 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P21"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2348 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P2348"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2360 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P2360"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2438 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P2438">
+        <rdfs:subPropertyOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/hasCastMember"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2515 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P2515">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2670 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P2670"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P27 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P27"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P276 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P276"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2828 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P2828"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P31 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P31"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P3300 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P3300">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P361 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P361"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P371 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P371">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60387"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P3931 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P3931"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P407 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P407"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P412 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P412"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P4608 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P4608">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P463 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P463"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P4634 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P4634"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P4646 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P4646"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P4647 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P4647"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P488 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P488">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60633"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P50 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P50">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#creator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P5024 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P5024">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60141"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P5026 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P5026">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P5028 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P5028">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P5059 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P5059"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P527 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P527"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P5328 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P5328"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P57 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P57">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P5880 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P5880">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P5881 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P5881">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P6086 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P6086">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P629 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P629"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P655 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P655">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60398"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P664 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P664"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P674 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P674"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P676 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P676">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/author"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P725 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P725">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60142"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P747 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P747"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P767 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P767"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P825 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P825"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P859 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P859"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P86 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P86">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/frbr/core#creator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P87 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P87">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/author"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P941 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P941"/>
+    
+
+
+    <!-- https://www.ebu.ch/metadata/ontologies/ebucore/instantiates -->
+
+    <owl:ObjectProperty rdf:about="https://www.ebu.ch/metadata/ontologies/ebucore/instantiates">
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/MediaResource"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iflastandards.info/ns/fr/frbr/frbroo/CLP57_should_have_number_of_parts -->
+
+    <owl:DatatypeProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/CLP57_should_have_number_of_parts">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iflastandards.info/ns/fr/frbr/frbroo/R33_has_content -->
+
+    <owl:DatatypeProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R33_has_content">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/Language -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/Language">
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/about -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/about">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/additionalName -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/additionalName">
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/address -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/address">
+        <rdfs:domain rdf:resource="http://schema.org/GeoCoordinates"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/alternativeHeadline -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/alternativeHeadline">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1680"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/audienceType -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/audienceType">
+        <rdfs:domain rdf:resource="http://schema.org/Audience"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/availabilityEnds -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/availabilityEnds">
+        <rdfs:domain rdf:resource="http://schema.org/Offer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/availabilityStarts -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/availabilityStarts">
+        <rdfs:domain rdf:resource="http://schema.org/Offer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/birthDate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/birthDate">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P569"/>
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/dateCreated -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/dateCreated">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P571"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/datePublished -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/datePublished">
+        <owl:equivalentProperty rdf:resource="http://www.rdaregistry.info/Elements/m/#P30011"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/deathDate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/deathDate">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P570"/>
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/dissolutionDate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/dissolutionDate">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P576"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/doorTime -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/doorTime">
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/duration -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/duration">
+        <owl:equivalentProperty rdf:resource="http://www.rdaregistry.info/Elements/u/#P60557"/>
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2047"/>
+        <owl:equivalentProperty rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/duration"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/email -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/email">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P968"/>
+        <rdfs:domain rdf:resource="http://schema.org/ContactPoint"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/endDate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/endDate">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P582"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/Season"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/familyName -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/familyName">
+        <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/familyName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/faxNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/faxNumber">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/foundingDate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/foundingDate">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P571"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/givenName -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/givenName">
+        <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/givenName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/image -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/image">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/inLanguage -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/inLanguage">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P407"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/isbn -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/isbn">
+        <rdfs:subPropertyOf rdf:resource="https://www.ica.org/standards/RiC/ontology#identifier"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/latitude">
+        <rdfs:domain rdf:resource="http://schema.org/GeoCoordinates"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/legalName -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/legalName">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1448"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/license -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/license">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P275"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/longitude">
+        <rdfs:domain rdf:resource="http://schema.org/GeoCoordinates"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/maximumAttendeeCapacity -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/maximumAttendeeCapacity">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1083"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventVenue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/naics -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/naics">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P3224"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/numberOfPages -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/numberOfPages">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1104"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/postOfficeBoxNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/postOfficeBoxNumber">
+        <rdfs:domain rdf:resource="http://schema.org/PostalAddress"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/postalCode -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/postalCode">
+        <rdfs:domain rdf:resource="http://schema.org/GeoCoordinates"/>
+        <rdfs:domain rdf:resource="http://schema.org/PostalAddress"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/price -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/price">
+        <rdfs:domain rdf:resource="http://schema.org/Offer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/startDate -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/startDate">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P580"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/Season"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/streetAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/streetAddress">
+        <rdfs:domain rdf:resource="http://schema.org/PostalAddress"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/telephone -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/telephone">
+        <rdfs:domain rdf:resource="http://schema.org/ContactPoint"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventVenue"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/url -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/url">
+        <rdfs:domain rdf:resource="http://schema.org/Offer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/audienceContentNote -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/audienceContentNote">
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>a note regarding content that may affect its appropriateness for particular audiences (e.g. curse language, sexual content)</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/content -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/content">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/coordinateLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/coordinateLocation">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P625"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventVenue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/dateOfFirstPerformance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/dateOfFirstPerformance">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1191"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformances"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/durationNote -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/durationNote">
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/facebookID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/facebookID">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2013"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/flickUserID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/flickUserID">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P3267"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/instagramUsername -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/instagramUsername">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2003"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/nameinNativeLanguage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/nameinNativeLanguage">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1559"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/nativeLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/nativeLabel">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1705"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/numberOfActs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/numberOfActs">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/numberOfRepresentations -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/numberOfRepresentations">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P5027"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformances"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/numberOfScenes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/numberOfScenes">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/performanceDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/performanceDate">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P585"/>
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/Performance"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/priceNote -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/priceNote">
+        <rdfs:domain rdf:resource="http://schema.org/Offer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/pseudonym -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/pseudonym">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P742"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/soundcloudID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/soundcloudID">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P3040"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/spotifyUserID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/spotifyUserID">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/streamingWebsite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/streamingWebsite">
+        <rdfs:domain rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/tripAdvisorID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/tripAdvisorID">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P3134"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventVenue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/tumblrID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/tumblrID">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P3943"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/twitterUsername -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/twitterUsername">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2002"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/vimeoUsername -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/vimeoUsername">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P4015"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/youtubeChannel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.artsdata.eu/skgpa-ontology/youtubeChannel">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P2397"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.europeana.eu/schemas/edm/rights -->
+
+    <owl:DatatypeProperty rdf:about="http://www.europeana.eu/schemas/edm/rights">
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/MediaResource"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/m/#P30011 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.rdaregistry.info/Elements/m/#P30011">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P577"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60098 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60098">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60369 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60369">
+        <owl:equivalentProperty rdf:resource="http://www.wikidata.org/prop/direct/P1476"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60484 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60484">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/u/#P60557 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.rdaregistry.info/Elements/u/#P60557"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60369"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+        <rdfs:subPropertyOf rdf:resource="http://www.rdaregistry.info/Elements/u/#P60369"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1083 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P1083"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1104 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P1104"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1191 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P1191"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1448 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P1448"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1476 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P1476"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1559 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P1559"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1680 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P1680"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P1705 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P1705"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2002 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P2002"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2003 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P2003"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2013 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P2013"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2047 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P2047"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2397 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P2397"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P275 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P275"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P3040 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P3040"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P3134 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P3134"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P3224 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P3224"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P3267 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P3267"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P3943 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P3943"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P4015 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P4015"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P407 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P407"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P5027 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P5027"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P569 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P569"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P570 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P570"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P571 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P571"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P576 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P576"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P577 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P577"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P580 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P580"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P582 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P582"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P585 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P585"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P625 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P625"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P734 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P734">
+        <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/familyName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P735 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P735">
+        <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/givenName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P742 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P742"/>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P856 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P856">
+        <owl:equivalentProperty rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P968 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.wikidata.org/prop/direct/P968"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/familyName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/familyName">
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/givenName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/givenName">
+        <rdfs:domain rdf:resource="http://schema.org/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/homepage">
+        <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:domain rdf:resource="http://schema.org/EventVenue"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.ebu.ch/metadata/ontologies/ebucore/duration -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ebu.ch/metadata/ontologies/ebucore/duration">
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/MediaResource"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.ebu.ch/metadata/ontologies/ebucore/locator -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ebu.ch/metadata/ontologies/ebucore/locator">
+        <rdfs:domain rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/MediaResource"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.ica.org/standards/RiC/ontology#identifier -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ica.org/standards/RiC/ontology#identifier">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ontology/mo/MusicalWork -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/mo/MusicalWork">
+        <owl:equivalentClass rdf:resource="http://schema.org/MusicComposition"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/mo/Performance -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/mo/Performance">
+        <owl:equivalentClass rdf:resource="http://www.artsdata.eu/skgpa-ontology/Performance"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/mo/show -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/mo/show">
+        <owl:equivalentClass rdf:resource="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Concept -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Concept">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q151885"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#CorporateBody -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#CorporateBody">
+        <owl:equivalentClass rdf:resource="http://schema.org/Organization"/>
+        <owl:equivalentClass rdf:resource="http://www.rdaregistry.info/Elements/c/#C10005"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Endeavour -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Endeavour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Event -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Event">
+        <owl:equivalentClass rdf:resource="http://schema.org/Event"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Expression -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Expression">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Item -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Item">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q286583"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Manifestation -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Manifestation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Object -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Object">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Person -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Person">
+        <owl:equivalentClass rdf:resource="http://schema.org/Person"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Place -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Place">
+        <owl:equivalentClass rdf:resource="http://schema.org/Place"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Subject -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Subject">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/frbr/core#Work -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Work">
+        <owl:equivalentClass rdf:resource="http://schema.org/CreativeWork"/>
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q17537576"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/AdministrativeArea -->
+
+    <owl:Class rdf:about="http://schema.org/AdministrativeArea">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q56061"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Audience -->
+
+    <owl:Class rdf:about="http://schema.org/Audience">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/ContactPoint -->
+
+    <owl:Class rdf:about="http://schema.org/ContactPoint">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q30322502"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/StructuredValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Country -->
+
+    <owl:Class rdf:about="http://schema.org/Country">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q6256"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/CreativeWork -->
+
+    <owl:Class rdf:about="http://schema.org/CreativeWork">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Event -->
+
+    <owl:Class rdf:about="http://schema.org/Event">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q1656682"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/EventSeries -->
+
+    <owl:Class rdf:about="http://schema.org/EventSeries">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/Series"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/EventVenue -->
+
+    <owl:Class rdf:about="http://schema.org/EventVenue">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q18674739"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Festival -->
+
+    <owl:Class rdf:about="http://schema.org/Festival">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q27968043"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/GeoCoordinates -->
+
+    <owl:Class rdf:about="http://schema.org/GeoCoordinates">
+        <rdfs:subClassOf rdf:resource="http://schema.org/StructuredValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/ImageObject -->
+
+    <owl:Class rdf:about="http://schema.org/ImageObject">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q478798"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/MediaObject -->
+
+    <owl:Class rdf:about="http://schema.org/MediaObject">
+        <rdfs:subClassOf rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Movie -->
+
+    <owl:Class rdf:about="http://schema.org/Movie">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q11424"/>
+        <rdfs:subClassOf rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/EditorialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/MusicComposition -->
+
+    <owl:Class rdf:about="http://schema.org/MusicComposition">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q2188189"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Offer -->
+
+    <owl:Class rdf:about="http://schema.org/Offer">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Organization -->
+
+    <owl:Class rdf:about="http://schema.org/Organization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Person -->
+
+    <owl:Class rdf:about="http://schema.org/Person">
+        <owl:equivalentClass rdf:resource="http://www.rdaregistry.info/Elements/c/#C10004"/>
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q5"/>
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Photograph -->
+
+    <owl:Class rdf:about="http://schema.org/Photograph">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q125191"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Place -->
+
+    <owl:Class rdf:about="http://schema.org/Place">
+        <owl:equivalentClass rdf:resource="http://www.rdaregistry.info/Elements/c/#10009"/>
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q2221906"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Play -->
+
+    <owl:Class rdf:about="http://schema.org/Play">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q25379"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/LiteraryWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/PostalAddress -->
+
+    <owl:Class rdf:about="http://schema.org/PostalAddress">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q319608"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/ContactPoint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/ScreeningEvent -->
+
+    <owl:Class rdf:about="http://schema.org/ScreeningEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Series -->
+
+    <owl:Class rdf:about="http://schema.org/Series">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/StructuredValue -->
+
+    <owl:Class rdf:about="http://schema.org/StructuredValue">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/Award -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/Award">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q618779"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Concept"/>
+        <rdfs:comment>Something given to a person or a group of people to recognize their excellence in a certain field</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/Ballet -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/Ballet">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/mo/MusicalWork"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/ChoreographicWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/Building -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/Building">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q41176"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/ChoreographicWork -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/ChoreographicWork">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <rdfs:comment>Any of the FRBR group 1 entities applied to the performing arts (Performance Work, Performance Plan, Performing Arts Production, Performance)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/EthnicGroup -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/EthnicGroup">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q41710"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/FestivalSeries -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/FestivalSeries">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q132241"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:comment>organised series of acts and performances</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/Group -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/Group">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q16334295"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>Any set of human beings</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/LiteraryWork -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/LiteraryWork">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q7725634"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/Opera -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/Opera">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q1344"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/mo/MusicalWork"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/Play"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/PartOfPerformingArtsProduction -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/PartOfPerformingArtsProduction">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q52721362"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/Performance -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/Performance">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q35140"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:comment>Individual representation of a Performance Work according to a Performance plan in the context of a Performing Arts Production</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/PerformingArtsProduction">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q43099500"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:comment>A complete run of contiguous Performances; the totality of Performances following the same performance plan</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/Season -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/Season">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q25938183"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformances -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformances">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q43100730"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/EventSeries"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformingArtsProductions -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/SeriesOfPerformingArtsProductions">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/Series"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+        <rdfs:comment>Series of distinct performing arts productions that form a whole</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.artsdata.eu/skgpa-ontology/Song -->
+
+    <owl:Class rdf:about="http://www.artsdata.eu/skgpa-ontology/Song">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q7366"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/mo/MusicalWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.europeana.eu/schemas/edm/Agent -->
+
+    <owl:Class rdf:about="http://www.europeana.eu/schemas/edm/Agent">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.europeana.eu/schemas/edm/WebResource -->
+
+    <owl:Class rdf:about="http://www.europeana.eu/schemas/edm/WebResource">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q3427877"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loc.gov/premis/rdf/v3/Agent -->
+
+    <owl:Class rdf:about="http://www.loc.gov/premis/rdf/v3/Agent">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/c/#C10002 -->
+
+    <owl:Class rdf:about="http://www.rdaregistry.info/Elements/c/#C10002">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/c/#C10004 -->
+
+    <owl:Class rdf:about="http://www.rdaregistry.info/Elements/c/#C10004">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/c/#C10005 -->
+
+    <owl:Class rdf:about="http://www.rdaregistry.info/Elements/c/#C10005">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/c/#C10008 -->
+
+    <owl:Class rdf:about="http://www.rdaregistry.info/Elements/c/#C10008">
+        <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q8436"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.rdaregistry.info/Elements/c/#10009 -->
+
+    <owl:Class rdf:about="http://www.rdaregistry.info/Elements/c/#10009">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q11424 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q11424">
+        <rdfs:subClassOf rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/EditorialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q125191 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q125191">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q132241 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q132241">
+        <rdfs:subClassOf rdf:resource="http://schema.org/EventSeries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q1344 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q1344">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/mo/MusicalWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q151885 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q151885">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q16334295 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q16334295">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q1656682 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q1656682">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q17537576 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q17537576">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q18674739 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q18674739">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q2188189 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q2188189">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q2221906 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q2221906">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q24229398 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q24229398">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q25379 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q25379">
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/LiteraryWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q25938183 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q25938183"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q27968043 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q27968043">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q286583 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q286583">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q30322502 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q30322502">
+        <rdfs:subClassOf rdf:resource="http://schema.org/StructuredValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q319608 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q319608">
+        <rdfs:subClassOf rdf:resource="http://schema.org/ContactPoint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q3375722 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q3375722">
+        <owl:equivalentClass rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/Character"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q3427877 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q3427877">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q35140 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q35140">
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q41176 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q41176">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q41710 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q41710">
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q43099500 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q43099500">
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q43100730 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q43100730">
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q43229 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q43229">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q478798 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q478798">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q5 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q5">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q52721362 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q52721362">
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/EndeavourOfThePerformingArts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q56061 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q56061">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q618779 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q618779">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q6256 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q6256">
+        <rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q7366 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q7366">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/mo/MusicalWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q7725634 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q7725634">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q8436 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q8436">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Group -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Group">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <rdfs:subClassOf rdf:resource="http://www.artsdata.eu/skgpa-ontology/Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.bbc.co.uk/ontologies/po/0.2Version -->
+
+    <owl:Class rdf:about="https://www.bbc.co.uk/ontologies/po/0.2Version">
+        <owl:equivalentClass rdf:resource="https://www.ebu.ch/metadata/ontologies/ebucore/MediaResource"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/MediaObject"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ebu.ch/metadata/ontologies/ebucore/Character -->
+
+    <owl:Class rdf:about="https://www.ebu.ch/metadata/ontologies/ebucore/Character">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ebu.ch/metadata/ontologies/ebucore/EditorialObject -->
+
+    <owl:Class rdf:about="https://www.ebu.ch/metadata/ontologies/ebucore/EditorialObject">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.ebu.ch/metadata/ontologies/ebucore/MediaResource -->
+
+    <owl:Class rdf:about="https://www.ebu.ch/metadata/ontologies/ebucore/MediaResource">
+        <rdfs:subClassOf rdf:resource="http://schema.org/MediaObject"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iflastandards.info/ns/fr/frbr/frbroo/CLP57_should_have_number_of_parts -->
+
+    <owl:NamedIndividual rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/CLP57_should_have_number_of_parts">
+        <rdfs:label xml:lang="en">should have number of parts</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iflastandards.info/ns/fr/frbr/frbroo/R33_has_content -->
+
+    <owl:NamedIndividual rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R33_has_content">
+        <rdfs:label xml:lang="en">has content</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/CLP57_should_have_number_of_parts">
+        <rdfs:comment xml:lang="en">This property associates a publication, i.e. an instance of F3 Manifestation Product Type, with an instance of E60 Number, which denotes the number of physical units all exemplars of that publication should consist of, as long as they are recognised as complete exemplars of that publication. Typically, this property is observed on one exemplar of a publication, and extrapolated to all other exemplars of the same publication. This logical inference is an induction along the path that can be modelled as: F3 Manifestation Product Type R7i has example F5 Item P57 has number of parts E60 Number.
+It can happen that a given exemplar, or subset of exemplars, originally produced, or intended to be produced, with that characteristic, accidentally lacks it. This fact should be recorded as a property of F5 Item, and not of F3 Manifestation Product Type.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R33_has_content">
+        <rdfs:comment xml:lang="en">This property associates an instance of F12 Nomen with one or more equivalent serialized content models for it. In digital form the symbol arrangement constituting an instance of F12 Nomen can only be represented through a particular encoding, for example ASCII or Latin1 for the Latin script. We call such a representation a content model. The property R33.1 has encoding: E55 Type allows for specifying the encoding of a particular associated content model. Together with this specification, a content model allows for unambiguously defining a nomen independently from the encoding used for representing the content.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
