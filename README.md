@@ -4,6 +4,8 @@ This Github repository serves as a storage for the files created during the deve
 
 ## Basic information
 GraphDB Free from Ontotext was used as the triplestore in this project. 
+The "Protégé" folder serves only as documentation for the creation of the own ontology. In this folder the created ontology file and the corresponding Excel file can be found. 
+
 The RDF files of the named graphs are stored in the "NamedGraphs" folder. These files contain all triples that were loaded into the triplestore during the development of the knowledge graph. The "Repositories" folder contains the configuration files of the two repositories used ("RawData" and "SwissKnowledgeGraphforthePerformingArts"). In the folder "Ontologies" all ontology files are stored, which were used in the triplestore.
 
 The developed prototype can thus be recreated by creating the two repositories in GraphDB using the configuration files from the "Repositories" folder and loading the corresponding files from the "NamedGraphs" and "Ontologies" folders into the appropriate repositories in GraphDB.
