@@ -11,6 +11,6 @@ This Github repository serves as a storage for the files created during the deve
 “Iteration1_Organization_schauspielhaus_repertoire_1938-1968-1-csv”: File of the class "Organization" 
 “Iteration1_Personen_schauspielhaus_repertoire_1938-1968 (1)”: File of the class “Person” 
 “Iteration1_Work_schauspielhaus_repertoire_1938-1968 (1)”: File of the class “Work” 
-“Iteration1_OpenRefine”: Production-file used for reconcile process of all entities (This process has been documented in the following section): 
-“Iteration1_EventGraphDB_schauspielhaus_repertoire_1938-1968 (1)”: Final pro-duction file for iteration 1 with links to the corresponding class entities 
+“Iteration1_OpenRefine”: Production-file used for the reconcile process of all entities
+“Iteration1_EventGraphDB_schauspielhaus_repertoire_1938-1968 (1)”: Final production file for iteration 1 with links to the corresponding class entities 
 
