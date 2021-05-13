@@ -18,3 +18,12 @@ This Github repository serves as a storage for the files created during the deve
 - "Iteration1_Person_V1": RDF file of the class "Person"
 - "Iteration1_Organization_V1": RDF file of the class "Organization"
 - "Iteration1_Work_V1": RDF file of the class "Work" 
+
+### Iteration 2
+#### CSV/Excel
+- “schauspielhaus_repertoire_1938-1968 (1)”: Source data of the “Repertoire Schaus-pielhaus Zurich 1938-1968”  
+- “Iteration2_Person”: File of the class “Person” with generated UUIDs and the Q-Identifiers from Wikidata (after reconcile process)
+- “Iteration2_Work”: File of the class “Work” with generated UUIDs and the Q-Identifiers from Wikidata (after reconcile process)
+- “Stück+UUID_PAE”: File of the Schauspielhaus Zurich productions matched with the Q-Identifier for the corresponding production entity in Wikidata (They all had a Q-Identifier since these productions were entered as part of a Wikidata-project). “Schaus-pielhaus Zürich” was added to the name of the work, because the corresponding Wiki-data entities of the Schauspielhaus Zürich productions could thus be better reconciled.
+- “Iteration2_PerformingArtsProduction_V1.0”: Final version of the performing arts production data 
+
