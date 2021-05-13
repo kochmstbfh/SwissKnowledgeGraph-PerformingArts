@@ -1,0 +1,140 @@
+@prefix : <http://dbpedia.org/ontology/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ric: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix wot: <http://xmlns.com/wot/0.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skgpapr: <http://www.artsdata.eu/PerformingArtsProduction/> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix ex: <http://example.com/ns#> .
+@prefix ebucore: <https://www.ebu.ch/metadata/ontologies/ebucore/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix premis: <http://www.loc.gov/premis/rdf/v3/> .
+@prefix schema: <http://schema.org/> .
+@prefix ns: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix skgpa: <http://www.artsdata.eu/skgpa-ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix d0: <http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdau: <http://www.rdaregistry.info/Elements/u/#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix rdac: <http://www.rdaregistry.info/Elements/c/> .
+@prefix skgpap: <http://www.artsdata.eu/Person/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdae: <http://www.rdaregistry.info/Elements/e/> .
+@prefix skgpaw: <http://www.artsdata.eu/Work/> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix spav: <http://vocab.performing-arts.ch/> .
+@prefix FRBRoo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix rdam: <http://www.rdaregistry.info/Elements/m/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix cidoccrm: <http://purl.org/NET/cidoc-crm/core#> .
+@prefix wikidata: <http://www.wikidata.org/entity> .
+@prefix skgpao: <http://www.artsdata.eu/Organization/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix po: <https://www.bbc.co.uk/ontologies/po/0.2> .
+
+<https://www.kleintheatergrenchen.ch> {
+  <https://www.kleintheatergrenchen.ch/saisonprogramm/simonchen/#Event> a schema:Event;
+    schema:location "";
+    schema:url "https://www.kleintheatergrenchen.ch/saisonprogramm/simonchen/";
+    schema:image "https://www.kleintheatergrenchen.ch/wp-content/uploads/8_SimonChen_Typisch_04_c_Fabian_Roelli.jpg";
+    schema:startDate "2021-03-19T20:15"^^xsd:dateTime;
+    schema:description "", """					ABGESAGT: Typisch!WortkabarettDie Veranstaltung vom 19.03.2021 wird aufgrund der momentan gültigen kantonalen und eidgenössischen Corona-Verordnungen abgesagt. Bereits erworbene Tickets werden zurückerstattet, und wir bemühen uns um ein neues Datum. Besten Dank für Ihr Verständnis!Im zweiten Kabarettprogramm von Simon Chen wird tüchtig über den Kamm geschert, ohne aber den Einzelfall und andere Minderheiten zu verschonen. Denn wir alle – ganz generell gesagt – kämpfen auf individuelle Art und Weise mit Pauschalisierungen und Vorurteilen, denken entweder schwarz oder weiss oder stolpern über lästige Graustufen. Mit seinem bewährten Sprachwitz nimmt Simon Chen sein Publikum mit auf eine Gratwanderung zwischen Absturzgefahr und Abgrundtiefe. Typisch Chen!www.simonchen.ch				""";
+    schema:eventStatus <http://schema.org/>;
+    schema:name "Simon Chen" .
+  
+  <https://www.kleintheatergrenchen.ch> a prov:Entity;
+    schema:url "https://www.kleintheatergrenchen.ch";
+    prov:wasDerivedFrom <https://skgpa-webcrawler.herokuapp.com/agents/1>;
+    schema:name "Kleintheater Grenchen";
+    prov:generatedAtTime "2021-04-22T20:12:35"^^xsd:dateTime;
+    prov:wasAttributedTo <http://kg.artsdata.ca/resource/K1-9>, <https://github.com/kochmstbfh/SwissKnowledgeGraph-PerformingArts> .
+  
+  <https://www.kleintheatergrenchen.ch/saisonprogramm/christoph-simon/#Event> a schema:Event;
+    schema:location "";
+    schema:url "https://www.kleintheatergrenchen.ch/saisonprogramm/christoph-simon/";
+    schema:image "https://www.kleintheatergrenchen.ch/wp-content/uploads/ChristophSimon_DerRichtige.jpg";
+    schema:startDate "2020-09-19T20:15"^^xsd:dateTime;
+    schema:description "", """					Der Richtige für fast allesWort-KabarettIn seinem dritten Kabarettprogramm erzählt Christoph Simon eine romantische Komödie. Zwei Menschen, zwei Welten. Er: Ein Vagabund. Sie: Eine Geschäftsfrau. Er erhöht mit seiner Gitarre den Umgebungslärm. Sie sitzt von der Liebe enttäuscht im Büro. Tränen tropfen auf den Computer, was der Tastatur gar nicht gut tut. Also beschliesst er, ihr einen Mann zu finden: Den Richtigen für fast alles. Neunzig Minuten Turbulenz, Drama und Verführungsfrust. Christoph Simon, der von sich behauptet, er habe keine Ideen, sondern Probleme, hat 2018 den renommierten Salzburger Stier gewonnen. Freuen Sie sich auf einen unvergesslichen Abend mit einem herausragenden Bühnen-Poeten!www.christophsimon.ch				""";
+    schema:eventStatus <http://schema.org/>;
+    schema:name "Christoph Simon" .
+  
+  <https://www.kleintheatergrenchen.ch/saisonprogramm/franzhohler/#Event> a schema:Event;
+    schema:location "";
+    schema:url "https://www.kleintheatergrenchen.ch/saisonprogramm/franzhohler/";
+    schema:image "https://www.kleintheatergrenchen.ch/wp-content/uploads/Hohler_Neu1_-Portait-scaled.jpg";
+    schema:startDate "2020-10-23T20:00 - 22:00"^^xsd:dateTime;
+    schema:description "", """					Spaziergang durch sein GesamtwerkDie Vorstellung ist AUSVERKAUFT. Aufgrund der Corona-Massnahmen werden an der Abendkasse keine zusätzlichen Plätze verkauft. Es besteht höchstens die Möglichkeit, dass kurzfristig stornierte Plätze oder nicht abgeholte Tickets weiterverkauft werden können.Organisiert von der Literarischen Gesellschaft Grenchen. Die Kleintheaterabonnemente haben für diese Vorstellung keine Gültigkeit.Franz Hohler führt durch sein reichhaltiges literarisches Gesamtwerk und damit auch durch die letzten 50 Jahre. In seinen Geschichten löst sich die Wirklichkeit unmerklich auf und macht Ereignissen Platz, die sich unserer kühlen Logik entziehen. Mit ungewöhnlich wachem Blick für beunruhigende Details erzählt er von der Brüchigkeit und der Tragikomik unseres Alltags, aber auch von seiner Poesie.Ein heiterer Abend mit einem hintergründigen Kritiker steht bevor, ein ebenso fröhlicher wie nachdenklicher Spaziergang durch unsere Zeit.				""";
+    schema:eventStatus <http://schema.org/>;
+    schema:name "Franz Hohler" .
+  
+  <https://www.kleintheatergrenchen.ch/saisonprogramm/studerundstampfli/#Event> a schema:Event;
+    schema:location "";
+    schema:url "https://www.kleintheatergrenchen.ch/saisonprogramm/studerundstampfli/";
+    schema:image "https://www.kleintheatergrenchen.ch/wp-content/uploads/D.I.S.C.O-scaled.jpg";
+    schema:startDate "2020-10-31T20:15"^^xsd:dateTime;
+    schema:description "", """					ABGESAGT: D.I.S.C.O. Samschtig Nacht und FieberMusikabarettDie Veranstaltung vom 31. Oktober 2020 muss aufgrund der neuen kantonalen Corona-Verordnungen leider abgesagt werden. Bereits erworbene Tickets werden zurückerstattet. Bezüglich der weiteren Veranstaltungen der Saison warten wir die Entscheidungen des Bundesrates vom 28.10.2020 ab und informieren Sie zeitgerecht. Besten Dank für Ihr Verständnis!Studer & Stampfli wagen sich auf den Dancefloor. Sie schmettern die Hymnen von damals, als man sich noch die Wochenenden in der Disco um die Ohren schlug. Wenig Schlaf und viel Schweiss, ein treibender Beat, schrille Outfits und erste Liebeswirren unter der Glitzerkugel. Donna Summer stöhnt, Travolta tanzt und die himmlischen BeeGees falsettieren. Alles ganz schön retro, und dann doch nicht …Studer & Stampfli mixen frech drauflos. Gestern und heute, hart und zart, funky bass und Schlagerschmelz. Ein inszeniertes Konzert, farbig, wehmütig, überraschend und wild, für zwei Stimmen, Klavier, Ukulele, die wunderbare asthmatische Bontempiorgel und das eine oder andere neue Instrumentchen.Rahel Studer: Gesang, Ukulele, Klavier u.a., Philipp Stampfli: Klavier, Gesang, Ukulele u.a., Regie: Caroline Schenk.www.studerundstampfli.ch 				""";
+    schema:eventStatus <http://schema.org/>;
+    schema:name "Studer & Stampfli" .
+  
+  <https://www.kleintheatergrenchen.ch/saisonprogramm/michel-gammenthaler/#Event> a
+      schema:Event;
+    schema:location "";
+    schema:url "https://www.kleintheatergrenchen.ch/saisonprogramm/michel-gammenthaler/";
+    schema:image "https://www.kleintheatergrenchen.ch/wp-content/uploads/Michel_Gammenthaler_Pressebild_Bloeff_quer-scaled.jpg";
+    schema:startDate "2020-11-14T20:15"^^xsd:dateTime;
+    schema:description "", """					ABGESAGT: „BLÖFF“Comedy & SchwindelDie Veranstaltung vom 14.11.2020 muss aufgrund der kantonalen und eidgenössischen Corona-Verordnungen leider abgesagt werden. Bereits erworbene Tickets werden zurückerstattet, und wir bemühen uns um ein neues Datum. Bezüglich der Veranstaltungen 2021 warten wir die Entwicklung und weitere Entscheidungen des Bundesrates und der kantonalen Regierung ab und informieren Sie zeitgerecht. Besten Dank für Ihr Verständnis!Der moderne Mensch ist überinformiert und hat trotzdem keine Ahnung. Von gar nichts. Was bleibt anderes übrig als der gute, alte Blöff? Wir schummeln und schwindeln, manipulieren und blöffen uns durch eine Welt, in der gilt: Schein ist mehr als Sein. So lange, bis wir uns selber glauben. Komik, verblüffendes Schwindeln und zündende Pointen, Michel Gammenthaler macht Ihnen etwas vor. Selten wird man so gentlemanlike und witzig über den Tisch gezogen.www.michel-gammenthaler.ch				""";
+    schema:eventStatus <http://schema.org/>;
+    schema:name "Michel Gammenthaler" .
+  
+  <https://www.kleintheatergrenchen.ch/saisonprogramm/judith-bach/#Event> a schema:Event;
+    schema:location "";
+    schema:url "https://www.kleintheatergrenchen.ch/saisonprogramm/judith-bach/";
+    schema:image "https://www.kleintheatergrenchen.ch/wp-content/uploads/JudithBach_Claire_allene-Foto_KatharinaGood.jpg";
+    schema:startDate "2020-12-04T20:15"^^xsd:dateTime;
+    schema:description "", """					ABGESAGT: Claire alleene – aus lauter LebenslustChanson-KabarettDie Veranstaltung vom 4.12.2020 muss aufgrund der kantonalen und eidgenössischen Corona-Verordnungen leider abgesagt werden. Bereits erworbene Tickets werden zurückerstattet, und wir bemühen uns um ein neues Datum. Bezüglich der Veranstaltungen 2021 warten wir die Entwicklung und die weiteren Entscheidungen des Bundesrates und der kantonalen Regierung ab und informieren Sie zeitgerecht. Besten Dank für Ihr Verständnis!Sturmfrei für Claire! Zum ersten Mal allein auf der Bühne, hat die «Kleene mit de kurze Beene» erstaunlich viel Platz. Sie singt und schnabuliert frei nach Berliner Schnauze, purzelt von Augenblick zu Augenblick, verliert den Faden, aber nie sich selbst. Sie fliegt ohne Flügel, dafür mit Mozart am Klavier. Landet flugs im Himmel bei ihrer kleinen weisen Großmutter, einem quirligen Frauenzimmer aus einer völlig anderen Zeit, die vor den Augen des Zuschauers so lebendig wird, dass man meint, sie sei für den Abend kurz auferstanden. Claires erstes Soloprogramm strotzt von selbstgeschriebenen Liedern, katastrophalen Tanzeinlagen und guten Fragen nach dem Sinn und Unsinn dieses Lebens.Ein philosophisches Chanson Kabarett. Überraschend, zart und frech.www.judithbach.net				""";
+    schema:eventStatus <http://schema.org/>;
+    schema:name "Judith Bach" .
+  
+  <https://www.kleintheatergrenchen.ch/saisonprogramm/uta-koebernick/#Event> a schema:Event;
+    schema:location "";
+    schema:url "https://www.kleintheatergrenchen.ch/saisonprogramm/uta-koebernick/";
+    schema:image "https://www.kleintheatergrenchen.ch/wp-content/uploads/5_UtaKoebernick_PatrickLabitzke.jpg";
+    schema:startDate "2021-01-08T20:15"^^xsd:dateTime;
+    schema:description "", """					ABGESAGT: Ich bin noch nicht fertig!Musik-KabarettDie Veranstaltung vom 8.1.2021 muss aufgrund der kantonalen und eidgenössischen Corona-Verordnungen leider abgesagt werden. Bereits erworbene Tickets werden zurückerstattet, und wir bemühen uns um ein neues Datum. Bezüglich der weiteren Veranstaltungen 2021 warten wir die Entwicklung und die weiteren Entscheidungen des Bundesrates und der kantonalen Regierung ab und informieren Sie zeitgerecht. Besten Dank für Ihr Verständnis!Im neuen Programm wird die Welt nicht geschönt, aber schöner. Als scheinintegrierte Deutsche schlägt Köbernick ihre Ostberliner Wurzeln tief in die Blumentöpfe unserer Vorurteile. Aus der Sicht des Merkurs lebt sie hinterm Mond. Diese Einsicht stattet sie mit einer Demut aus, die sie gekonnt zu verbergen weiss, denn dass die diplomierte Schauspielerin mit dem Deutschen Kleinkunstpreis und dem Salzburger Stier ausgezeichnet wurde, ist dem Merkur zwar egal, doch hinterm Mond einleuchtend.www.koebernick.ch				""";
+    schema:eventStatus <http://schema.org/>;
+    schema:name "Uta Köbernick" .
+  
+  <https://www.kleintheatergrenchen.ch/saisonprogramm/microband/#Event> a schema:Event;
+    schema:location "";
+    schema:url "https://www.kleintheatergrenchen.ch/saisonprogramm/microband/";
+    schema:image "https://www.kleintheatergrenchen.ch/wp-content/uploads/6_1_Microband-scaled.jpg";
+    schema:startDate "2021-01-24T17:00"^^xsd:dateTime;
+    schema:description "", """					ABGESAGT: Classica for DummiesMusikclownerieDie Veranstaltung vom 24.1.2021 muss aufgrund der kantonalen und eidgenössischen Corona-Verordnungen leider abgesagt werden. Bereits erworbene Tickets werden zurückerstattet, und wir bemühen uns um ein neues Datum. Bezüglich der weiteren Veranstaltungen 2021 warten wir die Entwicklung und die weiteren Entscheidungen des Bundesrates und der kantonalen Regierung ab und informieren Sie zeitgerecht. Besten Dank für Ihr Verständnis!Das Musik-Comedy-Duo MICROBAND schenkt mit «Classica for Dummies» seinem Publikum auf der ganzen Welt einen irrwitzigen Abend, bei dem sich absolut jeder, vom Klassik-Fan bis zum Banausen, köstlich unterhalten fühlt. Sie machen sich über Brahms und Verdi her, zerfleddern die schönsten Werke aller Zeiten, setzen sie wieder zusammen, spielen sie virtuos und interpretieren sie zugleich völlig neu und originell, sie verquicken sie mit Komödie und einem Schuss Chaos – und entlassen das Publikum wie verzaubert aus ihren Shows. «Die Marxbrothers der Musikclownerie», Frankfurter Allgemeine.www.microband.it				""";
+    schema:eventStatus <http://schema.org/>;
+    schema:name "MICROBAND" .
+  
+  <https://www.kleintheatergrenchen.ch/saisonprogramm/bea-von-malchus/#Event> a schema:Event;
+    schema:location "";
+    schema:url "https://www.kleintheatergrenchen.ch/saisonprogramm/bea-von-malchus/";
+    schema:image "https://www.kleintheatergrenchen.ch/wp-content/uploads/7_BeaVonMalchus_YankeeJodel-scaled.jpg";
+    schema:startDate "2021-02-27T20:15"^^xsd:dateTime;
+    schema:description "", """					ABGESAGT: YANKEE JODEL – In die Schweizer Alpen mit Mark TwainWortkabarettDie Veranstaltung vom 27.2.2021 muss aufgrund der kantonalen und eidgenössischen Corona-Verordnungen leider abgesagt werden. Bereits erworbene Tickets werden zurückerstattet, und wir bemühen uns um ein neues Datum. Besten Dank für Ihr Verständnis!Hurrah! Wir verreisen. Mit Mark Twain. In die Schweizer Alpen. Es ist 1878. Zunächst verschlafen wir fünf spektakuläre Sonnenaufgänge, trinken eimerweise Alpenmilch, verirren uns vier Meter vor dem Hotel im Nebel und bringen jodelnde Senner mit einem Handgeld zum Schweigen. Danach bezwingen wir den gefürchteten Riffelberg. Es wird hart und es geht bergauf! Wir werden Sprengstoff brauchen. We will fluch, we will smoke and we will be verzweifelt. But am Ende liegt uns Zermatt zu Füssen. Ein Alpenteuer!www.beavonmalchus.de				""";
+    schema:eventStatus <http://schema.org/>;
+    schema:name "Bea von Malchus" .
+}
