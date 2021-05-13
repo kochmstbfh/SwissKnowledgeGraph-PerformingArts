@@ -59,6 +59,16 @@ This Github repository serves as a storage for the files created during the deve
 - “ExistingAssistantStageDirector”: RDF-File of existing assistant stage directors (which had already an existing identifier in the triplestore)
 - “ÜbrigeBeteiligteMitSAPAID”: RDF-File with data of additional roles, which were imported directly from SAPA with the corresponding identifiers (Conductor, Perform-er, Cos-tumeDesigner, Dancer, Narrator, Puppeteer, Music Performer, Choreographer, SoundDesigner, LightingDesigner, ProjectionDe-signer, VideoDesigner, Dramaturgy, Scenographer)
 
+### Iteration 4
+#### Huginn
+- add-raw-event.sparql: This SPARQL query is used in connection with a Huginn agent. With this SPARQL query the desired triples are generated. 
+
+#### agents (JSON files)
+- kleintheater-grenchen (1): Agents to crawl the website of the Kleintheater Grenchen
+- theater-winkelwiese (1): Agents to crawl the website of the Theater Winkelwiese
+- load-data-to-graphdb: Agents used to load the crawled data into the triplestore. 
+
+
 
 
 
