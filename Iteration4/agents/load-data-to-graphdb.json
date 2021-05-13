@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "name": "Load Data to GraphDB",
+  "description": "Complete Flow to Raw repository using the Reservatech ticketing website of events.",
+  "source_url": false,
+  "guid": "9c56defabd24ed6add37fdf49e7edb79",
+  "tag_fg_color": "#ffffff",
+  "tag_bg_color": "#5bc0de",
+  "icon": "gear",
+  "exported_at": "2021-05-03T21:14:29Z",
+  "agents": [
+    {
+      "type": "Agents::TriggerAgent",
+      "name": "Collect SPARQL errors",
+      "disabled": true,
+      "guid": "1dd0bd797d9a83f842ebba6ae75f85b6",
+      "options": {
+        "expected_receive_period_in_days": "2",
+        "keep_event": "true",
+        "rules": [
+          {
+            "type": "field!=value",
+            "value": "204",
+            "path": "status"
+          }
+        ],
+        "message": "SPARQL error with status code '{{value}}'!"
+      },
+      "keep_events_for": 7776000,
+      "propagate_immediately": false
+    },
+    {
+      "type": "Agents::PostAgent",
+      "name": "SPARQL POST to raw repository on graphDB",
+      "disabled": true,
+      "guid": "2ae27b1050906556209c4c88ebe00d3f",
+      "options": {
+        "post_url": "http://147.87.7.145:7200/repositories/SwissKnowledgeGraphforthePerformingArts/statements",
+        "expected_receive_period_in_days": "1",
+        "content_type": "form",
+        "method": "post",
+        "payload": {
+          "update": "{{sparql | strip_newlines }}"
+        },
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "emit_events": "true",
+        "no_merge": "false",
+        "output_mode": "merge",
+        "basic_auth": "artsdata-api:{% credential artsdata-api-password %}"
+      },
+      "schedule": "never",
+      "keep_events_for": 3600,
+      "propagate_immediately": true
+    },
+    {
+      "type": "Agents::WebsiteAgent",
+      "name": "SPARQL: event template --> raw repository",
+      "disabled": true,
+      "guid": "497ef0bc49175c0653c9297d1ae3ad13",
+      "options": {
+        "expected_update_period_in_days": "356",
+        "url": "https://raw.githubusercontent.com/kochmstbfh/SwissKnowledgeGraph-PerformingArts/main/Iteration4/Huginn/add-raw-event.sparql",
+        "type": "text",
+        "extract": {
+          "sparqlFormatted": {
+            "regexp": "\\A(?m:.)*\\z",
+            "index": "0"
+          }
+        },
+        "mode": "all",
+        "template": {
+          "sparql": "{{sparqlFormatted |  strip_newlines |    replace: \"graph_name_placeholder\", graph_name |      replace: \"uri_placeholder\", uri |                    replace: \"name_placeholder\", name |                       replace: \"startDate_placeholder\", startDate |         replace: \"description_placeholder\", description  |    replace: \"image_placeholder\", image  |                replace: \"location_placeholder\", location  |          replace: \"url_placeholder\", url  |                    replace: \"eventStatus_placeholder\", eventStatus }}"
+        }
+      },
+      "schedule": "never",
+      "keep_events_for": 2592000,
+      "propagate_immediately": true
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "receiver": 0
+    },
+    {
+      "source": 2,
+      "receiver": 1
+    }
+  ],
+  "control_links": [
+
+  ]
+}

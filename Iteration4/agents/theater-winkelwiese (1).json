@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "name": "Theater Winkelwiese",
+  "description": "No description provided",
+  "source_url": false,
+  "guid": "bd31b1304581cca0b7ac55b6617f78e4",
+  "tag_fg_color": "#ffffff",
+  "tag_bg_color": "#5bc0de",
+  "icon": "gear",
+  "exported_at": "2021-05-03T21:02:59Z",
+  "agents": [
+    {
+      "type": "Agents::EventFormattingAgent",
+      "name": "Theater Winkelwiese - format",
+      "disabled": true,
+      "guid": "02636c36c464ba0cd6a9a6f01ac3a780",
+      "options": {
+        "instructions": {
+          "graph_name": "{{graph_name}}",
+          "uri": "https://winkelwiese.ch{{ url }}#Event",
+          "url": "https://winkelwiese.ch{{ url }}",
+          "name": "{{name}}",
+          "startDate": "{{ startDate }}",
+          "image": "{{ image }}",
+          "location": "Theater Winkelwiese",
+          "eventStatus": "",
+          "description": "{{description}}"
+        },
+        "mode": "clean"
+      },
+      "keep_events_for": 86400,
+      "propagate_immediately": true
+    },
+    {
+      "type": "Agents::JavaScriptAgent",
+      "name": "Run Theater Winkelwiese",
+      "disabled": true,
+      "guid": "0ca0916a1a478cf004fd430030ca2ca8",
+      "options": {
+        "language": "JavaScript",
+        "code": "Agent.check = function() {\r\n  this.createEvent({ \r\n    'graph_name': 'https://winkelwiese.ch/',\r\n    'name': 'Theater Winkelwiese',\r\n    'url': 'https://winkelwiese.ch/' });\r\n};\r\n",
+        "expected_receive_period_in_days": "265",
+        "expected_update_period_in_days": "265"
+      },
+      "schedule": "never",
+      "keep_events_for": 3600,
+      "propagate_immediately": true
+    },
+    {
+      "type": "Agents::WebsiteAgent",
+      "name": "Theater Winkelwiese - event list",
+      "disabled": true,
+      "guid": "97313d9176d2576023c1c7f737453dd5",
+      "options": {
+        "expected_update_period_in_days": "2",
+        "url": "https://winkelwiese.ch/2020-21/spielplan",
+        "type": "html",
+        "mode": "all",
+        "extract": {
+          "url": {
+            "xpath": "//*[@class='group-timeslot-categories']/a",
+            "value": "@href"
+          },
+          "name": {
+            "xpath": "//*[@class='group-timeslot-categories']",
+            "value": "normalize-space(.)"
+          },
+          "startDate": {
+            "xpath": "//h2[@class='timetable-date']//span[contains(@class,'date-display-start') or contains(@class,'date-display-single')]",
+            "value": "@content"
+          },
+          "description": {
+            "xpath": "//div[contains(@class,'view-mode-teaser_timetable')]",
+            "value": "normalize-space(.)"
+          }
+        },
+        "template": {
+          "graph_name": "{{graph_name}}"
+        }
+      },
+      "schedule": "never",
+      "keep_events_for": 0,
+      "propagate_immediately": true
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "receiver": 2
+    },
+    {
+      "source": 2,
+      "receiver": 0
+    }
+  ],
+  "control_links": [
+
+  ]
+}

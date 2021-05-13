@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "name": "Kleintheater Grenchen",
+  "description": "No description provided",
+  "source_url": false,
+  "guid": "ebd7d8e37bcb1d236f5a3209e8a61822",
+  "tag_fg_color": "#ffffff",
+  "tag_bg_color": "#5bc0de",
+  "icon": "gear",
+  "exported_at": "2021-05-03T21:09:11Z",
+  "agents": [
+    {
+      "type": "Agents::JavaScriptAgent",
+      "name": "Run Kleintheater Grenchen",
+      "disabled": true,
+      "guid": "619b62e67b2885c245e12f0a3b22fd5b",
+      "options": {
+        "language": "JavaScript",
+        "code": "Agent.check = function() {\r\n  this.createEvent({ \r\n    'graph_name': 'https://www.kleintheatergrenchen.ch',\r\n    'name': 'Kleintheater Grenchen',\r\n    'url': 'https://www.kleintheatergrenchen.ch' });\r\n};\r\n",
+        "expected_receive_period_in_days": "265",
+        "expected_update_period_in_days": "265"
+      },
+      "schedule": "never",
+      "keep_events_for": 3600,
+      "propagate_immediately": true
+    },
+    {
+      "type": "Agents::WebsiteAgent",
+      "name": "Kleintheater Grenchen - event list",
+      "disabled": true,
+      "guid": "78dbe5fcc8c376b2c43d43942e553039",
+      "options": {
+        "expected_update_period_in_days": "2",
+        "url": "https://www.kleintheatergrenchen.ch/saisonprogramm/list/?tribe_paged=1&tribe_event_display=past",
+        "type": "html",
+        "mode": "all",
+        "extract": {
+          "url": {
+            "xpath": "//a[@class='tribe-event-url']",
+            "value": "@href"
+          }
+        },
+        "template": {
+          "graph_name": "{{graph_name}}"
+        }
+      },
+      "schedule": "never",
+      "keep_events_for": 0,
+      "propagate_immediately": true
+    },
+    {
+      "type": "Agents::EventFormattingAgent",
+      "name": "Kleintheater Grenchen - format",
+      "disabled": true,
+      "guid": "8a0dff09c0a272332c69f6e95f2e34eb",
+      "options": {
+        "instructions": {
+          "graph_name": "{{graph_name}}",
+          "uri": "{{ url }}#Event",
+          "url": "{{ url }}",
+          "name": "{{name}}",
+          "startDate": "{{ date }}T{{ time }}",
+          "image": "{{ image }}",
+          "location": "",
+          "eventStatus": "",
+          "description": "{{description}}"
+        },
+        "mode": "clean"
+      },
+      "keep_events_for": 86400,
+      "propagate_immediately": true
+    },
+    {
+      "type": "Agents::WebsiteAgent",
+      "name": "Kleintheater Grenchen - event details",
+      "disabled": true,
+      "guid": "c09f8ca22a6fdad0b8038e226a0c5f40",
+      "options": {
+        "expected_update_period_in_days": "2",
+        "url": "{{ url }}",
+        "type": "html",
+        "mode": "merge",
+        "extract": {
+          "image": {
+            "xpath": "//*[@class='tribe-events-event-image']/img",
+            "value": "@src"
+          },
+          "date": {
+            "xpath": "//*[contains(@class,'tribe-events-start-date')]",
+            "value": "@title"
+          },
+          "description": {
+            "xpath": "//*[@class='tribe-events-single-event-description tribe-events-content']",
+            "value": "string(.)"
+          },
+          "time": {
+            "xpath": "//*[contains(@class,'tribe-events-start-time')]",
+            "value": "normalize-space(.)"
+          },
+          "name": {
+            "xpath": "//*[@class='tribe-events-single-event-title']",
+            "value": "normalize-space(.)"
+          }
+        }
+      },
+      "schedule": "never",
+      "keep_events_for": 0,
+      "propagate_immediately": true
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "receiver": 1
+    },
+    {
+      "source": 1,
+      "receiver": 3
+    },
+    {
+      "source": 3,
+      "receiver": 2
+    }
+  ],
+  "control_links": [
+
+  ]
+}
