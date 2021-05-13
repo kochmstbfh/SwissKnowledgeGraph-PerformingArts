@@ -17,4 +17,4 @@ This Github repository serves as a storage for the files created during the deve
 "Iteration1_Event_V1": RDF file of the class "Performing Arts Production"
 "Iteration1_Person_V1": RDF file of the class "Person"
 "Iteration1_Organization_V1": RDF file of the class "Organization"
-"Iteration1_Work_V1": RDF file of the class "Work"
+"Iteration1_Work_V1": RDF file of the class "Work" 
