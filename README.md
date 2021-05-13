@@ -59,7 +59,7 @@ The following section shows the structure of the iteration folders. Behind the r
 
 #### RDF files
 - “NewActors_Iteration3”: RDF-File of new actors
-- “ExistingActors_Iteration3”: RDF-File of existing actors (which had already an exist-ing identifier in the triplestore)
+- “ExistingActors_Iteration3”: RDF-File of existing actors (which had already an existing identifier in the triplestore)
 - “ProductionCompany+Venues”: RDF-File with data of the production company and venues
 - “NewAuthors_Iteration3”: RDF-File of new authors
 - “NewStageDirectors_Iteration3”: RDF-File of new stage directors
@@ -67,7 +67,7 @@ The following section shows the structure of the iteration folders. Behind the r
 - “ExistingAuthors_Iteration3”: RDF-File of existing authors (which had already an existing identifier in the triplestore)
 - “ExistingStageDirectors_Iteration3”: RDF-File of existing stage directors (which had already an existing identifier in the triplestore)
 - “ExistingAssistantStageDirector”: RDF-File of existing assistant stage directors (which had already an existing identifier in the triplestore)
-- “ÜbrigeBeteiligteMitSAPAID”: RDF-File with data of additional roles, which were imported directly from SAPA with the corresponding identifiers (Conductor, Perform-er, Cos-tumeDesigner, Dancer, Narrator, Puppeteer, Music Performer, Choreographer, SoundDesigner, LightingDesigner, ProjectionDe-signer, VideoDesigner, Dramaturgy, Scenographer)
+- “ÜbrigeBeteiligteMitSAPAID”: RDF-File with data of additional roles, which were imported directly from SAPA with the corresponding identifiers (Conductor, Performer, Cos-tumeDesigner, Dancer, Narrator, Puppeteer, Music Performer, Choreographer, SoundDesigner, LightingDesigner, ProjectionDe-signer, VideoDesigner, Dramaturgy, Scenographer)
 
 ### Iteration 4
 #### Huginn
