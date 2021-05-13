@@ -3,6 +3,8 @@ Within the scope of a master thesis in the field of business informatics at the 
 This Github repository serves as a storage for the files created during the development of the prototype. 
 
 ## Basic information
+GraphDB Free from Ontotext was used as the triplestore in this project. 
+The RDF files of the named graphs are stored in the "NamedGraphs" folder. These files contain all triples that were loaded into the triplestore during the development of the knowledge graph. The "Repositories" folder contains the configuration files of the two repositories used ("RawData" and "SwissKnowledgeGraphforthePerformingArts"). In the folder "Ontologies" all ontology files are stored, which were used in the triplestore. 
 
 
 ## Github repository structure
