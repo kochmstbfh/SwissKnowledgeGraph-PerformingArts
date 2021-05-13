@@ -6,10 +6,13 @@ This Github repository serves as a storage for the files created during the deve
 GraphDB Free from Ontotext was used as the triplestore in this project. 
 The RDF files of the named graphs are stored in the "NamedGraphs" folder. These files contain all triples that were loaded into the triplestore during the development of the knowledge graph. The "Repositories" folder contains the configuration files of the two repositories used ("RawData" and "SwissKnowledgeGraphforthePerformingArts"). In the folder "Ontologies" all ontology files are stored, which were used in the triplestore.
 
-The developed prototype can be reproduced by creating the two repositories in GraphDB with the configuration files from the folder "Repositories" and the corresponding files from the folders "NamedGraphs" and "Ontologies". 
+The developed prototype can thus be recreated by creating the two repositories in GraphDB using the configuration files from the "Repositories" folder and loading the corresponding files from the "NamedGraphs" and "Ontologies" folders into the appropriate repositories in GraphDB.
 
+Thus, for reproducing the knowledge graph, the RDF files are the most important. The CSV/Excel files in the folders of iterations 1-4 are stored for completeness. These files were only used to match entities with Wikidata (Reconcile Process) and create the corresponding RDF files using OntoRefine. 
 
-## Github repository structure
+The following section shows the structure of the iteration folders. Behind the respective file names a short description of the information they contain can be found. The following section thus serves as documentation of the procedure used in the development of the master thesis. 
+
+## Structure of the iteration (1-4) folders
 
 ### Iteration 1
 #### CSV/Excel
