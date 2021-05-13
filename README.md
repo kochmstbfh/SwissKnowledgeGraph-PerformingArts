@@ -27,3 +27,38 @@ This Github repository serves as a storage for the files created during the deve
 - “Stück+UUID_PAE”: File of the Schauspielhaus Zurich productions matched with the Q-Identifier for the corresponding production entity in Wikidata (They all had a Q-Identifier since these productions were entered as part of a Wikidata-project). “Schaus-pielhaus Zürich” was added to the name of the work, because the corresponding Wiki-data entities of the Schauspielhaus Zürich productions could thus be better reconciled.
 - “Iteration2_PerformingArtsProduction_V1.0”: Final version of the performing arts production data 
 
+#### RDF files
+- “Iteration2_Person_RDF”: RDF-File of class “Person”
+- “Iteration2_Work_RDF”: RDF-File of class “Work”
+- “Iteration2_Production_RDF_V0.1”: RDF-File of performing arts production
+
+### Iteration 3
+#### CSV/Excel
+- “Schauspieler_Iteration3-csv_UTF8”: List of new actors (actors who still have a string value in the “RawData” repository in UTF8
+- “NewAuthors_Iteration3_UTF8”: List of new authors (authors who still have a string value in the “RawData” repository in UTF8
+- “NewStageDirectors_Iteration3_UTF8”: List of new stage directors (stage directors who still have a string value in the “RawData” repository in UTF8
+- “NewAssistantStageDirectors_Iteration3_UTF8”: List of new assistant stage directors (assistant stage directors who still have a string value in the “RawData” repository in UTF8
+- “Schauspieler_Iteration3-csv_UTF8_ohneDuplikate_mitUUID»: List of new actors without duplicates, with generated UUID identifier
+- “NewAuthors_Iteration3_UTF8_ohneProduction+Duplikate_mitUUID”: List of new authors without duplicates, with generated UUID identifier
+- “NewStageDirectors_Iteration3_UTF8_ohneProduction+Duplikate_mitUUID”: List of new stage directors without duplicates, with generated UUID identifier
+- “NewAssistantStageDirec-tors_Iteration3_UTF8_ohneProduction+Duplikate_mitUUID”: List of new assistant stage directors without duplicates, with generated UUID identifier
+- “NewActors_Iteration3”: Final Table of new actors with all the information needed to construct the RDF file with OntoRefine
+- “NewAuthors_Iteration3_Final”: Final Table of new authors with all the information needed to construct the RDF file with OntoRefine
+- “NewStageDirectors_Iteration3_Final”: Final Table of new stage directors with all the information needed to construct the RDF file with OntoRefine
+- “NewAssistantStageDirectors_Iteration3_Final”: Final Table of new assistant stage directors with all the information needed to construct the RDF file with OntoRefine
+
+#### RDF files
+- “NewActors_Iteration3”: RDF-File of new actors
+- “ExistingActors_Iteration3”: RDF-File of existing actors (which had already an exist-ing identifier in the triplestore)
+- “ProductionCompany+Venues”: RDF-File with data of the production company and venues
+- “NewAuthors_Iteration3”: RDF-File of new authors
+- “NewStageDirectors_Iteration3”: RDF-File of new stage directors
+- “NewAssistantStageDirectors_Iteration3”: RDF-File of new assistant stage directors
+- “ExistingAuthors_Iteration3”: RDF-File of existing authors (which had already an existing identifier in the triplestore)
+- “ExistingStageDirectors_Iteration3”: RDF-File of existing stage directors (which had already an existing identifier in the triplestore)
+- “ExistingAssistantStageDirector”: RDF-File of existing assistant stage directors (which had already an existing identifier in the triplestore)
+- “ÜbrigeBeteiligteMitSAPAID”: RDF-File with data of additional roles, which were imported directly from SAPA with the corresponding identifiers (Conductor, Perform-er, Cos-tumeDesigner, Dancer, Narrator, Puppeteer, Music Performer, Choreographer, SoundDesigner, LightingDesigner, ProjectionDe-signer, VideoDesigner, Dramaturgy, Scenographer)
+
+
+
+
